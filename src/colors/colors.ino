@@ -50,7 +50,7 @@ void setup(void) {
   SAMD21_init(0);
   // load the the board with the model "x" it was shipped from the \
   // factory
-  NDP_init("audio-classification-keyword-spotting-syntiant-ndp101-v85/ei_model.bin", NDP_MICROPHONE);
+  NDP_init("ei_model.bin", NDP_MICROPHONE);
   //NDP_init("google10.bin", NDP_MICROPHONE);
   // The NDP101 will wake the SAMD21 upon detection
   attachInterrupt(NDP_INT, ndp_isr, HIGH);
