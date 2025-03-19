@@ -1,0 +1,161 @@
+{
+    "version": 1,
+    "samplesPerInference": 15488,
+    "axesCount": 1,
+    "classes": [
+        "blue",
+        "noise",
+        "red",
+        "unknown"
+    ],
+    "deployCounter": 87,
+    "folders": {
+        "input": "/home/input",
+        "output": "/home/output"
+    },
+    "frequency": 16000,
+    "impulse": {
+        "inputBlocks": [
+            {
+                "id": 32,
+                "type": "time-series",
+                "name": "Time series",
+                "title": "Time series data",
+                "padZeros": true,
+                "windowSizeMs": 968,
+                "windowIncreaseMs": 484,
+                "frequencyHz": 16000,
+                "createdBy": "createImpulse",
+                "createdAt": "2025-02-26T16:34:07.987Z"
+            }
+        ],
+        "dspBlocks": [
+            {
+                "metadata": {
+                    "created": "2025-02-27T10:48:45.764Z",
+                    "dspConfig": {
+                        "options": {
+                            "frame_length": 0.032,
+                            "frame_stride": 0.024,
+                            "num_filters": 40,
+                            "fft_length": 512,
+                            "low_frequency": 0,
+                            "high_frequency": 0,
+                            "pre_cof": 0.96875,
+                            "extractor": "gpu"
+                        },
+                        "calculateFeatureImportance": false
+                    },
+                    "labels": [
+                        "blue",
+                        "noise",
+                        "red",
+                        "unknown"
+                    ],
+                    "valuesPerAxis": 1600,
+                    "windowCount": 1278,
+                    "featureCount": 1600,
+                    "windowSizeMs": 968,
+                    "windowIncreaseMs": 484,
+                    "frequency": 16000,
+                    "padZeros": true,
+                    "outputConfig": {
+                        "type": "spectrogram",
+                        "shape": {
+                            "width": 40,
+                            "height": 40
+                        }
+                    },
+                    "fftUsed": [
+                        512
+                    ],
+                    "includeEmptyLabels": false,
+                    "inputShape": [
+                        15488
+                    ],
+                    "includedSamplesAreInOrder": true,
+                    "resamplingAlgorithmVersion": 2
+                },
+                "id": 33,
+                "type": "syntiant",
+                "name": "Syntiant",
+                "axes": [
+                    "audio"
+                ],
+                "title": "Audio (Syntiant)",
+                "input": 32,
+                "implementationVersion": 1,
+                "namedAxes": [
+                    {
+                        "name": "Signal",
+                        "description": "The input signal to create a spectrogram from",
+                        "required": true,
+                        "selectedAxis": "audio"
+                    }
+                ],
+                "createdBy": "createImpulse",
+                "createdAt": "2025-02-26T16:34:07.987Z"
+            }
+        ],
+        "learnBlocks": [
+            {
+                "thresholds": {
+                    "minConfidenceRating": 0.6
+                },
+                "id": 35,
+                "type": "keras",
+                "name": "Classifier",
+                "dsp": [
+                    33
+                ],
+                "title": "Classification",
+                "createdBy": "createImpulse",
+                "createdAt": "2025-02-26T16:36:15.042Z"
+            }
+        ]
+    },
+    "project": {
+        "name": "Audio Classification - Keyword Spotting",
+        "id": 633160,
+        "owner": "Matteo Gottardelli",
+        "apiKey": "ei_de3308a0e1ed356f3885815b652b49c48220c2c664c4d0cb4a6b0e50942c0b35",
+        "studioHost": "studio.edgeimpulse.com"
+    },
+    "sensor": "microphone",
+    "tfliteModels": [
+        {
+            "arenaSize": 5420,
+            "inputFrameSize": 1600,
+            "inputTensor": "dense_input",
+            "outputTensor": "y_pred/Softmax:0",
+            "details": {
+                "modelType": "int8",
+                "inputs": [
+                    {
+                        "dataType": "int8",
+                        "name": "serving_default_x:0",
+                        "shape": [
+                            1,
+                            1600
+                        ],
+                        "quantizationScale": 0.003507965710014105,
+                        "quantizationZeroPoint": -128
+                    }
+                ],
+                "outputs": [
+                    {
+                        "dataType": "int8",
+                        "name": "StatefulPartitionedCall:0",
+                        "shape": [
+                            1,
+                            4
+                        ],
+                        "quantizationScale": 0.00390625,
+                        "quantizationZeroPoint": -128
+                    }
+                ]
+            },
+            "modelPath": "/home/input/trained.tflite"
+        }
+    ]
+}
