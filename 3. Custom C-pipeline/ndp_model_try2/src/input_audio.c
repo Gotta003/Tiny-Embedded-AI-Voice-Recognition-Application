@@ -1,16 +1,18 @@
 #include "input_audio.h"
+#include "audio_samples.h"
 
 static int audio_callback(const void* inputBuffer, void* outputBuffer, unsigned long framesPerBuffer, const PaStreamCallbackTimeInfo* timeInfo, PaStreamCallbackFlags statusFlags, void* userData) {
     short* audio=(short*)inputBuffer;
     float spectrogram[NUM_FRAMES(framesPerBuffer)*FILTER_NUMBER];
     //FOR DEBUG
+    framesPerBuffer*=(1.0-AUDIO_WINDOW);
     for(int i=0; i<framesPerBuffer; i++) {
         printf("%d\t", audio[i]);
     }
-    printf("\n%lu\n", framesPerBuffer);
 
     compute_spectrogram(audio, spectrogram, framesPerBuffer);
     dense_neural_network(spectrogram);
+    printf("\n%lu\n", framesPerBuffer);
     return paContinue;
 }
 
@@ -102,7 +104,7 @@ void terminate_portaudio() {
     Pa_Terminate();
 }
 
-int main(int argc, const char* argv[]) {
+void live_sampling() {
     channel_setup();
     PaStream* stream=NULL;
     PaStreamParameters inputParams=parameters_setup();
@@ -110,9 +112,22 @@ int main(int argc, const char* argv[]) {
     setup_stream(&stream, inputParams);
     start_stream(stream);
     //while(1) {
-        Pa_Sleep(DURATION_SECONDS * 1024);
+    Pa_Sleep((int)(DURATION_SECONDS*1024));
     //}
     stop_stream(stream);
     close_stream(stream);
     terminate_portaudio();
+}
+
+void test_sampling() {
+    int framesPerBuffer=SAMPLE_RATE*(DURATION_SECONDS-AUDIO_WINDOW);
+    float output[1600];
+    compute_spectrogram(audio_sample, output, framesPerBuffer);
+    dense_neural_network(output);
+}
+
+int main(int argc, const char* argv[]) {
+    //live_sampling();
+    test_sampling();
+    return 0;
 }

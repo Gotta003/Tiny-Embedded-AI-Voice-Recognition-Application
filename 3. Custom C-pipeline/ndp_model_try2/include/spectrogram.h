@@ -18,7 +18,7 @@
 #define MIN_FREQ 0
 #define MAX_FREQ (int)(SAMPLE_RATE/2)
 #define COEFFICIENT 0.96875
-#define NUM_FRAMES(size_audio) (int)((size_audio-FRAME_SIZE)/FRAME_STRIDE)
+#define NUM_FRAMES(size_audio) (int)((size_audio-FRAME_SIZE)/FRAME_STRIDE+1)
 #define SPECTROGRAM_FILENAME "spectrogram.txt"
 #define NOISE_FLOOR 0.015
 

@@ -5,7 +5,7 @@ void pre_emphasis(short* audio, float pre_emphasis_array[], unsigned long num_sa
     for(int i=1; i<num_samples; i++) {
         pre_emphasis_array[i] = (float)audio[i] - COEFFICIENT * (float)audio[i-1];
         //DEBUG
-        printf("%d\t%hd\t%f\n", i, audio[i], pre_emphasis_array[i]);
+        //printf("%d\t%hd\t%f\n", i, audio[i], pre_emphasis_array[i]);
     }
 }
 
@@ -20,7 +20,7 @@ void spectrogram_population(kiss_fft_cpx fft_out[], float spectrogram[], int fra
    for(int i=0; i<NUM_BINS; i++) {
         spectrogram[frame*NUM_BINS+i] = sqrt(fft_out[i].r*fft_out[i].r + fft_out[i].i*fft_out[i].i);
         //DEBUG
-        printf("%d\t%f\n", i, spectrogram[frame*(FRAME_SIZE/2+1)+i]);
+        //printf("%d\t%f\n", i, spectrogram[frame*(FRAME_SIZE/2+1)+i]);
    }
 }
 
@@ -104,14 +104,36 @@ void save_spectrogram(float log_mel_spectrogram[], int num_frames, const char* f
     fclose(file);
 }
 
+void mean_filter(float log_mel_spectrogram[], int num_frames) {
+    for(int i=0; i<num_frames; i++) {
+        for(int j=0; j<FILTER_NUMBER; j++)) {
+            float sum=0.0;
+            int count=0;
+            float value=log_mel_spectrogram[i*FILTER_NUMBER+j];
+            for(int di=-1; di<=1; di++) {
+                for(int dj=-1; dj=1; dj++) {
+                    int ni=i+di;
+                    int nj=j+dj;
+                    if(ni>=0 && ni<num_frames && nj>=0 && nj<FILTER_NUMBER) {
+                        sum+=log_mel_spectrogram[ni*FILTER_NUMBER+nj];
+                        count++;
+                    }
+                }
+            }
+            log_mel_spectrogram[i*FILTER_NUMBER+j]=sum/count;
+            //DEBUG
+            printf("%f\t%f\n", value, log_mel_spectrogram[i*FILTER_NUMBER+j]);
+        }
+    }
+}
+
 void apply_noise_floor(float log_mel_spectrogram[], int num_frames) {
     for(int i=0; i<num_frames; i++) {
         for(int j=0; j<FILTER_NUMBER; j++) {
-            log_mel_spectrogram[i*FILTER_NUMBER+j]=log_mel_spectrogram[i*FILTER_NUMBER+j]/100.0;
             if(log_mel_spectrogram[i*FILTER_NUMBER+j]<NOISE_FLOOR) {
                 log_mel_spectrogram[i*FILTER_NUMBER+j]=0.0f;
             }
-            printf("%d\t%d\t%d\t%f\n", i*FILTER_NUMBER+j, i, j, log_mel_spectrogram[i*FILTER_NUMBER+j]);
+            //printf("%d\t%d\t%d\t%f\n", i*FILTER_NUMBER+j, i, j, log_mel_spectrogram[i*FILTER_NUMBER+j]);
         }
     }
 }
@@ -124,6 +146,7 @@ void compute_spectrogram(short* audio, float log_mel_spectrogram[], unsigned lon
     float mel_filterbank[FILTER_NUMBER][NUM_BINS];
     create_mel_filterbank(mel_filterbank);
     apply_mel_filterbank(spectrogram, mel_filterbank, log_mel_spectrogram, NUM_FRAMES(num_samples));
+    mean_filter(log_mel_spectrogram, NUM_FRAMES(num_samples));
     apply_noise_floor(log_mel_spectrogram, NUM_FRAMES(num_samples));
     save_spectrogram(log_mel_spectrogram, NUM_FRAMES(num_samples), SPECTROGRAM_FILENAME);
 }
