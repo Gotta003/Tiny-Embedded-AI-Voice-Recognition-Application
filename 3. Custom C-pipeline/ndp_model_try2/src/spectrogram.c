@@ -1,9 +1,13 @@
 #include "spectrogram.h"
 
 void pre_emphasis(short* audio, float pre_emphasis_array[], unsigned long num_samples) {
-    pre_emphasis_array[0] = (float)audio[0];
+    float norm[num_samples];
+    for(int i=0; i<num_samples; i++) {
+        norm[i]=audio[i]/32768.0;
+    }
+    pre_emphasis_array[0] = (float)norm[0];
     for(int i=1; i<num_samples; i++) {
-        pre_emphasis_array[i] = (float)audio[i] - COEFFICIENT * (float)audio[i-1];
+        pre_emphasis_array[i] = (float)norm[i] - COEFFICIENT * (float)norm[i-1];
         //DEBUG
         //printf("%d\t%hd\t%f\n", i, audio[i], pre_emphasis_array[i]);
     }
@@ -11,8 +15,9 @@ void pre_emphasis(short* audio, float pre_emphasis_array[], unsigned long num_sa
 
 void apply_windowing(kiss_fft_cpx* frame, int size) {
     for(int i=0; i<size; i++) {
-        frame[i].r *= 0.54 - 0.46 * cos(2 * M_PI * i / (size - 1));
-        frame[i].i *= 0.54 - 0.46 * cos(2 * M_PI * i / (size - 1));
+        float window=0.54-0.46*cos(2*M_PI*i/(size-1));
+        frame[i].r *= window;
+        frame[i].i *= window;
     }
 }
 
@@ -101,17 +106,23 @@ void save_spectrogram(float log_mel_spectrogram[], int num_frames, const char* f
         fprintf(file, "\n");
     }
 
+    //DEBUG
+    for (int frame = 0; frame < num_frames; frame++) {
+        for (int i = 0; i < FILTER_NUMBER; i++) {
+            fprintf(file, "%.6f\t%.6f\n", log_mel_spectrogram[frame * FILTER_NUMBER+ i], spectrogram_sample[frame * FILTER_NUMBER+ i]);
+       }
+    }
     fclose(file);
 }
 
 void mean_filter(float log_mel_spectrogram[], int num_frames) {
     for(int i=0; i<num_frames; i++) {
-        for(int j=0; j<FILTER_NUMBER; j++)) {
+        for(int j=0; j<FILTER_NUMBER; j++) {
             float sum=0.0;
             int count=0;
             float value=log_mel_spectrogram[i*FILTER_NUMBER+j];
             for(int di=-1; di<=1; di++) {
-                for(int dj=-1; dj=1; dj++) {
+                for(int dj=-1; dj<=1; dj++) {
                     int ni=i+di;
                     int nj=j+dj;
                     if(ni>=0 && ni<num_frames && nj>=0 && nj<FILTER_NUMBER) {
@@ -121,8 +132,7 @@ void mean_filter(float log_mel_spectrogram[], int num_frames) {
                 }
             }
             log_mel_spectrogram[i*FILTER_NUMBER+j]=sum/count;
-            //DEBUG
-            printf("%f\t%f\n", value, log_mel_spectrogram[i*FILTER_NUMBER+j]);
+             printf("%d\t%d\t%d\t%f\n", i*FILTER_NUMBER+j, i, j, log_mel_spectrogram[i*FILTER_NUMBER+j]);
         }
     }
 }
@@ -130,12 +140,18 @@ void mean_filter(float log_mel_spectrogram[], int num_frames) {
 void apply_noise_floor(float log_mel_spectrogram[], int num_frames) {
     for(int i=0; i<num_frames; i++) {
         for(int j=0; j<FILTER_NUMBER; j++) {
-            if(log_mel_spectrogram[i*FILTER_NUMBER+j]<NOISE_FLOOR) {
-                log_mel_spectrogram[i*FILTER_NUMBER+j]=0.0f;
-            }
-            //printf("%d\t%d\t%d\t%f\n", i*FILTER_NUMBER+j, i, j, log_mel_spectrogram[i*FILTER_NUMBER+j]);
+            /*float value = log_mel_spectrogram[i * FILTER_NUMBER + j];
+            value = (value - NOISE_FLOOR) / ((-1 * NOISE_FLOOR) + 12);
+            if (value < 0) value = 0;
+            if (value > 1) value = 1;
+            int quantized = (int)round(value * 255);
+            if (quantized < 0) quantized = 0;
+            if (quantized > 255) quantized = 255;
+            log_mel_spectrogram[i * FILTER_NUMBER + j] = (float)quantized / 255.0f;*/
+            printf("%d\t%d\t%d\t%f\n", i*FILTER_NUMBER+j, i, j, log_mel_spectrogram[i*FILTER_NUMBER+j]);
         }
     }
+    printf("Hello World 2\n");
 }
 
 void compute_spectrogram(short* audio, float log_mel_spectrogram[], unsigned long num_samples) {

@@ -6,6 +6,7 @@
 #include <math.h>
 #include <portaudio.h>
 #include "fft/kiss_fft.h"
+#include "audio_samples.h"
 
 #define SAMPLE_RATE 16000
 #define FRAME_DUR 0.032
@@ -20,7 +21,7 @@
 #define COEFFICIENT 0.96875
 #define NUM_FRAMES(size_audio) (int)((size_audio-FRAME_SIZE)/FRAME_STRIDE+1)
 #define SPECTROGRAM_FILENAME "spectrogram.txt"
-#define NOISE_FLOOR 0.015
+#define NOISE_FLOOR -100.0f
 
 void compute_spectrogram(short* audio, float spectrogram[], unsigned long num_samples);
 void pre_emphasis(short* audio, float pre_emphasis[], unsigned long num_samples);
@@ -32,5 +33,6 @@ float mel_to_hz (float mel);
 void create_mel_filterbank(float mel_filterbank[FILTER_NUMBER][NUM_BINS]);
 void apply_mel_filterbank(float spectrogram[], float mel_filterbank[FILTER_NUMBER][NUM_BINS], float log_mel_spectrogram[], int num_frames);
 void apply_noise_floor(float log_mel_spectrogram[], int num_frames);
+void mean_filter(float log_mel_spectrogram[], int num_frames);
 
 #endif
