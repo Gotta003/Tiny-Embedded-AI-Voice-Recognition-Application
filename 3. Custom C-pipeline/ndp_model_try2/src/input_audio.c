@@ -124,6 +124,7 @@ void test_sampling() {
     float output[1600];
     compute_spectrogram(audio_sample, output, framesPerBuffer);
     dense_neural_network(output);
+    //dense_neural_network(spectrogram_sample);
 }
 
 int main(int argc, const char* argv[]) {
