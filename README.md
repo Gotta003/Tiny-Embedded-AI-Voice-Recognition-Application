@@ -46,3 +46,17 @@ What Learned:<br>
 * Possibility of interaction with other MCUs possible
 * Better firmware Edge Impulse understanding, including the interaction implementation with the host processor
 * Better understanding of the structure of the board
+
+## 3. Deployment Custom MFE and DNN
+
+To Do:<br>
+
+- [ ] Development of audio capture and manipulation for KWS (C code)
+    - [ ] Activation of the system triggered by another device (We have to choose the other one)
+    - [X] Microphone audio capture (Using PortAudio library) [for now samples of 1 sec]
+    - [ ] Microphone sampling for longer than 1 sec [window of 5 secs] (ask if it is necessary)
+    - [X] Sample transformation between microphone to spectrogram [MFE Block Implementation (15478 raw data -> 1600 features)]
+    - [X] Transformation from spectrogram to classes output [DNN Implementation (1600 features -> N output classes)]
+- [X] Exploration about sound/noise detection (purpose is to awaken the KWS neural network only if that one is not noise)
+- [X] Speaker detection and recognition? (SV Task, see Notes of this section for more details)
+- [X] Size of internal RAM to store network parameters on NDP? What is the largest network that can fit? And the number of layers? (NDP101 can host at most 589 4-bit parameters, so 294.500 bytes, with a clock frequency lower than 16MHz and 4 FC Layers. Convolutionary layer support was introduced from NDP115. Memory in MCU is 112 Kb in which the binary code will be loaded)
