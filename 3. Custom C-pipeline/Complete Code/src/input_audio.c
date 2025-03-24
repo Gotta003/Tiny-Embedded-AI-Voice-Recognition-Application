@@ -128,7 +128,7 @@ void test_sampling() {
 }
 
 int main(int argc, const char* argv[]) {
-    live_sampling();
-    //test_sampling();
+    //live_sampling();
+    test_sampling();
     return 0;
 }
