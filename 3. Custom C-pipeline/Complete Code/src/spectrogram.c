@@ -97,8 +97,8 @@ void triangle(float* out, float* x, int size, int left, int middle, int right) {
 }
 
 void create_mel_filterbank(float mel_filterbank[FILTER_NUMBER][NUM_BINS]) {
-    float min_mel = hz_to_mel(MIN_FREQ);
-    float max_mel = hz_to_mel(MAX_FREQ);
+    float min_mel = hz_to_mel(MIN_FREQ); //0
+    float max_mel = hz_to_mel(MAX_FREQ); //1233,4127
     float mel_spacing=(max_mel-min_mel)/(FILTER_NUMBER+1);
     float mel_points[FILTER_NUMBER + 2];
     for (int i = 0; i < FILTER_NUMBER + 2; i++) {
@@ -193,7 +193,7 @@ void apply_noise_floor(float log_mel_spectrogram[], int num_frames) {
             if (quantized < 0) quantized = 0;
             if (quantized > 255) quantized = 255;
             log_mel_spectrogram[i * FILTER_NUMBER + j] = (float)quantized / 256.0f;
-            log_mel_spectrogram[i*FILTER_NUMBER+j]=(log_mel_spectrogram[i*FILTER_NUMBER+j]>=0.6) ? log_mel_spectrogram[i*FILTER_NUMBER+j] : 0.0f;
+            log_mel_spectrogram[i*FILTER_NUMBER+j]=(log_mel_spectrogram[i*FILTER_NUMBER+j]>=0.65) ? log_mel_spectrogram[i*FILTER_NUMBER+j] : 0.0f;
         }
     }
     // Save debug output
