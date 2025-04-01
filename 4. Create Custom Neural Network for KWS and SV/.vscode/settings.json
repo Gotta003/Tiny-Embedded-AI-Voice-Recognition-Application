@@ -60,6 +60,7 @@
     "sv.h": "c",
     "math.h": "c",
     "stdlib.h": "c",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "d_vectors.h": "c"
   }
 }

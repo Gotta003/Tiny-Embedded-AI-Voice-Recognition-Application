@@ -2,7 +2,7 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 
-def verify_npy_files(directory="tflite_tensors"):
+def verify_npy_files(directory="npy"):
     """Verify contents of .npy files in a directory."""
     npy_files = [f for f in os.listdir(directory) if f.endswith('.npy')]
     
