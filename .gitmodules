@@ -1,6 +1,7 @@
 [submodule "firmware-syntiant-tinyml"]
 	path = firmware-syntiant-tinyml
 	url = https://github.com/edgeimpulse/firmware-syntiant-tinyml.git
+
 [submodule "processing-blocks"]
 	path = processing-blocks
 	url = https://github.com/edgeimpulse/processing-blocks.git
