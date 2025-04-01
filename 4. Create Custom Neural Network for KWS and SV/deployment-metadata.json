@@ -1,0 +1,159 @@
+{
+    "version": 1,
+    "samplesPerInference": 15488,
+    "axesCount": 1,
+    "classes": [
+        "noise",
+        "sheila",
+        "unknown"
+    ],
+    "deployCounter": 1,
+    "folders": {
+        "input": "/home/input",
+        "output": "/home/output"
+    },
+    "frequency": 16000,
+    "impulse": {
+        "inputBlocks": [
+            {
+                "id": 5,
+                "type": "time-series",
+                "name": "Time series",
+                "title": "Time series data",
+                "padZeros": true,
+                "windowSizeMs": 968,
+                "windowIncreaseMs": 500,
+                "frequencyHz": 16000,
+                "createdBy": "createImpulse",
+                "createdAt": "2025-03-26T17:45:34.349Z"
+            }
+        ],
+        "dspBlocks": [
+            {
+                "metadata": {
+                    "created": "2025-03-26T18:33:58.426Z",
+                    "dspConfig": {
+                        "options": {
+                            "frame_length": 0.032,
+                            "frame_stride": 0.024,
+                            "num_filters": 40,
+                            "fft_length": 512,
+                            "low_frequency": 0,
+                            "high_frequency": 0,
+                            "pre_cof": 0.96875,
+                            "extractor": "gpu"
+                        },
+                        "calculateFeatureImportance": false
+                    },
+                    "labels": [
+                        "noise",
+                        "sheila",
+                        "unknown"
+                    ],
+                    "valuesPerAxis": 1600,
+                    "windowCount": 2755,
+                    "featureCount": 1600,
+                    "windowSizeMs": 968,
+                    "windowIncreaseMs": 500,
+                    "frequency": 16000,
+                    "padZeros": true,
+                    "outputConfig": {
+                        "type": "spectrogram",
+                        "shape": {
+                            "width": 40,
+                            "height": 40
+                        }
+                    },
+                    "fftUsed": [
+                        512
+                    ],
+                    "includeEmptyLabels": false,
+                    "inputShape": [
+                        15488
+                    ],
+                    "includedSamplesAreInOrder": true,
+                    "resamplingAlgorithmVersion": 2
+                },
+                "id": 6,
+                "type": "syntiant",
+                "name": "Syntiant",
+                "axes": [
+                    "audio"
+                ],
+                "title": "Audio (Syntiant)",
+                "input": 5,
+                "implementationVersion": 1,
+                "namedAxes": [
+                    {
+                        "name": "Signal",
+                        "description": "The input signal to create a spectrogram from",
+                        "required": true,
+                        "selectedAxis": "audio"
+                    }
+                ],
+                "createdBy": "createImpulse",
+                "createdAt": "2025-03-26T17:45:34.349Z"
+            }
+        ],
+        "learnBlocks": [
+            {
+                "thresholds": {
+                    "minConfidenceRating": 0.6
+                },
+                "id": 7,
+                "type": "keras",
+                "name": "Classifier",
+                "dsp": [
+                    6
+                ],
+                "title": "Classification",
+                "createdBy": "createImpulse",
+                "createdAt": "2025-03-26T17:45:34.349Z"
+            }
+        ]
+    },
+    "project": {
+        "name": "KWS Sheila",
+        "id": 656347,
+        "owner": "Matteo Gottardelli",
+        "apiKey": "ei_43d63c027dff656cf21f823ded652974444344730bd48e5a8d955b24658ba581",
+        "studioHost": "studio.edgeimpulse.com"
+    },
+    "sensor": "microphone",
+    "tfliteModels": [
+        {
+            "arenaSize": 5420,
+            "inputFrameSize": 1600,
+            "inputTensor": "dense_input",
+            "outputTensor": "y_pred/Softmax:0",
+            "details": {
+                "modelType": "int8",
+                "inputs": [
+                    {
+                        "dataType": "int8",
+                        "name": "serving_default_x:0",
+                        "shape": [
+                            1,
+                            1600
+                        ],
+                        "quantizationScale": 0.00390625,
+                        "quantizationZeroPoint": -128
+                    }
+                ],
+                "outputs": [
+                    {
+                        "dataType": "int8",
+                        "name": "StatefulPartitionedCall:0",
+                        "shape": [
+                            1,
+                            3
+                        ],
+                        "quantizationScale": 0.00390625,
+                        "quantizationZeroPoint": -128
+                    }
+                ]
+            },
+            "modelPath": "/home/input/trained.tflite"
+        }
+    ]
+}

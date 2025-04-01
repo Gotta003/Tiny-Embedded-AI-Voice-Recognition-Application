@@ -25,5 +25,6 @@ void stop_stream(PaStream* stream);
 void close_stream(PaStream* stream);
 void terminate_portaudio();
 void live_sampling();
-void test_sampling();
+void process_wav_file(const char* filename);
+
 #endif

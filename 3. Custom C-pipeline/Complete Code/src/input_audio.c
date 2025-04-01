@@ -119,16 +119,88 @@ void live_sampling() {
     terminate_portaudio();
 }
 
-void test_sampling() {
-    int framesPerBuffer=SAMPLE_RATE*(DURATION_SECONDS-AUDIO_WINDOW);
+void process_wav_file(const char* filename) {
+    FILE* file = fopen(filename, "rb");
+    if (!file) {
+        printf("Error opening WAV file\n");
+        exit(1);
+    }
+
+    // Skip WAV header (assuming 44-byte standard header)
+    fseek(file, 44, SEEK_SET);
+    
+    // Read audio data
+    uint8_t bytes[SAMPLE_RATE * 4]; // Assuming stereo 16-bit samples
+    size_t bytes_read = fread(bytes, 1, sizeof(bytes), file);
+    fclose(file);
+
+    // Convert to your format
+    int16_t audio_sample[SAMPLE_RATE];
+    for (int i = 0, j = 0; i < bytes_read && j < SAMPLE_RATE; i += 4, j++) {
+        double left = (double)((bytes[i] & 0xff) | (bytes[i+1] << 8));
+        double right = (double)((bytes[i+2] & 0xff) | (bytes[i+3] << 8));
+        
+        // Validate sample range
+        if(left < -32768 || left > 32767 || right < -32768 || right > 32767) {
+            printf("Invalid sample at position %d: L=%.0f R=%.0f\n", i, left, right);
+            left = 0; right = 0; // Clamp to silence
+        }
+        audio_sample[j] = (int16_t)((left + right) / 2);
+        printf("%d\t", audio_sample[j]);
+    }
+
+    // Process the converted audio
+    int framesPerBuffer = SAMPLE_RATE * (DURATION_SECONDS - AUDIO_WINDOW);
     float output[1600];
     compute_spectrogram(audio_sample, output, framesPerBuffer);
     dense_neural_network(output);
-    //dense_neural_network(spectrogram_sample);
 }
 
 int main(int argc, const char* argv[]) {
-    //live_sampling();
-    test_sampling();
+    if (argc < 2) {
+        printf("Usage:\n");
+        printf("  For live sampling: %s 0\n", argv[0]);
+        printf("  For file processing: %s 1 <audio_file.wav>\n", argv[0]);
+        return 1;
+    }
+
+    int mode = atoi(argv[1]);
+    
+    if (mode == 0) {
+        // Live sampling mode
+        if (argc != 2) {
+            printf("Live sampling mode requires exactly 1 argument\n");
+            return 1;
+        }
+        live_sampling();
+    }
+    else if (mode == 1) {
+        // File processing mode
+        if (argc != 3) {
+            printf("File processing mode requires exactly 2 arguments\n");
+            return 1;
+        }
+        
+        const char* filename = argv[2];
+        const char* extension = strrchr(filename, '.');
+        
+        if (!extension || strcmp(extension, ".wav") != 0) {
+            printf("Unsupported file format. Please use .wav\n");
+            return 1;
+        }
+        
+        process_wav_file(filename);
+    }
+    else if (mode==2) {
+        int framesPerBuffer = SAMPLE_RATE * (DURATION_SECONDS - AUDIO_WINDOW);
+        float output[1600];
+        compute_spectrogram(audio_sample, output, framesPerBuffer);
+        dense_neural_network(output);
+    }
+    else {
+        printf("Invalid mode. Use 0 for live sampling or 1 for file processing\n");
+        return 1;
+    }
+
     return 0;
 }
