@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include "d_vector_extractor.h"
+#include "d_vectors.h"
 
 #define INPUT_H 40
 #define INPUT_W 40
@@ -45,11 +46,13 @@
 //#define OUTPUT_SIZE (CONV_L4_SIZE)
 
 #define max(a, b) ((a) > (b) ? (a) : (b))
+#define DVECTORS 256
 
-void sv_neural_network(const float mfe_input[], float* d_vector_output);
+int sv_neural_network(const float mfe_input[]);
 void batch_normalization(const float input[], float output[], int height, int width, int num_batch, float gamma, float beta);
 void conv2d(const float input[], float output[], int in_height, int in_width, int in_channels, int out_channels, int stride, const float weights[], const float biases[]) ;
 void max_pool2d(const float input[], float* output, int in_height, int in_width, int channels, int pool_size);
 //void flatten(const float input[], float output[], int height, int width, int channels);
-
+int bestmatching(const float input_vector[], const float d_vectors[][DVECTORS], int num_d_vectors, const int input_labels[], int num_inputs, int auth_label, float threshold, int verbose);
+float cosine_similarity(const float vec1[DVECTORS], const float vec2[DVECTORS]);
 #endif

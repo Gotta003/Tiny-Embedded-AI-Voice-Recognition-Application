@@ -66,7 +66,66 @@ void max_pool2d(const float input[], float* output, int in_height, int in_width,
     memcpy(output, input, height*width*channels*sizeof(float));
 }*/
 
-void sv_neural_network(const float mfe_input[], float* d_vector_output) {
+float cosine_similarity(const float vec1[DVECTORS], const float vec2[DVECTORS]) {
+    float dot_product=0.0f;
+    float norm_vec1=0.0f;
+    float norm_vec2=0.0f;
+    for(int i=0; i<DVECTORS; i++) {
+        dot_product+=vec1[i]*vec2[i];
+        norm_vec1+=vec1[i]*vec1[i];
+        norm_vec2+=vec2[i]*vec2[i];
+    }
+    norm_vec1=sqrtf(norm_vec1);
+    norm_vec2=sqrtf(norm_vec2);
+    if(norm_vec1==0 || norm_vec2==0) {
+        return 0.0f;
+    }
+    return dot_product/(norm_vec1*norm_vec2);
+}
+
+float compute_similarity(const float input_vector[DVECTORS], const float d_vectors[][DVECTORS], int num_vectors) {
+    float max_similarity=-1.0f;
+    for(int i=0; i<num_vectors; i++) {
+        float similarity=cosine_similarity(input_vector, d_vectors[i]);
+        if(similarity>max_similarity) {
+            max_similarity=similarity;
+        }
+    }
+    return max_similarity;
+}
+
+int bestmatching(const float input_vector[], const float d_vectors[][DVECTORS], int num_d_vectors, const int input_labels[], int num_inputs, int auth_label, float threshold, int verbose) {
+    int total_auth=0;
+    int total_denied=0;
+
+    for(int i=0; i<num_inputs; i++) {
+        if(input_labels[i]==auth_label) {
+            total_auth++;
+        }
+        else {
+            total_denied++;
+        }
+    }
+    int correct_auth=0;
+    int correct_denied=0;
+    for(int i=0; i<num_inputs; i++) {
+        float similarity=compute_similarity(input_vector, d_vectors, num_d_vectors);
+        if(verbose) {
+            printf("similarity: %f --- Class: %d\n", similarity, input_labels[i]);
+        }
+        if(similarity>threshold && input_labels[i]==auth_label) {
+            correct_auth++;
+            return 0;
+        }
+        if(similarity<=threshold && input_labels[i]!=auth_label) {
+            correct_denied++;
+            return 1;
+        }
+    }
+    return 2;
+}
+
+int sv_neural_network(const float mfe_input[]) {
     printf("\n\nSV NEURAL NETWORK Accessing\n\n");
     float batchNorm[IN_SIZE]; 
     float conv1[CONV_L1_SIZE]; 
@@ -100,6 +159,9 @@ void sv_neural_network(const float mfe_input[], float* d_vector_output) {
             printf("\n");
         }
     }
+
+    const int input_labels[]={0, 1};
+    return bestmatching(conv4, d_vectors_0_64, 64, input_labels, 1, 0, 0.6, 1);
 }
 
 /*Model: "d-vector-extractor-256"
