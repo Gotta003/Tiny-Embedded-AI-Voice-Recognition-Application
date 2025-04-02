@@ -1,0 +1,5940 @@
+Processing: backward.0a2b400e_nohash_0.wav
+unknown=0.999122
+noise=0.000439
+sheila=0.000439
+similarity: 0.611566 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: backward.0a2b400e_nohash_1.wav
+unknown=0.999927
+noise=0.000037
+sheila=0.000037
+similarity: 0.606222 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: backward.0a2b400e_nohash_2.wav
+unknown=0.973000
+noise=0.013500
+sheila=0.013500
+similarity: 0.614706 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: backward.0a2b400e_nohash_3.wav
+unknown=0.999932
+noise=0.000034
+sheila=0.000034
+similarity: 0.614458 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: backward.0a2b400e_nohash_4.wav
+noise=0.792497
+sheila=0.103752
+unknown=0.103752
+similarity: 0.600201 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: backward.0a396ff2_nohash_0.wav
+End of file reached
+unknown=0.999858
+noise=0.000071
+sheila=0.000071
+similarity: 0.634003 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: backward.0a5636ca_nohash_0.wav
+noise=0.971165
+unknown=0.020247
+sheila=0.008588
+similarity: 0.598772 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: backward.0b7ee1a0_nohash_0.wav
+unknown=0.992687
+noise=0.003656
+sheila=0.003656
+similarity: 0.604411 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: backward.0b7ee1a0_nohash_1.wav
+unknown=0.999926
+noise=0.000037
+sheila=0.000037
+similarity: 0.620549 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: backward.0b7ee1a0_nohash_2.wav
+unknown=0.999087
+sheila=0.000604
+noise=0.000309
+similarity: 0.621282 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: backward.0b7ee1a0_nohash_3.wav
+unknown=0.997417
+sheila=0.002304
+noise=0.000279
+similarity: 0.621290 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: backward.0b7ee1a0_nohash_4.wav
+unknown=0.954651
+noise=0.022674
+sheila=0.022674
+similarity: 0.599809 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: backward.0ba018fc_nohash_0.wav
+unknown=0.985826
+noise=0.007087
+sheila=0.007087
+similarity: 0.607287 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: backward.0ba018fc_nohash_1.wav
+unknown=0.873008
+noise=0.063496
+sheila=0.063496
+similarity: 0.613072 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bed.0a196374_nohash_0.wav
+unknown=0.999990
+noise=0.000005
+sheila=0.000005
+similarity: 0.619310 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bed.0a7c2a8d_nohash_0.wav
+unknown=0.999321
+noise=0.000339
+sheila=0.000339
+similarity: 0.626257 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bed.0b56bcfe_nohash_0.wav
+unknown=0.999998
+noise=0.000001
+sheila=0.000001
+similarity: 0.616479 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bed.0b77ee66_nohash_0.wav
+unknown=0.999987
+noise=0.000006
+sheila=0.000006
+similarity: 0.606984 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bed.0b77ee66_nohash_1.wav
+unknown=0.999967
+noise=0.000016
+sheila=0.000016
+similarity: 0.597833 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: bed.0b77ee66_nohash_2.wav
+unknown=0.999983
+noise=0.000009
+sheila=0.000009
+similarity: 0.594116 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: bed.0b7ee1a0_nohash_0.wav
+unknown=0.999808
+noise=0.000096
+sheila=0.000096
+similarity: 0.593596 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: bed.0bde966a_nohash_0.wav
+unknown=0.918769
+sheila=0.068259
+noise=0.012972
+similarity: 0.627714 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bed.0bde966a_nohash_1.wav
+unknown=0.593602
+sheila=0.380529
+noise=0.025869
+similarity: 0.626094 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bed.0c2ca723_nohash_0.wav
+unknown=0.998380
+noise=0.000810
+sheila=0.000810
+similarity: 0.619394 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bed.0c2ca723_nohash_1.wav
+unknown=0.999874
+noise=0.000063
+sheila=0.000063
+similarity: 0.610526 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bed.0c40e715_nohash_0.wav
+unknown=0.787890
+sheila=0.171706
+noise=0.040403
+similarity: 0.590411 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: bed.0cb74144_nohash_0.wav
+unknown=0.993874
+noise=0.003063
+sheila=0.003063
+similarity: 0.612270 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bed.0d82fd99_nohash_0.wav
+unknown=0.999797
+noise=0.000101
+sheila=0.000101
+similarity: 0.606521 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bird.0a196374_nohash_0.wav
+unknown=0.999998
+noise=0.000001
+sheila=0.000001
+similarity: 0.596578 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: bird.0a396ff2_nohash_0.wav
+End of file reached
+unknown=0.985241
+noise=0.007380
+sheila=0.007380
+similarity: 0.617690 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bird.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.896156
+noise=0.062908
+sheila=0.040936
+similarity: 0.613044 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bird.0a7c2a8d_nohash_0.wav
+unknown=0.999786
+noise=0.000107
+sheila=0.000107
+similarity: 0.608993 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bird.0a7c2a8d_nohash_1.wav
+unknown=0.999667
+noise=0.000167
+sheila=0.000167
+similarity: 0.621590 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bird.0a9f9af7_nohash_0.wav
+End of file reached
+unknown=0.999959
+noise=0.000021
+sheila=0.000021
+similarity: 0.612400 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bird.0a9f9af7_nohash_1.wav
+End of file reached
+unknown=0.999977
+noise=0.000011
+sheila=0.000011
+similarity: 0.615912 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bird.0a9f9af7_nohash_2.wav
+End of file reached
+unknown=0.999580
+noise=0.000210
+sheila=0.000210
+similarity: 0.614881 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bird.0ac15fe9_nohash_0.wav
+noise=0.999371
+sheila=0.000315
+unknown=0.000315
+similarity: 0.571557 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: bird.0b40aa8e_nohash_0.wav
+unknown=0.999987
+noise=0.000007
+sheila=0.000007
+similarity: 0.598993 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: bird.0b40aa8e_nohash_1.wav
+unknown=0.999986
+noise=0.000007
+sheila=0.000007
+similarity: 0.601965 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bird.0b56bcfe_nohash_0.wav
+unknown=0.999997
+noise=0.000002
+sheila=0.000002
+similarity: 0.591393 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: bird.0b57a6ed_nohash_0.wav
+End of file reached
+noise=0.973635
+sheila=0.013183
+unknown=0.013183
+similarity: 0.600083 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: bird.0b77ee66_nohash_0.wav
+unknown=0.999999
+noise=0.000001
+sheila=0.000001
+similarity: 0.610232 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: cat.00b01445_nohash_0.wav
+unknown=0.995629
+noise=0.002186
+sheila=0.002186
+similarity: 0.579386 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: cat.0bd689d7_nohash_0.wav
+unknown=0.996349
+sheila=0.002743
+noise=0.000909
+similarity: 0.609316 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: cat.0bfec55f_nohash_0.wav
+End of file reached
+unknown=0.999848
+noise=0.000076
+sheila=0.000076
+similarity: 0.582407 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: cat.0bfec55f_nohash_1.wav
+sheila=0.841719
+unknown=0.151260
+noise=0.007021
+similarity: 0.595188 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: cat.0c09f202_nohash_0.wav
+End of file reached
+unknown=0.998212
+sheila=0.001544
+noise=0.000243
+similarity: 0.604353 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: cat.0c09f202_nohash_1.wav
+unknown=0.988393
+sheila=0.009347
+noise=0.002260
+similarity: 0.591041 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: cat.0c540988_nohash_0.wav
+End of file reached
+unknown=0.867880
+sheila=0.076869
+noise=0.055252
+similarity: 0.571727 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: cat.0cb74144_nohash_0.wav
+unknown=0.997525
+noise=0.001237
+sheila=0.001237
+similarity: 0.605768 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: cat.0cd323ec_nohash_0.wav
+unknown=0.999476
+noise=0.000262
+sheila=0.000262
+similarity: 0.603745 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: cat.0d53e045_nohash_0.wav
+unknown=0.993164
+sheila=0.004544
+noise=0.002292
+similarity: 0.591010 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: cat.0d6d7360_nohash_0.wav
+unknown=0.843051
+noise=0.101739
+sheila=0.055210
+similarity: 0.619125 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: cat.0d82fd99_nohash_0.wav
+unknown=0.999910
+noise=0.000045
+sheila=0.000045
+similarity: 0.624695 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: cat.0d90d8e1_nohash_0.wav
+unknown=0.999913
+noise=0.000044
+sheila=0.000044
+similarity: 0.592322 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: cat.0e6e36c9_nohash_0.wav
+unknown=0.999468
+noise=0.000266
+sheila=0.000266
+similarity: 0.605540 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: dog.00b01445_nohash_0.wav
+unknown=0.976225
+noise=0.011887
+sheila=0.011887
+similarity: 0.577057 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: dog.0a196374_nohash_0.wav
+unknown=0.999992
+noise=0.000004
+sheila=0.000004
+similarity: 0.608261 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: dog.0a2b400e_nohash_0.wav
+unknown=0.999916
+noise=0.000042
+sheila=0.000042
+similarity: 0.597919 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: dog.0a7c2a8d_nohash_0.wav
+unknown=0.995081
+noise=0.002459
+sheila=0.002459
+similarity: 0.617566 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: dog.0ab3b47d_nohash_0.wav
+End of file reached
+unknown=0.999935
+noise=0.000032
+sheila=0.000032
+similarity: 0.607436 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: dog.0ac15fe9_nohash_0.wav
+unknown=0.364462
+noise=0.344751
+sheila=0.290787
+similarity: 0.570751 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: dog.0ac15fe9_nohash_1.wav
+unknown=0.781532
+noise=0.109234
+sheila=0.109234
+similarity: 0.572492 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: dog.0ac15fe9_nohash_2.wav
+noise=0.672174
+unknown=0.229968
+sheila=0.097857
+similarity: 0.560893 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: dog.0b09edd3_nohash_0.wav
+unknown=0.998189
+noise=0.000905
+sheila=0.000905
+similarity: 0.613835 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: dog.0b09edd3_nohash_1.wav
+unknown=0.998571
+noise=0.000715
+sheila=0.000715
+similarity: 0.598098 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: dog.0b40aa8e_nohash_0.wav
+End of file reached
+unknown=0.999676
+noise=0.000162
+sheila=0.000162
+similarity: 0.607407 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: dog.0b77ee66_nohash_0.wav
+unknown=0.987738
+sheila=0.011614
+noise=0.000648
+similarity: 0.602416 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: dog.0b7ee1a0_nohash_0.wav
+unknown=0.997523
+sheila=0.002130
+noise=0.000347
+similarity: 0.601271 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: dog.0ba018fc_nohash_0.wav
+unknown=0.997184
+noise=0.001408
+sheila=0.001408
+similarity: 0.617663 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: down.0a196374_nohash_0.wav
+unknown=0.999999
+noise=0.000001
+sheila=0.000001
+similarity: 0.621749 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: down.0a196374_nohash_1.wav
+unknown=0.999994
+noise=0.000003
+sheila=0.000003
+similarity: 0.598663 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: down.0a196374_nohash_2.wav
+unknown=0.999956
+sheila=0.000026
+noise=0.000018
+similarity: 0.594245 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: down.0a196374_nohash_3.wav
+unknown=0.999859
+noise=0.000070
+sheila=0.000070
+similarity: 0.606056 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: down.0a2b400e_nohash_0.wav
+unknown=0.997691
+noise=0.001155
+sheila=0.001155
+similarity: 0.617542 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: down.0a2b400e_nohash_1.wav
+unknown=0.999982
+noise=0.000009
+sheila=0.000009
+similarity: 0.617108 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: down.0a2b400e_nohash_2.wav
+unknown=0.998573
+noise=0.000714
+sheila=0.000714
+similarity: 0.609158 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: down.0a2b400e_nohash_3.wav
+unknown=0.990915
+noise=0.004542
+sheila=0.004542
+similarity: 0.618062 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: down.0a2b400e_nohash_4.wav
+unknown=0.999941
+noise=0.000030
+sheila=0.000030
+similarity: 0.611993 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: down.0a5636ca_nohash_0.wav
+unknown=0.481557
+sheila=0.462870
+noise=0.055573
+similarity: 0.611205 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: down.0a7c2a8d_nohash_0.wav
+unknown=0.999849
+noise=0.000075
+sheila=0.000075
+similarity: 0.590301 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: down.0a9f9af7_nohash_0.wav
+End of file reached
+unknown=0.999788
+noise=0.000106
+sheila=0.000106
+similarity: 0.603298 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: down.0a9f9af7_nohash_1.wav
+unknown=0.998322
+sheila=0.001095
+noise=0.000582
+similarity: 0.610503 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: down.0a9f9af7_nohash_2.wav
+unknown=0.999328
+noise=0.000336
+sheila=0.000336
+similarity: 0.608607 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: eight.0a196374_nohash_0.wav
+unknown=0.999970
+noise=0.000015
+sheila=0.000015
+similarity: 0.582686 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: eight.0a196374_nohash_1.wav
+unknown=0.999981
+noise=0.000010
+sheila=0.000010
+similarity: 0.597981 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: eight.0a196374_nohash_2.wav
+unknown=0.999996
+noise=0.000002
+sheila=0.000002
+similarity: 0.608647 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: eight.0a196374_nohash_3.wav
+unknown=0.998812
+noise=0.000594
+sheila=0.000594
+similarity: 0.596107 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: eight.0a196374_nohash_4.wav
+unknown=0.999937
+noise=0.000032
+sheila=0.000032
+similarity: 0.581809 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: eight.0a2b400e_nohash_0.wav
+unknown=0.972241
+sheila=0.020040
+noise=0.007719
+similarity: 0.608090 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: eight.0a2b400e_nohash_1.wav
+unknown=0.999792
+noise=0.000104
+sheila=0.000104
+similarity: 0.597670 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: eight.0a2b400e_nohash_2.wav
+unknown=0.999967
+noise=0.000016
+sheila=0.000016
+similarity: 0.601170 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: eight.0a2b400e_nohash_3.wav
+unknown=0.998015
+noise=0.000993
+sheila=0.000993
+similarity: 0.602621 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: eight.0a2b400e_nohash_4.wav
+sheila=0.956290
+noise=0.021855
+unknown=0.021855
+similarity: 0.609516 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: eight.0a9f9af7_nohash_0.wav
+End of file reached
+unknown=0.974744
+sheila=0.024622
+noise=0.000634
+similarity: 0.600367 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: eight.0ab3b47d_nohash_0.wav
+unknown=0.994950
+noise=0.002525
+sheila=0.002525
+similarity: 0.621246 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: eight.0ab3b47d_nohash_1.wav
+unknown=0.987045
+noise=0.006478
+sheila=0.006478
+similarity: 0.608446 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: eight.0b7ee1a0_nohash_0.wav
+unknown=0.972656
+noise=0.013672
+sheila=0.013672
+similarity: 0.603583 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: five.0a196374_nohash_0.wav
+unknown=0.999960
+noise=0.000020
+sheila=0.000020
+similarity: 0.591673 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: five.0a196374_nohash_1.wav
+unknown=0.999981
+noise=0.000009
+sheila=0.000009
+similarity: 0.590501 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: five.0a196374_nohash_2.wav
+unknown=0.999863
+sheila=0.000071
+noise=0.000066
+similarity: 0.590356 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: five.0a196374_nohash_3.wav
+unknown=0.999951
+noise=0.000025
+sheila=0.000025
+similarity: 0.604323 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: five.0a196374_nohash_4.wav
+unknown=0.999733
+noise=0.000133
+sheila=0.000133
+similarity: 0.613072 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: five.0a2b400e_nohash_0.wav
+unknown=0.999990
+noise=0.000005
+sheila=0.000005
+similarity: 0.595842 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: five.0a2b400e_nohash_1.wav
+unknown=0.999945
+noise=0.000027
+sheila=0.000027
+similarity: 0.594573 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: five.0a2b400e_nohash_2.wav
+unknown=0.999970
+noise=0.000015
+sheila=0.000015
+similarity: 0.595654 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: five.0a2b400e_nohash_3.wav
+unknown=0.999971
+noise=0.000015
+sheila=0.000015
+similarity: 0.594182 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: five.0a2b400e_nohash_4.wav
+unknown=0.999887
+noise=0.000057
+sheila=0.000057
+similarity: 0.600268 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: five.0a396ff2_nohash_0.wav
+End of file reached
+unknown=0.996654
+noise=0.001673
+sheila=0.001673
+similarity: 0.632795 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: five.0a396ff2_nohash_1.wav
+End of file reached
+unknown=0.996083
+noise=0.001958
+sheila=0.001958
+similarity: 0.620942 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: five.0a9f9af7_nohash_0.wav
+unknown=0.999976
+noise=0.000012
+sheila=0.000012
+similarity: 0.617990 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: five.0a9f9af7_nohash_1.wav
+End of file reached
+unknown=0.999514
+noise=0.000243
+sheila=0.000243
+similarity: 0.590158 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: follow.0a2b400e_nohash_0.wav
+sheila=0.999808
+unknown=0.000159
+noise=0.000032
+similarity: 0.581781 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: follow.0a2b400e_nohash_1.wav
+sheila=0.977401
+unknown=0.022410
+noise=0.000188
+similarity: 0.616050 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: follow.0a2b400e_nohash_2.wav
+unknown=0.952344
+sheila=0.042495
+noise=0.005161
+similarity: 0.600880 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: follow.0a2b400e_nohash_3.wav
+unknown=0.999552
+noise=0.000224
+sheila=0.000224
+similarity: 0.618993 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: follow.0a2b400e_nohash_4.wav
+sheila=0.502581
+unknown=0.428799
+noise=0.068620
+similarity: 0.620719 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: follow.0b139000_nohash_0.wav
+End of file reached
+sheila=0.846602
+unknown=0.141184
+noise=0.012215
+similarity: 0.607391 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: follow.0b7ee1a0_nohash_0.wav
+unknown=0.942515
+sheila=0.055911
+noise=0.001574
+similarity: 0.599588 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: follow.0b7ee1a0_nohash_1.wav
+unknown=0.999930
+sheila=0.000042
+noise=0.000028
+similarity: 0.623216 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: follow.0b7ee1a0_nohash_2.wav
+unknown=0.998679
+sheila=0.001078
+noise=0.000243
+similarity: 0.611265 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: follow.0b7ee1a0_nohash_3.wav
+unknown=0.974776
+sheila=0.025071
+noise=0.000154
+similarity: 0.611329 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: follow.0b7ee1a0_nohash_4.wav
+unknown=0.999965
+noise=0.000018
+sheila=0.000018
+similarity: 0.620023 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: follow.0ba018fc_nohash_0.wav
+unknown=0.682124
+sheila=0.313442
+noise=0.004435
+similarity: 0.609298 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: follow.0ba018fc_nohash_1.wav
+sheila=0.905302
+unknown=0.092436
+noise=0.002262
+similarity: 0.609775 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: follow.0ba018fc_nohash_2.wav
+unknown=0.986775
+noise=0.006613
+sheila=0.006613
+similarity: 0.622362 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: forward.1a994c9f_nohash_1.wav
+unknown=0.999869
+sheila=0.000113
+noise=0.000018
+similarity: 0.608441 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: forward.1a994c9f_nohash_2.wav
+unknown=0.999995
+noise=0.000003
+sheila=0.000003
+similarity: 0.627272 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: forward.1a994c9f_nohash_3.wav
+unknown=0.999275
+noise=0.000362
+sheila=0.000362
+similarity: 0.613977 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: forward.1a994c9f_nohash_4.wav
+unknown=0.999970
+noise=0.000015
+sheila=0.000015
+similarity: 0.619462 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: forward.1acc97de_nohash_0.wav
+unknown=0.758985
+sheila=0.238671
+noise=0.002344
+similarity: 0.604068 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: forward.1b18600d_nohash_0.wav
+noise=0.966433
+sheila=0.016784
+unknown=0.016784
+similarity: 0.578097 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: forward.1b18600d_nohash_1.wav
+unknown=0.920337
+noise=0.039832
+sheila=0.039832
+similarity: 0.599591 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: forward.1b18600d_nohash_2.wav
+unknown=0.988197
+noise=0.005901
+sheila=0.005901
+similarity: 0.595313 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: forward.1b42b551_nohash_0.wav
+unknown=0.999610
+noise=0.000195
+sheila=0.000195
+similarity: 0.621383 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: forward.1b42b551_nohash_1.wav
+unknown=0.999916
+noise=0.000042
+sheila=0.000042
+similarity: 0.614251 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: forward.1b42b551_nohash_2.wav
+unknown=0.999995
+noise=0.000003
+sheila=0.000003
+similarity: 0.620867 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: forward.1b42b551_nohash_3.wav
+unknown=0.999612
+noise=0.000194
+sheila=0.000194
+similarity: 0.624596 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: forward.1b5ba788_nohash_0.wav
+unknown=0.994380
+noise=0.002810
+sheila=0.002810
+similarity: 0.609089 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: forward.1b5ba788_nohash_1.wav
+unknown=0.953121
+sheila=0.035931
+noise=0.010948
+similarity: 0.611590 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: four.0a196374_nohash_0.wav
+unknown=0.990835
+sheila=0.006300
+noise=0.002865
+similarity: 0.617748 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: four.0a196374_nohash_1.wav
+unknown=0.999826
+noise=0.000087
+sheila=0.000087
+similarity: 0.606151 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: four.0a196374_nohash_2.wav
+unknown=0.999652
+noise=0.000174
+sheila=0.000174
+similarity: 0.604844 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: four.0a196374_nohash_3.wav
+unknown=0.995122
+sheila=0.004295
+noise=0.000583
+similarity: 0.608997 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: four.0a196374_nohash_4.wav
+unknown=0.999554
+sheila=0.000421
+noise=0.000025
+similarity: 0.606397 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: four.0a2b400e_nohash_0.wav
+unknown=0.947039
+sheila=0.052585
+noise=0.000376
+similarity: 0.622991 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: four.0a2b400e_nohash_1.wav
+unknown=0.999762
+noise=0.000119
+sheila=0.000119
+similarity: 0.619574 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: four.0a2b400e_nohash_2.wav
+sheila=0.951824
+unknown=0.047270
+noise=0.000906
+similarity: 0.616585 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: four.0a2b400e_nohash_3.wav
+unknown=0.998710
+sheila=0.001043
+noise=0.000248
+similarity: 0.617318 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: four.0a9f9af7_nohash_0.wav
+End of file reached
+sheila=0.945505
+unknown=0.054310
+noise=0.000185
+similarity: 0.622050 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: four.0ab3b47d_nohash_0.wav
+unknown=0.996156
+noise=0.001922
+sheila=0.001922
+similarity: 0.604973 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: four.0ab3b47d_nohash_1.wav
+unknown=0.999629
+noise=0.000185
+sheila=0.000185
+similarity: 0.594904 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: four.0ac15fe9_nohash_0.wav
+noise=0.556721
+sheila=0.221639
+unknown=0.221639
+similarity: 0.568829 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: four.0b7ee1a0_nohash_0.wav
+unknown=0.999963
+noise=0.000019
+sheila=0.000019
+similarity: 0.618029 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: go.0a196374_nohash_0.wav
+unknown=0.999966
+noise=0.000017
+sheila=0.000017
+similarity: 0.619686 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: go.0a196374_nohash_1.wav
+unknown=0.999997
+noise=0.000001
+sheila=0.000001
+similarity: 0.620098 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: go.0a196374_nohash_2.wav
+unknown=0.999992
+noise=0.000004
+sheila=0.000004
+similarity: 0.616844 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: go.0a196374_nohash_3.wav
+unknown=0.999874
+noise=0.000063
+sheila=0.000063
+similarity: 0.600134 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: go.0a196374_nohash_4.wav
+unknown=0.999999
+noise=0.000000
+sheila=0.000000
+similarity: 0.620781 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: go.0a2b400e_nohash_0.wav
+unknown=0.999153
+noise=0.000423
+sheila=0.000423
+similarity: 0.611390 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: go.0a2b400e_nohash_1.wav
+unknown=0.999948
+noise=0.000026
+sheila=0.000026
+similarity: 0.600782 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: go.0a2b400e_nohash_2.wav
+unknown=0.999995
+noise=0.000002
+sheila=0.000002
+similarity: 0.613946 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: go.0a2b400e_nohash_3.wav
+unknown=0.999928
+noise=0.000036
+sheila=0.000036
+similarity: 0.598782 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: go.0a2b400e_nohash_4.wav
+unknown=0.999995
+noise=0.000003
+sheila=0.000003
+similarity: 0.603229 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: go.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.517873
+noise=0.381639
+sheila=0.100488
+similarity: 0.588617 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: go.0a9f9af7_nohash_0.wav
+End of file reached
+sheila=0.951867
+unknown=0.047852
+noise=0.000281
+similarity: 0.593269 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: go.0a9f9af7_nohash_1.wav
+End of file reached
+unknown=0.999879
+noise=0.000061
+sheila=0.000061
+similarity: 0.589968 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: go.0ab3b47d_nohash_0.wav
+End of file reached
+unknown=0.998604
+sheila=0.001061
+noise=0.000336
+similarity: 0.600463 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: happy.0a196374_nohash_0.wav
+unknown=0.999985
+noise=0.000007
+sheila=0.000007
+similarity: 0.607371 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: happy.0a2b400e_nohash_0.wav
+unknown=0.999994
+noise=0.000003
+sheila=0.000003
+similarity: 0.599793 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: happy.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.950136
+noise=0.042304
+sheila=0.007560
+similarity: 0.610024 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: happy.0a5636ca_nohash_1.wav
+noise=0.620363
+sheila=0.189818
+unknown=0.189818
+similarity: 0.575464 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: happy.0ab3b47d_nohash_0.wav
+End of file reached
+unknown=0.998258
+noise=0.000871
+sheila=0.000871
+similarity: 0.617225 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: happy.0ac15fe9_nohash_0.wav
+noise=0.974982
+sheila=0.012509
+unknown=0.012509
+similarity: 0.573168 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: happy.0acc1ac5_nohash_0.wav
+unknown=0.981791
+sheila=0.010342
+noise=0.007867
+similarity: 0.593356 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: happy.0b09edd3_nohash_0.wav
+unknown=0.990100
+noise=0.004950
+sheila=0.004950
+similarity: 0.614574 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: happy.0b56bcfe_nohash_0.wav
+unknown=0.999945
+noise=0.000027
+sheila=0.000027
+similarity: 0.600268 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: happy.0b77ee66_nohash_0.wav
+unknown=0.998553
+noise=0.000724
+sheila=0.000724
+similarity: 0.606895 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: happy.0b77ee66_nohash_1.wav
+unknown=0.999608
+noise=0.000196
+sheila=0.000196
+similarity: 0.597942 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: happy.0ba018fc_nohash_0.wav
+unknown=0.983939
+noise=0.008030
+sheila=0.008030
+similarity: 0.609726 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: happy.0bd689d7_nohash_0.wav
+unknown=0.999900
+noise=0.000050
+sheila=0.000050
+similarity: 0.613183 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: happy.0bd689d7_nohash_1.wav
+unknown=0.999769
+noise=0.000116
+sheila=0.000116
+similarity: 0.622313 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: house.0a196374_nohash_0.wav
+unknown=0.999988
+noise=0.000006
+sheila=0.000006
+similarity: 0.614081 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: house.0a2b400e_nohash_0.wav
+unknown=0.999999
+noise=0.000000
+sheila=0.000000
+similarity: 0.604569 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: house.0a396ff2_nohash_0.wav
+End of file reached
+unknown=0.999884
+noise=0.000058
+sheila=0.000058
+similarity: 0.621215 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: house.0a7c2a8d_nohash_0.wav
+unknown=0.999103
+noise=0.000449
+sheila=0.000449
+similarity: 0.590191 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: house.0a9f9af7_nohash_0.wav
+End of file reached
+unknown=0.999990
+noise=0.000005
+sheila=0.000005
+similarity: 0.606447 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: house.0ab3b47d_nohash_0.wav
+unknown=0.999983
+noise=0.000009
+sheila=0.000009
+similarity: 0.601809 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: house.0ac15fe9_nohash_0.wav
+unknown=0.763790
+noise=0.186854
+sheila=0.049356
+similarity: 0.591626 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: house.0ac15fe9_nohash_1.wav
+noise=0.976569
+sheila=0.011715
+unknown=0.011715
+similarity: 0.575088 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: house.0ac15fe9_nohash_2.wav
+noise=0.986624
+sheila=0.006688
+unknown=0.006688
+similarity: 0.559144 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: house.0ac15fe9_nohash_3.wav
+noise=0.753871
+sheila=0.123064
+unknown=0.123064
+similarity: 0.573571 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: house.0b56bcfe_nohash_0.wav
+unknown=0.999922
+noise=0.000039
+sheila=0.000039
+similarity: 0.591049 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: house.0b56bcfe_nohash_1.wav
+unknown=0.999941
+noise=0.000029
+sheila=0.000029
+similarity: 0.609036 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: house.0b77ee66_nohash_0.wav
+unknown=0.999828
+noise=0.000086
+sheila=0.000086
+similarity: 0.596823 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: house.0b7ee1a0_nohash_0.wav
+unknown=0.999995
+noise=0.000002
+sheila=0.000002
+similarity: 0.607518 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: learn.0a2b400e_nohash_0.wav
+unknown=0.983693
+noise=0.008153
+sheila=0.008153
+similarity: 0.590882 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: learn.0a2b400e_nohash_1.wav
+unknown=0.967045
+noise=0.016478
+sheila=0.016478
+similarity: 0.604797 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: learn.0a2b400e_nohash_2.wav
+unknown=0.977535
+sheila=0.015777
+noise=0.006688
+similarity: 0.607185 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: learn.0a2b400e_nohash_3.wav
+sheila=0.968199
+noise=0.015900
+unknown=0.015900
+similarity: 0.614709 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: learn.0a2b400e_nohash_4.wav
+unknown=0.955008
+noise=0.022496
+sheila=0.022496
+similarity: 0.602372 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: learn.0b139000_nohash_0.wav
+End of file reached
+unknown=0.839925
+noise=0.080038
+sheila=0.080038
+similarity: 0.592280 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: learn.0b57a6ed_nohash_0.wav
+End of file reached
+noise=0.888272
+sheila=0.055864
+unknown=0.055864
+similarity: 0.603630 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: learn.0b7ee1a0_nohash_0.wav
+unknown=0.999991
+noise=0.000004
+sheila=0.000004
+similarity: 0.594777 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: learn.0b7ee1a0_nohash_1.wav
+unknown=0.999982
+noise=0.000009
+sheila=0.000009
+similarity: 0.610413 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: learn.0b7ee1a0_nohash_2.wav
+unknown=0.999855
+noise=0.000073
+sheila=0.000073
+similarity: 0.597300 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: learn.0b7ee1a0_nohash_3.wav
+unknown=0.999980
+noise=0.000010
+sheila=0.000010
+similarity: 0.621042 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: learn.0b7ee1a0_nohash_4.wav
+unknown=0.998624
+noise=0.000688
+sheila=0.000688
+similarity: 0.600351 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: learn.0ba018fc_nohash_0.wav
+unknown=0.999826
+noise=0.000087
+sheila=0.000087
+similarity: 0.621657 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: learn.0ba018fc_nohash_1.wav
+unknown=0.840268
+sheila=0.150216
+noise=0.009516
+similarity: 0.624736 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: left.0a196374_nohash_0.wav
+unknown=0.999985
+noise=0.000008
+sheila=0.000008
+similarity: 0.604305 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: left.0a196374_nohash_1.wav
+unknown=0.999985
+noise=0.000007
+sheila=0.000007
+similarity: 0.620071 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: left.0a196374_nohash_2.wav
+unknown=0.999988
+noise=0.000006
+sheila=0.000006
+similarity: 0.606217 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: left.0a196374_nohash_3.wav
+unknown=0.999987
+noise=0.000006
+sheila=0.000006
+similarity: 0.599956 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: left.0a2b400e_nohash_0.wav
+unknown=0.488679
+noise=0.483171
+sheila=0.028149
+similarity: 0.626045 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: left.0a2b400e_nohash_1.wav
+unknown=0.992971
+noise=0.003515
+sheila=0.003515
+similarity: 0.612700 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: left.0a2b400e_nohash_2.wav
+unknown=0.996295
+noise=0.001853
+sheila=0.001853
+similarity: 0.619283 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: left.0a2b400e_nohash_3.wav
+unknown=0.994729
+noise=0.003827
+sheila=0.001444
+similarity: 0.611459 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: left.0a2b400e_nohash_4.wav
+unknown=0.999483
+noise=0.000259
+sheila=0.000259
+similarity: 0.594897 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: left.0a5636ca_nohash_0.wav
+End of file reached
+sheila=0.580337
+noise=0.209832
+unknown=0.209832
+similarity: 0.604975 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: left.0a5636ca_nohash_1.wav
+End of file reached
+unknown=0.784767
+noise=0.107616
+sheila=0.107616
+similarity: 0.608839 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: left.0a7c2a8d_nohash_0.wav
+unknown=0.999873
+noise=0.000063
+sheila=0.000063
+similarity: 0.608153 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: left.0a7c2a8d_nohash_1.wav
+unknown=0.991724
+noise=0.004138
+sheila=0.004138
+similarity: 0.619310 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: left.0a9f9af7_nohash_0.wav
+End of file reached
+unknown=0.999985
+noise=0.000007
+sheila=0.000007
+similarity: 0.609037 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: marvin.00b01445_nohash_0.wav
+unknown=0.979357
+noise=0.010322
+sheila=0.010322
+similarity: 0.577047 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: marvin.0a196374_nohash_0.wav
+unknown=0.999999
+noise=0.000001
+sheila=0.000001
+similarity: 0.599675 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: marvin.0a5636ca_nohash_0.wav
+unknown=0.988631
+noise=0.005685
+sheila=0.005685
+similarity: 0.611555 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: marvin.0a5636ca_nohash_1.wav
+unknown=0.970812
+noise=0.021992
+sheila=0.007196
+similarity: 0.611449 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: marvin.0a7c2a8d_nohash_0.wav
+unknown=0.999928
+noise=0.000036
+sheila=0.000036
+similarity: 0.619477 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: marvin.0a9f9af7_nohash_0.wav
+End of file reached
+unknown=0.999699
+noise=0.000151
+sheila=0.000151
+similarity: 0.614822 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: marvin.0a9f9af7_nohash_1.wav
+End of file reached
+unknown=0.999822
+noise=0.000089
+sheila=0.000089
+similarity: 0.618059 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: marvin.0a9f9af7_nohash_2.wav
+unknown=0.999850
+noise=0.000075
+sheila=0.000075
+similarity: 0.618784 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: marvin.0ac15fe9_nohash_0.wav
+noise=0.448533
+unknown=0.376483
+sheila=0.174984
+similarity: 0.580944 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: marvin.0b09edd3_nohash_0.wav
+End of file reached
+unknown=0.994162
+noise=0.002919
+sheila=0.002919
+similarity: 0.621592 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: marvin.0b09edd3_nohash_1.wav
+End of file reached
+unknown=0.999982
+noise=0.000009
+sheila=0.000009
+similarity: 0.610157 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: marvin.0b40aa8e_nohash_0.wav
+unknown=0.995822
+noise=0.002089
+sheila=0.002089
+similarity: 0.607710 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: marvin.0b57a6ed_nohash_0.wav
+noise=0.923357
+sheila=0.038322
+unknown=0.038322
+similarity: 0.597004 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: marvin.0b7ee1a0_nohash_0.wav
+unknown=0.999995
+noise=0.000003
+sheila=0.000003
+similarity: 0.598587 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: nine.0a196374_nohash_0.wav
+unknown=0.999888
+noise=0.000056
+sheila=0.000056
+similarity: 0.617585 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: nine.0a196374_nohash_1.wav
+unknown=0.999965
+noise=0.000018
+sheila=0.000018
+similarity: 0.613934 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: nine.0a196374_nohash_2.wav
+unknown=0.999978
+noise=0.000011
+sheila=0.000011
+similarity: 0.589719 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: nine.0a2b400e_nohash_0.wav
+unknown=0.999935
+noise=0.000033
+sheila=0.000033
+similarity: 0.622369 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: nine.0a2b400e_nohash_1.wav
+unknown=0.999985
+noise=0.000007
+sheila=0.000007
+similarity: 0.603867 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: nine.0a2b400e_nohash_2.wav
+unknown=0.999985
+noise=0.000007
+sheila=0.000007
+similarity: 0.602083 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: nine.0a2b400e_nohash_3.wav
+unknown=0.999926
+noise=0.000037
+sheila=0.000037
+similarity: 0.622640 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: nine.0a2b400e_nohash_4.wav
+unknown=0.999869
+noise=0.000065
+sheila=0.000065
+similarity: 0.606652 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: nine.0a396ff2_nohash_0.wav
+End of file reached
+unknown=0.986102
+noise=0.006949
+sheila=0.006949
+similarity: 0.604365 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: nine.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.966184
+noise=0.016908
+sheila=0.016908
+similarity: 0.601775 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: nine.0a7c2a8d_nohash_0.wav
+unknown=0.999957
+noise=0.000022
+sheila=0.000022
+similarity: 0.616573 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: nine.0a7c2a8d_nohash_1.wav
+unknown=0.999953
+noise=0.000024
+sheila=0.000024
+similarity: 0.596504 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: nine.0a7c2a8d_nohash_2.wav
+unknown=0.999945
+noise=0.000028
+sheila=0.000028
+similarity: 0.634386 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: nine.0a9f9af7_nohash_0.wav
+End of file reached
+unknown=0.999966
+noise=0.000017
+sheila=0.000017
+similarity: 0.599574 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: no.0a196374_nohash_0.wav
+unknown=0.999878
+noise=0.000061
+sheila=0.000061
+similarity: 0.610202 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: no.0a196374_nohash_1.wav
+unknown=0.999944
+sheila=0.000040
+noise=0.000016
+similarity: 0.622315 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: no.0a196374_nohash_2.wav
+unknown=0.999047
+sheila=0.000744
+noise=0.000209
+similarity: 0.619082 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: no.0a196374_nohash_3.wav
+sheila=0.979722
+unknown=0.019413
+noise=0.000865
+similarity: 0.584524 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: no.0a2b400e_nohash_0.wav
+unknown=0.999742
+noise=0.000129
+sheila=0.000129
+similarity: 0.601210 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: no.0a2b400e_nohash_1.wav
+unknown=0.999466
+noise=0.000267
+sheila=0.000267
+similarity: 0.623601 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: no.0a2b400e_nohash_2.wav
+unknown=0.999996
+noise=0.000002
+sheila=0.000002
+similarity: 0.614468 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: no.0a2b400e_nohash_3.wav
+unknown=0.999810
+noise=0.000095
+sheila=0.000095
+similarity: 0.620023 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: no.0a2b400e_nohash_4.wav
+unknown=0.999941
+noise=0.000029
+sheila=0.000029
+similarity: 0.610441 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: no.0a396ff2_nohash_0.wav
+End of file reached
+unknown=0.999923
+noise=0.000038
+sheila=0.000038
+similarity: 0.631745 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: no.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.847737
+noise=0.076131
+sheila=0.076131
+similarity: 0.596534 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: no.0a5636ca_nohash_1.wav
+End of file reached
+noise=0.877152
+sheila=0.061424
+unknown=0.061424
+similarity: 0.615306 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: no.0a9f9af7_nohash_0.wav
+End of file reached
+unknown=0.999532
+noise=0.000234
+sheila=0.000234
+similarity: 0.609132 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: no.0a9f9af7_nohash_1.wav
+unknown=0.995673
+noise=0.002163
+sheila=0.002163
+similarity: 0.609735 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: off.0a196374_nohash_0.wav
+unknown=0.999942
+noise=0.000029
+sheila=0.000029
+similarity: 0.611683 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: off.0a196374_nohash_1.wav
+unknown=0.998489
+noise=0.000755
+sheila=0.000755
+similarity: 0.607084 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: off.0a196374_nohash_2.wav
+unknown=0.993409
+noise=0.003296
+sheila=0.003296
+similarity: 0.598090 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: off.0a196374_nohash_3.wav
+unknown=0.999658
+noise=0.000171
+sheila=0.000171
+similarity: 0.609674 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: off.0a2b400e_nohash_0.wav
+unknown=0.997660
+noise=0.001170
+sheila=0.001170
+similarity: 0.615067 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: off.0a2b400e_nohash_1.wav
+unknown=0.997869
+noise=0.001065
+sheila=0.001065
+similarity: 0.579768 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: off.0a2b400e_nohash_2.wav
+noise=0.977830
+sheila=0.011085
+unknown=0.011085
+similarity: 0.586704 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: off.0a2b400e_nohash_3.wav
+unknown=0.999657
+noise=0.000172
+sheila=0.000172
+similarity: 0.585090 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: off.0a2b400e_nohash_4.wav
+noise=0.556356
+unknown=0.392124
+sheila=0.051520
+similarity: 0.580446 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: off.0a5636ca_nohash_0.wav
+noise=0.420329
+sheila=0.289835
+unknown=0.289835
+similarity: 0.588649 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: off.0a5636ca_nohash_1.wav
+noise=0.841962
+sheila=0.079019
+unknown=0.079019
+similarity: 0.607653 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: off.0ab3b47d_nohash_0.wav
+unknown=0.999875
+noise=0.000062
+sheila=0.000062
+similarity: 0.586177 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: off.0ab3b47d_nohash_1.wav
+unknown=0.999832
+noise=0.000084
+sheila=0.000084
+similarity: 0.592833 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: off.0b7ee1a0_nohash_0.wav
+unknown=0.999574
+noise=0.000213
+sheila=0.000213
+similarity: 0.601329 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: on.0a196374_nohash_0.wav
+unknown=0.999898
+noise=0.000051
+sheila=0.000051
+similarity: 0.597938 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: on.0a196374_nohash_1.wav
+sheila=0.519189
+unknown=0.468088
+noise=0.012723
+similarity: 0.592714 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: on.0a196374_nohash_2.wav
+unknown=0.999997
+noise=0.000001
+sheila=0.000001
+similarity: 0.603240 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: on.0a2b400e_nohash_0.wav
+unknown=0.999990
+noise=0.000005
+sheila=0.000005
+similarity: 0.608925 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: on.0a2b400e_nohash_1.wav
+unknown=0.989750
+noise=0.005125
+sheila=0.005125
+similarity: 0.614868 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: on.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.807676
+noise=0.096162
+sheila=0.096162
+similarity: 0.603827 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: on.0a5636ca_nohash_1.wav
+End of file reached
+unknown=0.997152
+noise=0.001424
+sheila=0.001424
+similarity: 0.613816 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: on.0a5636ca_nohash_2.wav
+End of file reached
+unknown=0.882638
+noise=0.058681
+sheila=0.058681
+similarity: 0.599611 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: on.0a7c2a8d_nohash_0.wav
+unknown=0.999987
+noise=0.000006
+sheila=0.000006
+similarity: 0.630913 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: on.0a9f9af7_nohash_0.wav
+unknown=0.999850
+noise=0.000075
+sheila=0.000075
+similarity: 0.616435 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: on.0a9f9af7_nohash_1.wav
+End of file reached
+unknown=0.999940
+noise=0.000030
+sheila=0.000030
+similarity: 0.608940 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: on.0ac15fe9_nohash_0.wav
+unknown=0.997784
+sheila=0.001521
+noise=0.000695
+similarity: 0.573327 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: on.0ac15fe9_nohash_1.wav
+unknown=0.956078
+noise=0.021961
+sheila=0.021961
+similarity: 0.583476 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: on.0ac15fe9_nohash_2.wav
+unknown=0.993788
+noise=0.003106
+sheila=0.003106
+similarity: 0.582541 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: one.0a196374_nohash_0.wav
+unknown=0.999982
+noise=0.000009
+sheila=0.000009
+similarity: 0.617709 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: one.0a196374_nohash_1.wav
+unknown=0.999625
+sheila=0.000348
+noise=0.000027
+similarity: 0.600997 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: one.0a196374_nohash_2.wav
+unknown=0.999957
+noise=0.000022
+sheila=0.000022
+similarity: 0.611285 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: one.0a196374_nohash_3.wav
+unknown=0.999991
+noise=0.000005
+sheila=0.000005
+similarity: 0.617753 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: one.0a196374_nohash_4.wav
+unknown=0.999980
+sheila=0.000014
+noise=0.000006
+similarity: 0.627679 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: one.0a2b400e_nohash_0.wav
+unknown=0.999982
+noise=0.000009
+sheila=0.000009
+similarity: 0.613881 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: one.0a2b400e_nohash_1.wav
+unknown=0.999999
+noise=0.000000
+sheila=0.000000
+similarity: 0.610473 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: one.0a2b400e_nohash_2.wav
+unknown=0.999971
+noise=0.000015
+sheila=0.000015
+similarity: 0.613477 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: one.0a2b400e_nohash_3.wav
+unknown=0.999957
+noise=0.000021
+sheila=0.000021
+similarity: 0.615466 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: one.0a2b400e_nohash_4.wav
+unknown=0.999999
+noise=0.000001
+sheila=0.000001
+similarity: 0.601264 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: one.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.999562
+noise=0.000219
+sheila=0.000219
+similarity: 0.616897 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: one.0a7c2a8d_nohash_0.wav
+unknown=0.997782
+noise=0.001109
+sheila=0.001109
+similarity: 0.636346 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: one.0aad3227_nohash_0.wav
+unknown=0.942907
+sheila=0.045405
+noise=0.011688
+similarity: 0.610106 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: one.0b7ee1a0_nohash_0.wav
+unknown=0.999996
+noise=0.000002
+sheila=0.000002
+similarity: 0.610916 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: right.0a196374_nohash_0.wav
+unknown=1.000000
+noise=0.000000
+sheila=0.000000
+similarity: 0.618240 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: right.0a196374_nohash_1.wav
+unknown=1.000000
+noise=0.000000
+sheila=0.000000
+similarity: 0.611482 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: right.0a196374_nohash_2.wav
+unknown=1.000000
+noise=0.000000
+sheila=0.000000
+similarity: 0.608615 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: right.0a196374_nohash_3.wav
+unknown=1.000000
+noise=0.000000
+sheila=0.000000
+similarity: 0.610610 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: right.0a196374_nohash_4.wav
+unknown=1.000000
+noise=0.000000
+sheila=0.000000
+similarity: 0.589382 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: right.0a2b400e_nohash_0.wav
+unknown=0.999997
+noise=0.000002
+sheila=0.000002
+similarity: 0.606501 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: right.0a2b400e_nohash_1.wav
+unknown=0.999999
+noise=0.000001
+sheila=0.000001
+similarity: 0.595408 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: right.0a2b400e_nohash_2.wav
+unknown=1.000000
+noise=0.000000
+sheila=0.000000
+similarity: 0.616393 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: right.0a2b400e_nohash_3.wav
+unknown=0.999966
+noise=0.000017
+sheila=0.000017
+similarity: 0.602670 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: right.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.999320
+noise=0.000340
+sheila=0.000340
+similarity: 0.596767 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: right.0a7c2a8d_nohash_0.wav
+unknown=0.999862
+noise=0.000069
+sheila=0.000069
+similarity: 0.608641 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: right.0a7c2a8d_nohash_1.wav
+unknown=0.999931
+noise=0.000034
+sheila=0.000034
+similarity: 0.609159 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: right.0a9f9af7_nohash_0.wav
+End of file reached
+unknown=0.999997
+noise=0.000002
+sheila=0.000002
+similarity: 0.585257 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: right.0ab3b47d_nohash_0.wav
+unknown=0.999937
+noise=0.000031
+sheila=0.000031
+similarity: 0.609367 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: seven.0a0b46ae_nohash_0.wav
+unknown=0.999752
+noise=0.000124
+sheila=0.000124
+similarity: 0.616699 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: seven.0a196374_nohash_0.wav
+sheila=0.999292
+unknown=0.000704
+noise=0.000004
+similarity: 0.594324 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: seven.0a196374_nohash_1.wav
+unknown=0.929374
+sheila=0.069157
+noise=0.001469
+similarity: 0.579571 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: seven.0a196374_nohash_2.wav
+unknown=0.976804
+sheila=0.022870
+noise=0.000325
+similarity: 0.581912 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: seven.0a196374_nohash_3.wav
+unknown=0.946477
+sheila=0.048173
+noise=0.005350
+similarity: 0.620314 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: seven.0a2b400e_nohash_0.wav
+unknown=0.881002
+sheila=0.079170
+noise=0.039828
+similarity: 0.613373 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: seven.0a2b400e_nohash_1.wav
+unknown=0.558740
+sheila=0.432039
+noise=0.009221
+similarity: 0.598450 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: seven.0a2b400e_nohash_2.wav
+unknown=0.955328
+sheila=0.042559
+noise=0.002113
+similarity: 0.622627 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: seven.0a2b400e_nohash_3.wav
+unknown=0.999500
+sheila=0.000277
+noise=0.000223
+similarity: 0.608572 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: seven.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.975158
+noise=0.012421
+sheila=0.012421
+similarity: 0.607555 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: seven.0a7c2a8d_nohash_0.wav
+unknown=0.991813
+noise=0.004094
+sheila=0.004094
+similarity: 0.603171 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: seven.0a9f9af7_nohash_0.wav
+End of file reached
+unknown=0.998207
+noise=0.000896
+sheila=0.000896
+similarity: 0.615618 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: seven.0ab3b47d_nohash_0.wav
+End of file reached
+unknown=0.998417
+sheila=0.001122
+noise=0.000461
+similarity: 0.594224 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: seven.0b7ee1a0_nohash_0.wav
+unknown=0.997983
+noise=0.001008
+sheila=0.001008
+similarity: 0.606985 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: sheila.0a196374_nohash_0.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+similarity: 0.581220 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila.0a2b400e_nohash_0.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+similarity: 0.578548 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.777969
+sheila=0.193705
+noise=0.028326
+similarity: 0.600501 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: sheila.0a5636ca_nohash_1.wav
+End of file reached
+unknown=0.526873
+sheila=0.463800
+noise=0.009327
+similarity: 0.578962 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila.0aad3227_nohash_0.wav
+sheila=0.992337
+unknown=0.004458
+noise=0.003205
+similarity: 0.604892 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: sheila.0b09edd3_nohash_0.wav
+End of file reached
+sheila=1.000000
+unknown=0.000000
+noise=0.000000
+similarity: 0.601494 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: sheila.0b09edd3_nohash_1.wav
+End of file reached
+sheila=0.999999
+unknown=0.000001
+noise=0.000000
+similarity: 0.594682 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila.0b40aa8e_nohash_0.wav
+sheila=1.000000
+unknown=0.000000
+noise=0.000000
+similarity: 0.580488 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila.0b40aa8e_nohash_1.wav
+sheila=0.999992
+unknown=0.000007
+noise=0.000001
+similarity: 0.595566 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila.0b56bcfe_nohash_0.wav
+sheila=0.999880
+unknown=0.000105
+noise=0.000014
+similarity: 0.582912 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila.0b56bcfe_nohash_1.wav
+sheila=1.000000
+unknown=0.000000
+noise=0.000000
+similarity: 0.563384 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila.0b7ee1a0_nohash_0.wav
+sheila=0.999999
+unknown=0.000001
+noise=0.000000
+similarity: 0.586164 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila.0bfec55f_nohash_0.wav
+sheila=0.501493
+noise=0.249254
+unknown=0.249254
+similarity: 0.583316 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila.0c09f202_nohash_0.wav
+End of file reached
+unknown=0.999127
+noise=0.000436
+sheila=0.000436
+similarity: 0.584119 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: six.0a196374_nohash_0.wav
+unknown=0.937828
+sheila=0.058678
+noise=0.003494
+similarity: 0.588280 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: six.0a196374_nohash_1.wav
+unknown=0.996630
+noise=0.001685
+sheila=0.001685
+similarity: 0.586242 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: six.0a2b400e_nohash_0.wav
+unknown=0.620933
+noise=0.189534
+sheila=0.189534
+similarity: 0.578478 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: six.0a2b400e_nohash_1.wav
+noise=0.488053
+sheila=0.255974
+unknown=0.255974
+similarity: 0.595523 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: six.0a2b400e_nohash_2.wav
+unknown=0.941912
+noise=0.029044
+sheila=0.029044
+similarity: 0.606824 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: six.0a2b400e_nohash_3.wav
+unknown=0.452106
+noise=0.273947
+sheila=0.273947
+similarity: 0.595206 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: six.0a2b400e_nohash_4.wav
+sheila=0.999551
+noise=0.000225
+unknown=0.000225
+similarity: 0.597206 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: six.0a396ff2_nohash_0.wav
+End of file reached
+unknown=0.948876
+sheila=0.037750
+noise=0.013374
+similarity: 0.626429 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: six.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.902115
+sheila=0.086551
+noise=0.011334
+similarity: 0.593171 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: six.0a7c2a8d_nohash_0.wav
+unknown=0.996354
+noise=0.002015
+sheila=0.001631
+similarity: 0.608645 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: six.0a7c2a8d_nohash_1.wav
+unknown=0.999345
+noise=0.000328
+sheila=0.000328
+similarity: 0.618079 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: six.0a7c2a8d_nohash_2.wav
+unknown=0.967623
+noise=0.027224
+sheila=0.005153
+similarity: 0.612710 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: six.0a7c2a8d_nohash_3.wav
+unknown=0.998169
+noise=0.000916
+sheila=0.000916
+similarity: 0.607973 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: six.0a9f9af7_nohash_0.wav
+End of file reached
+unknown=0.999365
+noise=0.000318
+sheila=0.000318
+similarity: 0.614156 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: stop.0a196374_nohash_0.wav
+unknown=0.903015
+sheila=0.095391
+noise=0.001595
+similarity: 0.605462 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: stop.0a196374_nohash_1.wav
+unknown=0.931304
+sheila=0.067795
+noise=0.000901
+similarity: 0.597891 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: stop.0a196374_nohash_2.wav
+unknown=0.722170
+sheila=0.247784
+noise=0.030047
+similarity: 0.614189 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: stop.0a2b400e_nohash_0.wav
+unknown=0.997059
+noise=0.001470
+sheila=0.001470
+similarity: 0.610666 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: stop.0a2b400e_nohash_1.wav
+unknown=0.986597
+noise=0.006701
+sheila=0.006701
+similarity: 0.606570 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: stop.0a2b400e_nohash_2.wav
+unknown=0.997583
+noise=0.001208
+sheila=0.001208
+similarity: 0.609329 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: stop.0a2b400e_nohash_3.wav
+unknown=0.999131
+noise=0.000435
+sheila=0.000435
+similarity: 0.607293 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: stop.0a2b400e_nohash_4.wav
+unknown=0.823296
+sheila=0.103132
+noise=0.073572
+similarity: 0.611380 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: stop.0a5636ca_nohash_0.wav
+unknown=0.478033
+sheila=0.395546
+noise=0.126420
+similarity: 0.593704 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: stop.0ab3b47d_nohash_0.wav
+unknown=0.929599
+sheila=0.062485
+noise=0.007916
+similarity: 0.593394 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: stop.0ac15fe9_nohash_0.wav
+unknown=0.463603
+sheila=0.374081
+noise=0.162317
+similarity: 0.570457 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: stop.0b7ee1a0_nohash_0.wav
+unknown=0.999692
+sheila=0.000165
+noise=0.000143
+similarity: 0.615904 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: stop.0b7ee1a0_nohash_1.wav
+unknown=0.998942
+noise=0.000529
+sheila=0.000529
+similarity: 0.612664 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: stop.0b7ee1a0_nohash_2.wav
+sheila=0.996058
+unknown=0.003605
+noise=0.000337
+similarity: 0.601711 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: three.0a196374_nohash_0.wav
+unknown=0.999854
+noise=0.000073
+sheila=0.000073
+similarity: 0.597335 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: three.0a196374_nohash_1.wav
+unknown=0.999797
+noise=0.000102
+sheila=0.000102
+similarity: 0.616221 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: three.0a196374_nohash_2.wav
+unknown=0.999361
+noise=0.000319
+sheila=0.000319
+similarity: 0.606945 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: three.0a196374_nohash_3.wav
+unknown=0.999975
+noise=0.000012
+sheila=0.000012
+similarity: 0.628191 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: three.0a196374_nohash_4.wav
+sheila=0.604744
+unknown=0.391191
+noise=0.004065
+similarity: 0.578397 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: three.0a2b400e_nohash_0.wav
+unknown=0.999978
+noise=0.000011
+sheila=0.000011
+similarity: 0.601243 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: three.0a2b400e_nohash_1.wav
+unknown=0.999825
+noise=0.000088
+sheila=0.000088
+similarity: 0.614711 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: three.0a2b400e_nohash_2.wav
+unknown=0.999972
+noise=0.000014
+sheila=0.000014
+similarity: 0.601726 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: three.0a2b400e_nohash_3.wav
+unknown=0.999968
+noise=0.000016
+sheila=0.000016
+similarity: 0.612928 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: three.0a2b400e_nohash_4.wav
+unknown=0.999999
+noise=0.000001
+sheila=0.000001
+similarity: 0.611127 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: three.0a9f9af7_nohash_0.wav
+unknown=0.999941
+noise=0.000029
+sheila=0.000029
+similarity: 0.600445 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: three.0b7ee1a0_nohash_0.wav
+unknown=0.991111
+sheila=0.006811
+noise=0.002078
+similarity: 0.610865 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: three.0b7ee1a0_nohash_1.wav
+unknown=0.855324
+sheila=0.123649
+noise=0.021028
+similarity: 0.603818 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: three.0b7ee1a0_nohash_2.wav
+unknown=0.998665
+sheila=0.000867
+noise=0.000468
+similarity: 0.610790 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: tree.00b01445_nohash_0.wav
+unknown=0.778154
+sheila=0.178292
+noise=0.043554
+similarity: 0.577069 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: tree.0a196374_nohash_0.wav
+unknown=0.999462
+sheila=0.000291
+noise=0.000247
+similarity: 0.594492 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: tree.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.996196
+noise=0.001902
+sheila=0.001902
+similarity: 0.603173 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: tree.0a7c2a8d_nohash_0.wav
+sheila=0.983836
+unknown=0.015986
+noise=0.000178
+similarity: 0.613029 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: tree.0ac15fe9_nohash_0.wav
+noise=0.743661
+unknown=0.209456
+sheila=0.046882
+similarity: 0.575369 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: tree.0b09edd3_nohash_0.wav
+End of file reached
+unknown=0.782520
+sheila=0.215903
+noise=0.001577
+similarity: 0.617232 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: tree.0b40aa8e_nohash_0.wav
+sheila=0.505622
+unknown=0.489917
+noise=0.004461
+similarity: 0.597227 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: tree.0b56bcfe_nohash_0.wav
+unknown=0.999638
+noise=0.000181
+sheila=0.000181
+similarity: 0.619033 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: tree.0b77ee66_nohash_0.wav
+unknown=0.999031
+noise=0.000485
+sheila=0.000485
+similarity: 0.613150 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: tree.0bd689d7_nohash_0.wav
+unknown=0.994560
+noise=0.002720
+sheila=0.002720
+similarity: 0.603755 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: tree.0bd689d7_nohash_1.wav
+unknown=0.999911
+noise=0.000045
+sheila=0.000045
+similarity: 0.622014 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: tree.0bfec55f_nohash_0.wav
+sheila=0.983253
+unknown=0.009748
+noise=0.006999
+similarity: 0.565334 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: tree.0c2ca723_nohash_0.wav
+unknown=0.984651
+noise=0.007674
+sheila=0.007674
+similarity: 0.584429 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: tree.0c2d2ffa_nohash_0.wav
+sheila=0.963368
+unknown=0.033547
+noise=0.003085
+similarity: 0.577843 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: two.0a196374_nohash_0.wav
+unknown=0.985876
+sheila=0.009800
+noise=0.004324
+similarity: 0.600123 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: two.0a196374_nohash_1.wav
+unknown=0.927682
+sheila=0.071949
+noise=0.000370
+similarity: 0.595681 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: two.0a196374_nohash_2.wav
+unknown=0.782151
+sheila=0.214985
+noise=0.002864
+similarity: 0.591304 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: two.0a196374_nohash_3.wav
+unknown=0.538382
+sheila=0.418408
+noise=0.043210
+similarity: 0.618201 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: two.0a196374_nohash_4.wav
+sheila=0.999458
+unknown=0.000386
+noise=0.000156
+similarity: 0.590187 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: two.0a2b400e_nohash_0.wav
+unknown=0.999741
+noise=0.000129
+sheila=0.000129
+similarity: 0.603259 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: two.0a2b400e_nohash_1.wav
+unknown=0.998256
+sheila=0.001429
+noise=0.000315
+similarity: 0.606326 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: two.0a2b400e_nohash_2.wav
+unknown=0.718021
+sheila=0.264298
+noise=0.017680
+similarity: 0.610875 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: two.0a2b400e_nohash_3.wav
+unknown=0.999299
+noise=0.000350
+sheila=0.000350
+similarity: 0.614960 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: two.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.921155
+noise=0.039423
+sheila=0.039423
+similarity: 0.609785 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: two.0a7c2a8d_nohash_0.wav
+sheila=0.999517
+unknown=0.000367
+noise=0.000116
+similarity: 0.606596 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: two.0ac15fe9_nohash_0.wav
+noise=0.756419
+unknown=0.172621
+sheila=0.070960
+similarity: 0.566352 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: two.0b7ee1a0_nohash_0.wav
+unknown=0.957023
+noise=0.021489
+sheila=0.021489
+similarity: 0.605807 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: two.0b7ee1a0_nohash_1.wav
+unknown=0.999690
+noise=0.000155
+sheila=0.000155
+similarity: 0.597934 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: up.0a196374_nohash_0.wav
+unknown=0.999348
+noise=0.000326
+sheila=0.000326
+similarity: 0.613729 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: up.0a196374_nohash_1.wav
+unknown=0.999938
+noise=0.000031
+sheila=0.000031
+similarity: 0.615408 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: up.0a2b400e_nohash_0.wav
+unknown=0.994644
+noise=0.002678
+sheila=0.002678
+similarity: 0.604653 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: up.0a2b400e_nohash_1.wav
+unknown=0.992359
+sheila=0.004105
+noise=0.003537
+similarity: 0.606326 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: up.0a2b400e_nohash_2.wav
+unknown=0.997756
+noise=0.001122
+sheila=0.001122
+similarity: 0.607549 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: up.0a2b400e_nohash_3.wav
+unknown=0.996366
+noise=0.001817
+sheila=0.001817
+similarity: 0.627855 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: up.0a2b400e_nohash_4.wav
+unknown=0.999351
+noise=0.000325
+sheila=0.000325
+similarity: 0.613060 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: up.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.970549
+noise=0.014726
+sheila=0.014726
+similarity: 0.609486 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: up.0a7c2a8d_nohash_0.wav
+unknown=0.996250
+noise=0.001875
+sheila=0.001875
+similarity: 0.609093 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: up.0a7c2a8d_nohash_1.wav
+unknown=0.983054
+noise=0.008473
+sheila=0.008473
+similarity: 0.615921 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: up.0ab3b47d_nohash_0.wav
+unknown=0.998690
+noise=0.000655
+sheila=0.000655
+similarity: 0.596261 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: up.0ab3b47d_nohash_1.wav
+End of file reached
+unknown=0.999780
+noise=0.000110
+sheila=0.000110
+similarity: 0.619241 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: up.0ac15fe9_nohash_0.wav
+noise=0.856610
+sheila=0.071695
+unknown=0.071695
+similarity: 0.589187 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: up.0b7ee1a0_nohash_0.wav
+unknown=0.999737
+noise=0.000131
+sheila=0.000131
+similarity: 0.614472 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: visual.0a2b400e_nohash_0.wav
+unknown=0.998669
+sheila=0.000875
+noise=0.000456
+similarity: 0.632963 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: visual.0a2b400e_nohash_1.wav
+sheila=0.999817
+unknown=0.000159
+noise=0.000024
+similarity: 0.604328 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: visual.0a2b400e_nohash_2.wav
+sheila=0.878021
+unknown=0.120055
+noise=0.001924
+similarity: 0.614092 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: visual.0a2b400e_nohash_3.wav
+unknown=0.941403
+sheila=0.053311
+noise=0.005286
+similarity: 0.595849 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: visual.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.596658
+noise=0.203855
+sheila=0.199487
+similarity: 0.596055 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: visual.0b139000_nohash_0.wav
+End of file reached
+unknown=0.743115
+sheila=0.239331
+noise=0.017554
+similarity: 0.595188 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: visual.0b57a6ed_nohash_0.wav
+End of file reached
+sheila=0.999072
+noise=0.000464
+unknown=0.000464
+similarity: 0.607873 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: visual.0b7ee1a0_nohash_0.wav
+sheila=0.999737
+unknown=0.000187
+noise=0.000076
+similarity: 0.613674 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: visual.0b7ee1a0_nohash_1.wav
+sheila=0.774589
+unknown=0.180122
+noise=0.045290
+similarity: 0.603735 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: visual.0b7ee1a0_nohash_2.wav
+sheila=0.999546
+unknown=0.000247
+noise=0.000207
+similarity: 0.620646 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: visual.0b7ee1a0_nohash_3.wav
+sheila=0.893382
+unknown=0.105416
+noise=0.001202
+similarity: 0.605339 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: visual.0b7ee1a0_nohash_4.wav
+sheila=0.997633
+unknown=0.002200
+noise=0.000168
+similarity: 0.614526 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: wow.0a0b46ae_nohash_0.wav
+unknown=0.999968
+noise=0.000016
+sheila=0.000016
+similarity: 0.634294 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: wow.0a2b400e_nohash_0.wav
+unknown=0.999982
+noise=0.000009
+sheila=0.000009
+similarity: 0.600853 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: wow.0a5636ca_nohash_0.wav
+End of file reached
+unknown=0.877147
+noise=0.061427
+sheila=0.061427
+similarity: 0.601945 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: wow.0a5636ca_nohash_1.wav
+End of file reached
+unknown=0.442800
+noise=0.314513
+sheila=0.242687
+similarity: 0.603411 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: wow.0a7c2a8d_nohash_0.wav
+unknown=0.999971
+noise=0.000014
+sheila=0.000014
+similarity: 0.625856 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: wow.0a7c2a8d_nohash_1.wav
+unknown=0.999962
+noise=0.000019
+sheila=0.000019
+similarity: 0.610840 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: wow.0a7c2a8d_nohash_2.wav
+unknown=0.999969
+noise=0.000016
+sheila=0.000016
+similarity: 0.608469 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: wow.0a7c2a8d_nohash_3.wav
+unknown=0.999966
+noise=0.000017
+sheila=0.000017
+similarity: 0.627415 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: wow.0ab3b47d_nohash_0.wav
+End of file reached
+unknown=0.999957
+noise=0.000022
+sheila=0.000022
+similarity: 0.594016 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: wow.0ab3b47d_nohash_1.wav
+unknown=0.998589
+noise=0.000706
+sheila=0.000706
+similarity: 0.577812 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: wow.0ac15fe9_nohash_0.wav
+unknown=0.812191
+noise=0.093904
+sheila=0.093904
+similarity: 0.587242 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: wow.0ac15fe9_nohash_1.wav
+unknown=0.585266
+noise=0.207367
+sheila=0.207367
+similarity: 0.578929 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: wow.0ac15fe9_nohash_2.wav
+unknown=0.992992
+sheila=0.006463
+noise=0.000545
+similarity: 0.571972 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: wow.0ac15fe9_nohash_3.wav
+noise=0.807267
+sheila=0.096366
+unknown=0.096366
+similarity: 0.567389 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: yes.0a196374_nohash_0.wav
+End of file reached
+unknown=0.666722
+sheila=0.310165
+noise=0.023113
+similarity: 0.589635 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: yes.0a196374_nohash_1.wav
+unknown=0.999999
+noise=0.000001
+sheila=0.000001
+similarity: 0.575813 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: yes.0a196374_nohash_2.wav
+unknown=0.999997
+noise=0.000001
+sheila=0.000001
+similarity: 0.598168 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: yes.0a196374_nohash_3.wav
+unknown=0.999999
+noise=0.000000
+sheila=0.000000
+similarity: 0.603292 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: yes.0a2b400e_nohash_0.wav
+unknown=0.979063
+noise=0.012756
+sheila=0.008181
+similarity: 0.616960 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: yes.0a2b400e_nohash_1.wav
+unknown=0.999860
+noise=0.000070
+sheila=0.000070
+similarity: 0.579209 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: yes.0a2b400e_nohash_2.wav
+unknown=0.982575
+noise=0.008713
+sheila=0.008713
+similarity: 0.602261 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: yes.0a2b400e_nohash_3.wav
+unknown=0.999711
+noise=0.000144
+sheila=0.000144
+similarity: 0.577868 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: yes.0a396ff2_nohash_0.wav
+End of file reached
+unknown=0.994303
+noise=0.002849
+sheila=0.002849
+similarity: 0.618955 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: yes.0a5636ca_nohash_0.wav
+End of file reached
+noise=0.486743
+sheila=0.268186
+unknown=0.245072
+similarity: 0.622077 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: yes.0a7c2a8d_nohash_0.wav
+unknown=0.999887
+noise=0.000056
+sheila=0.000056
+similarity: 0.588415 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: yes.0a9f9af7_nohash_0.wav
+End of file reached
+unknown=0.999777
+noise=0.000112
+sheila=0.000112
+similarity: 0.601211 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: yes.0a9f9af7_nohash_1.wav
+unknown=0.999996
+noise=0.000002
+sheila=0.000002
+similarity: 0.598126 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: yes.0a9f9af7_nohash_2.wav
+End of file reached
+unknown=0.999857
+noise=0.000072
+sheila=0.000072
+similarity: 0.607988 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: zero.0a196374_nohash_0.wav
+sheila=0.998085
+unknown=0.001827
+noise=0.000088
+similarity: 0.573480 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: zero.0a196374_nohash_1.wav
+unknown=0.908507
+sheila=0.081872
+noise=0.009621
+similarity: 0.621848 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: zero.0a196374_nohash_2.wav
+unknown=0.574014
+sheila=0.419334
+noise=0.006652
+similarity: 0.617624 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: zero.0a196374_nohash_3.wav
+sheila=0.999983
+unknown=0.000016
+noise=0.000000
+similarity: 0.582481 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: zero.0a196374_nohash_4.wav
+sheila=1.000000
+unknown=0.000000
+noise=0.000000
+similarity: 0.606246 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: zero.0a2b400e_nohash_0.wav
+unknown=0.991430
+noise=0.004285
+sheila=0.004285
+similarity: 0.623224 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: zero.0a2b400e_nohash_1.wav
+unknown=0.999884
+noise=0.000058
+sheila=0.000058
+similarity: 0.625109 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: zero.0a2b400e_nohash_2.wav
+sheila=0.565046
+unknown=0.419513
+noise=0.015442
+similarity: 0.594173 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: zero.0a2b400e_nohash_3.wav
+unknown=0.702581
+sheila=0.295920
+noise=0.001499
+similarity: 0.576792 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: zero.0a2b400e_nohash_4.wav
+unknown=0.974689
+sheila=0.021807
+noise=0.003504
+similarity: 0.603709 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: zero.0ab3b47d_nohash_0.wav
+End of file reached
+unknown=0.892980
+sheila=0.104498
+noise=0.002523
+similarity: 0.597143 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: zero.0b7ee1a0_nohash_0.wav
+sheila=0.999024
+unknown=0.000973
+noise=0.000003
+similarity: 0.612797 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: zero.0b7ee1a0_nohash_1.wav
+unknown=0.997617
+sheila=0.002189
+noise=0.000195
+similarity: 0.612399 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: zero.0b7ee1a0_nohash_2.wav
+sheila=0.977862
+unknown=0.020641
+noise=0.001497
+similarity: 0.613180 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+
+
+=== SUMMARY STATISTICS ===
+HELLO MATTEO occurrences: 328
+USER NOT ENROLLED occurrences: 160
+Total files processed:      488

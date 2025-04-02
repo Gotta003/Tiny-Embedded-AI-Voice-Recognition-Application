@@ -211,7 +211,7 @@ int bestmatching(const float input_vector[], const float d_vectors[][DVECTORS], 
 }
 
 int sv_neural_network(const float mfe_input[]) {
-    printf("\n\nSV NEURAL NETWORK Accessing\n\n");
+    //printf("\n\nSV NEURAL NETWORK Accessing\n\n");
     float batchNorm[IN_SIZE]; 
     float conv1[CONV_L1_SIZE]; 
     float maxPool1[MAX_POOL_L1_SIZE];
@@ -234,7 +234,7 @@ int sv_neural_network(const float mfe_input[]) {
     conv2d(maxPool2, conv3, MAX_POOL_L2_H, MAX_POOL_L2_W, MAX_POOL_L2_CHANNELS, CONV_L3_CHANNELS, kernel_size, 2, conv_3_Weights, conv_3_BiasAdd_ReadVariableOp, "same");
 
     conv2d(conv3, conv4, CONV_L3_H, CONV_L3_W, CONV_L3_CHANNELS, CONV_L4_CHANNELS, kernel_size, 2, conv_4_Weights, conv_4_BiasAdd_ReadVariableOp, "same");
-    int cols=8;
+    /*int cols=8;
     for(int i=0; i<CONV_L4_SIZE; i++) {
         if(i%cols==0) {
             printf("%d - ", i/cols+1);
@@ -243,7 +243,7 @@ int sv_neural_network(const float mfe_input[]) {
         if(i%cols==cols-1) {
             printf("\n");
         }
-    }
+    }*/
 
     const int input_labels[]={0, 1};
     return bestmatching(conv4, d_vectors_0_64, 64, input_labels, 1, 0, 0.6, 1);
