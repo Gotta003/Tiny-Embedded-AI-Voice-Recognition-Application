@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <string.h>
 #include "d_vector_extractor.h"
 #include "d_vectors.h"
 
@@ -50,9 +51,11 @@
 
 int sv_neural_network(const float mfe_input[]);
 void batch_normalization(const float input[], float output[], int height, int width, int num_batch, float gamma, float beta);
-void conv2d(const float input[], float output[], int in_height, int in_width, int in_channels, int out_channels, int stride, const float weights[], const float biases[]) ;
+void conv2d(const float input[], float output[], int in_height, int in_width, int in_channels, int out_channels, int kernel_size, int stride, const float weights[], const float biases[], const char padding[]) ;
 void max_pool2d(const float input[], float* output, int in_height, int in_width, int channels, int pool_size);
 //void flatten(const float input[], float output[], int height, int width, int channels);
 int bestmatching(const float input_vector[], const float d_vectors[][DVECTORS], int num_d_vectors, const int input_labels[], int num_inputs, int auth_label, float threshold, int verbose);
 float cosine_similarity(const float vec1[DVECTORS], const float vec2[DVECTORS]);
+void save_debug_output_sv(const char* filename, const char* message, float* data, int rows, int cols);
+
 #endif

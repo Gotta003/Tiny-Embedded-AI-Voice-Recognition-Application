@@ -61,6 +61,7 @@
     "math.h": "c",
     "stdlib.h": "c",
     "stdio.h": "c",
-    "d_vectors.h": "c"
+    "d_vectors.h": "c",
+    "d_vector_extractor.h": "c"
   }
 }
