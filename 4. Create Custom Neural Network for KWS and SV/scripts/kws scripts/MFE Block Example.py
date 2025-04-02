@@ -33,45 +33,7 @@ def hz_to_mel(hz):
 def mel_to_hz(mel):
     return 700 * (10 ** (mel / 1127.0) - 1)
 
-def create_mel_filterbank():
-    min_mel = hz_to_mel(MIN_FREQ)
-    max_mel = hz_to_mel(MAX_FREQ)
-    #mel_points = np.linspace(min_mel, max_mel, FILTER_NUMBER + 2)
-    #hz_points = mel_to_hz(mel_points)
-    mel_points = np.zeros(FILTER_NUMBER + 2)
-    mel_spacing = (max_mel - min_mel) / (FILTER_NUMBER + 1)
-    for i in range(FILTER_NUMBER + 2):
-        mel_points[i] = mel_to_hz(min_mel + i * mel_spacing)
-        if mel_points[i] > MAX_FREQ:
-            mel_points[i] = MAX_FREQ
-
-    #bin_indices = np.floor((NUM_BINS) * hz_points / (SAMPLE_RATE / 2)).astype(int)
-    #bin_indices = np.clip(bin_indices, 0, NUM_BINS - 1)
-    bin_indices = np.zeros(FILTER_NUMBER + 2, dtype=int)
-    for i in range(FILTER_NUMBER + 2):
-        bin_indices[i] = int(mel_points[i] * (NUM_BINS - 1) / (SAMPLE_RATE / 2.0))
-        bin_indices[i] = max(0, min(NUM_BINS - 1, bin_indices[i]))
-
-    filterbank = np.zeros((FILTER_NUMBER, NUM_BINS))
-
-    for i in range(FILTER_NUMBER):
-        left = bin_indices[i]
-        middle = bin_indices[i+1]
-        right = bin_indices[i+2]
-
-        if left == middle:
-            middle = min(left + 1, NUM_BINS - 1)
-        if middle == right:
-            right = min(middle + 1, NUM_BINS - 1)
-
-        #filterbank[i, left:middle] = np.linspace(0, 1, middle - left)
-        for j in range(left, middle):
-            filterbank[i, j] = (j - left) / (middle - left)
-
-        #filterbank[i, middle:right] = np.linspace(1, 0, right - middle)
-        for j in range(middle, right):
-            filterbank[i, j] = 1.0 - (j - middle) / (right - middle)
-    return filterbank
+-
 
 def compute_spectrogram(audio, show_plot=True):
     num_samples = len(audio)

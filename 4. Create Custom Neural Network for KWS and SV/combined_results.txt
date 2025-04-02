@@ -1,0 +1,2838 @@
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s1.wav
+unknown=0.998315
+noise=0.000842
+sheila=0.000842
+similarity: 0.587464 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s10.wav
+unknown=0.998817
+noise=0.000591
+sheila=0.000591
+similarity: 0.589054 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s100.wav
+unknown=0.999969
+noise=0.000016
+sheila=0.000016
+similarity: 0.590772 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s101.wav
+unknown=0.958109
+noise=0.020946
+sheila=0.020946
+similarity: 0.596920 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s102.wav
+unknown=0.999995
+noise=0.000002
+sheila=0.000002
+similarity: 0.590928 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s103.wav
+sheila=0.999842
+unknown=0.000114
+noise=0.000043
+similarity: 0.584667 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s104.wav
+unknown=0.935961
+noise=0.032019
+sheila=0.032019
+similarity: 0.591613 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s105.wav
+unknown=0.999950
+noise=0.000025
+sheila=0.000025
+similarity: 0.605432 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s106.wav
+sheila=0.968896
+unknown=0.016752
+noise=0.014352
+similarity: 0.598804 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s107.wav
+unknown=0.999549
+noise=0.000226
+sheila=0.000226
+similarity: 0.595730 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s108.wav
+unknown=0.998622
+noise=0.000689
+sheila=0.000689
+similarity: 0.602167 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s109.wav
+unknown=0.999987
+noise=0.000006
+sheila=0.000006
+similarity: 0.602335 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s11.wav
+unknown=1.000000
+noise=0.000000
+sheila=0.000000
+similarity: 0.612958 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s110.wav
+unknown=0.999934
+noise=0.000033
+sheila=0.000033
+similarity: 0.630436 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s111.wav
+unknown=1.000000
+noise=0.000000
+sheila=0.000000
+similarity: 0.618394 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s112.wav
+unknown=0.999971
+noise=0.000014
+sheila=0.000014
+similarity: 0.607584 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s113.wav
+unknown=0.997298
+noise=0.001351
+sheila=0.001351
+similarity: 0.592452 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s114.wav
+unknown=0.988391
+noise=0.005804
+sheila=0.005804
+similarity: 0.597956 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s115.wav
+unknown=0.999999
+noise=0.000000
+sheila=0.000000
+similarity: 0.614445 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s116.wav
+unknown=0.996816
+noise=0.001592
+sheila=0.001592
+similarity: 0.611618 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s117.wav
+unknown=0.999994
+noise=0.000003
+sheila=0.000003
+similarity: 0.624457 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s118.wav
+unknown=0.932975
+sheila=0.053393
+noise=0.013631
+similarity: 0.608327 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s119.wav
+unknown=0.999946
+noise=0.000027
+sheila=0.000027
+similarity: 0.620435 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s12.wav
+unknown=0.999595
+noise=0.000202
+sheila=0.000202
+similarity: 0.602908 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s120.wav
+unknown=0.986745
+sheila=0.009068
+noise=0.004187
+similarity: 0.597057 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s121.wav
+unknown=0.998907
+sheila=0.000668
+noise=0.000424
+similarity: 0.599053 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s122.wav
+sheila=0.884846
+unknown=0.105162
+noise=0.009991
+similarity: 0.604885 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s123.wav
+unknown=0.998624
+noise=0.000688
+sheila=0.000688
+similarity: 0.595620 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s124.wav
+unknown=0.505152
+noise=0.448982
+sheila=0.045866
+similarity: 0.589766 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s125.wav
+sheila=0.814011
+unknown=0.111112
+noise=0.074876
+similarity: 0.617190 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s126.wav
+unknown=0.993148
+noise=0.003426
+sheila=0.003426
+similarity: 0.603914 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s127.wav
+unknown=0.999811
+noise=0.000094
+sheila=0.000094
+similarity: 0.620150 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s128.wav
+unknown=0.969215
+noise=0.015392
+sheila=0.015392
+similarity: 0.612207 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s129.wav
+unknown=0.998453
+noise=0.000774
+sheila=0.000774
+similarity: 0.612549 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s13.wav
+sheila=0.911781
+unknown=0.087141
+noise=0.001078
+similarity: 0.599324 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s130.wav
+sheila=0.985263
+unknown=0.014516
+noise=0.000221
+similarity: 0.590822 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s131.wav
+unknown=0.999972
+noise=0.000014
+sheila=0.000014
+similarity: 0.630434 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s132.wav
+unknown=0.999993
+noise=0.000003
+sheila=0.000003
+similarity: 0.615311 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s133.wav
+unknown=0.977738
+sheila=0.020607
+noise=0.001654
+similarity: 0.591600 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s134.wav
+unknown=0.999334
+noise=0.000333
+sheila=0.000333
+similarity: 0.610107 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s135.wav
+unknown=0.999816
+noise=0.000092
+sheila=0.000092
+similarity: 0.585208 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s136.wav
+sheila=0.998500
+unknown=0.000912
+noise=0.000588
+similarity: 0.614850 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s137.wav
+unknown=0.997348
+noise=0.001326
+sheila=0.001326
+similarity: 0.589899 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s138.wav
+unknown=0.999830
+noise=0.000085
+sheila=0.000085
+similarity: 0.604639 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s139.wav
+unknown=0.999947
+noise=0.000027
+sheila=0.000027
+similarity: 0.614903 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s14.wav
+unknown=0.999947
+noise=0.000027
+sheila=0.000027
+similarity: 0.608576 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s140.wav
+sheila=0.998635
+unknown=0.001118
+noise=0.000247
+similarity: 0.601546 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s141.wav
+unknown=0.999995
+noise=0.000002
+sheila=0.000002
+similarity: 0.627934 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s142.wav
+unknown=1.000000
+noise=0.000000
+sheila=0.000000
+similarity: 0.599966 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s143.wav
+unknown=0.999998
+noise=0.000001
+sheila=0.000001
+similarity: 0.606240 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s144.wav
+unknown=0.999424
+noise=0.000288
+sheila=0.000288
+similarity: 0.607010 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s145.wav
+unknown=0.999929
+noise=0.000035
+sheila=0.000035
+similarity: 0.590789 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s146.wav
+unknown=0.922071
+sheila=0.043795
+noise=0.034133
+similarity: 0.605685 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s147.wav
+unknown=0.999740
+noise=0.000134
+sheila=0.000126
+similarity: 0.596790 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s148.wav
+unknown=0.972893
+noise=0.013553
+sheila=0.013553
+similarity: 0.591761 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s149.wav
+unknown=0.999990
+noise=0.000005
+sheila=0.000005
+similarity: 0.615549 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s15.wav
+noise=0.865002
+sheila=0.067499
+unknown=0.067499
+similarity: 0.618100 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s150.wav
+sheila=0.998285
+unknown=0.000994
+noise=0.000721
+similarity: 0.601876 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s151.wav
+unknown=0.999843
+noise=0.000078
+sheila=0.000078
+similarity: 0.616763 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s152.wav
+sheila=0.999988
+unknown=0.000009
+noise=0.000003
+similarity: 0.597917 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s153.wav
+unknown=0.954165
+sheila=0.033527
+noise=0.012309
+similarity: 0.608147 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s154.wav
+unknown=0.980920
+sheila=0.018121
+noise=0.000959
+similarity: 0.607458 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s155.wav
+unknown=0.952877
+noise=0.023562
+sheila=0.023562
+similarity: 0.601468 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s156.wav
+sheila=0.990276
+unknown=0.008547
+noise=0.001177
+similarity: 0.601923 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s157.wav
+unknown=0.999819
+noise=0.000090
+sheila=0.000090
+similarity: 0.613850 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s158.wav
+sheila=0.992909
+unknown=0.004113
+noise=0.002978
+similarity: 0.593876 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s159.wav
+unknown=0.999977
+noise=0.000012
+sheila=0.000012
+similarity: 0.601622 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s16.wav
+noise=0.873151
+unknown=0.094405
+sheila=0.032445
+similarity: 0.588624 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s160.wav
+unknown=0.999741
+noise=0.000129
+sheila=0.000129
+similarity: 0.591258 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s161.wav
+unknown=0.981454
+noise=0.009273
+sheila=0.009273
+similarity: 0.591501 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s162.wav
+unknown=0.994610
+noise=0.002695
+sheila=0.002695
+similarity: 0.600725 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s163.wav
+unknown=0.999686
+noise=0.000157
+sheila=0.000157
+similarity: 0.614975 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s164.wav
+unknown=0.999951
+noise=0.000024
+sheila=0.000024
+similarity: 0.614566 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s165.wav
+unknown=0.999973
+noise=0.000013
+sheila=0.000013
+similarity: 0.588370 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s166.wav
+unknown=0.998090
+noise=0.000955
+sheila=0.000955
+similarity: 0.614161 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s167.wav
+sheila=0.999855
+unknown=0.000090
+noise=0.000055
+similarity: 0.606332 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s168.wav
+unknown=0.999906
+noise=0.000047
+sheila=0.000047
+similarity: 0.584932 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s169.wav
+unknown=0.998167
+sheila=0.001670
+noise=0.000163
+similarity: 0.598414 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s17.wav
+unknown=0.957562
+noise=0.021219
+sheila=0.021219
+similarity: 0.609688 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s170.wav
+sheila=0.995941
+unknown=0.002038
+noise=0.002021
+similarity: 0.609139 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s171.wav
+unknown=0.933162
+noise=0.033419
+sheila=0.033419
+similarity: 0.621841 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s172.wav
+unknown=0.862472
+noise=0.068764
+sheila=0.068764
+similarity: 0.605973 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s173.wav
+noise=0.877079
+unknown=0.112244
+sheila=0.010677
+similarity: 0.609449 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s174.wav
+sheila=0.546938
+unknown=0.382244
+noise=0.070817
+similarity: 0.608881 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s175.wav
+unknown=0.999994
+noise=0.000003
+sheila=0.000003
+similarity: 0.583795 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s18.wav
+unknown=0.916964
+sheila=0.079595
+noise=0.003442
+similarity: 0.609230 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s19.wav
+unknown=0.917641
+noise=0.041180
+sheila=0.041180
+similarity: 0.618772 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s2.wav
+unknown=0.999299
+noise=0.000351
+sheila=0.000351
+similarity: 0.616584 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s20.wav
+unknown=0.881256
+sheila=0.105261
+noise=0.013483
+similarity: 0.600614 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s21.wav
+noise=0.570669
+unknown=0.361682
+sheila=0.067649
+similarity: 0.607331 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s22.wav
+unknown=0.995720
+noise=0.002140
+sheila=0.002140
+similarity: 0.610748 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s23.wav
+sheila=0.999703
+noise=0.000148
+unknown=0.000148
+similarity: 0.610772 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s24.wav
+sheila=0.927146
+unknown=0.049029
+noise=0.023825
+similarity: 0.600224 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s25.wav
+unknown=0.893286
+sheila=0.056382
+noise=0.050333
+similarity: 0.590990 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s26.wav
+sheila=0.834050
+unknown=0.136657
+noise=0.029293
+similarity: 0.606641 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s27.wav
+unknown=0.999949
+noise=0.000026
+sheila=0.000026
+similarity: 0.593958 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s28.wav
+unknown=0.996984
+sheila=0.002895
+noise=0.000121
+similarity: 0.613532 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s29.wav
+unknown=0.999958
+noise=0.000021
+sheila=0.000021
+similarity: 0.628448 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s3.wav
+unknown=0.999939
+noise=0.000031
+sheila=0.000031
+similarity: 0.617522 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s30.wav
+sheila=0.973575
+unknown=0.025722
+noise=0.000704
+similarity: 0.601363 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s31.wav
+unknown=0.999821
+noise=0.000089
+sheila=0.000089
+similarity: 0.609227 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s32.wav
+unknown=0.967127
+noise=0.016436
+sheila=0.016436
+similarity: 0.608888 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s33.wav
+unknown=0.999994
+noise=0.000003
+sheila=0.000003
+similarity: 0.621055 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s34.wav
+unknown=0.989967
+sheila=0.005163
+noise=0.004870
+similarity: 0.584588 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s35.wav
+unknown=0.996487
+noise=0.001757
+sheila=0.001757
+similarity: 0.605162 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s36.wav
+unknown=0.999663
+noise=0.000168
+sheila=0.000168
+similarity: 0.631867 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s37.wav
+unknown=1.000000
+noise=0.000000
+sheila=0.000000
+similarity: 0.612750 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s38.wav
+sheila=0.914315
+noise=0.042842
+unknown=0.042842
+similarity: 0.597346 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s39.wav
+unknown=0.996678
+noise=0.001661
+sheila=0.001661
+similarity: 0.604102 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s4.wav
+unknown=0.996495
+noise=0.001752
+sheila=0.001752
+similarity: 0.621005 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s40.wav
+unknown=0.999619
+noise=0.000190
+sheila=0.000190
+similarity: 0.598904 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s41.wav
+unknown=0.999786
+noise=0.000107
+sheila=0.000107
+similarity: 0.611588 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s42.wav
+noise=0.892476
+sheila=0.053762
+unknown=0.053762
+similarity: 0.613721 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s43.wav
+unknown=0.999996
+noise=0.000002
+sheila=0.000002
+similarity: 0.624079 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s44.wav
+sheila=0.800404
+unknown=0.189968
+noise=0.009627
+similarity: 0.601067 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s45.wav
+unknown=0.998740
+noise=0.000630
+sheila=0.000630
+similarity: 0.621446 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s46.wav
+unknown=0.999999
+noise=0.000001
+sheila=0.000001
+similarity: 0.590846 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s47.wav
+unknown=0.998063
+noise=0.000969
+sheila=0.000969
+similarity: 0.609561 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s48.wav
+unknown=0.998323
+noise=0.001413
+sheila=0.000263
+similarity: 0.593147 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s49.wav
+sheila=0.695321
+unknown=0.219929
+noise=0.084750
+similarity: 0.599577 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s5.wav
+unknown=0.999997
+noise=0.000001
+sheila=0.000001
+similarity: 0.594610 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s50.wav
+unknown=0.999152
+noise=0.000424
+sheila=0.000424
+similarity: 0.588694 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s51.wav
+unknown=0.999993
+noise=0.000003
+sheila=0.000003
+similarity: 0.601886 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s52.wav
+unknown=0.996268
+noise=0.001866
+sheila=0.001866
+similarity: 0.600887 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s53.wav
+unknown=0.998800
+noise=0.000600
+sheila=0.000600
+similarity: 0.617490 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s54.wav
+unknown=0.917416
+noise=0.074138
+sheila=0.008446
+similarity: 0.618089 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s55.wav
+unknown=0.868809
+noise=0.065595
+sheila=0.065595
+similarity: 0.609281 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s56.wav
+unknown=0.999972
+noise=0.000014
+sheila=0.000014
+similarity: 0.624881 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s57.wav
+unknown=0.999995
+noise=0.000002
+sheila=0.000002
+similarity: 0.603808 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s58.wav
+unknown=0.969390
+sheila=0.022856
+noise=0.007755
+similarity: 0.612250 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s59.wav
+unknown=0.942422
+sheila=0.053356
+noise=0.004221
+similarity: 0.587724 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s6.wav
+sheila=0.995434
+unknown=0.004491
+noise=0.000075
+similarity: 0.593330 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s60.wav
+unknown=0.999272
+noise=0.000364
+sheila=0.000364
+similarity: 0.613699 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s61.wav
+unknown=0.999962
+noise=0.000019
+sheila=0.000019
+similarity: 0.618487 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s62.wav
+unknown=0.993118
+noise=0.003441
+sheila=0.003441
+similarity: 0.609956 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s63.wav
+noise=0.623875
+sheila=0.188062
+unknown=0.188062
+similarity: 0.604358 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s64.wav
+unknown=0.942673
+sheila=0.039017
+noise=0.018310
+similarity: 0.586015 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s65.wav
+unknown=0.999994
+noise=0.000003
+sheila=0.000003
+similarity: 0.619546 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s66.wav
+unknown=0.996982
+noise=0.001509
+sheila=0.001509
+similarity: 0.619666 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s67.wav
+unknown=0.999944
+noise=0.000028
+sheila=0.000028
+similarity: 0.598600 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s68.wav
+unknown=0.999232
+noise=0.000384
+sheila=0.000384
+similarity: 0.616405 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s69.wav
+unknown=0.999301
+noise=0.000350
+sheila=0.000350
+similarity: 0.620670 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s7.wav
+unknown=0.998520
+noise=0.000814
+sheila=0.000666
+similarity: 0.599697 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s70.wav
+sheila=0.863163
+unknown=0.131349
+noise=0.005488
+similarity: 0.588280 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s71.wav
+unknown=0.999988
+noise=0.000006
+sheila=0.000006
+similarity: 0.596693 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s72.wav
+unknown=0.993801
+sheila=0.003644
+noise=0.002555
+similarity: 0.609085 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s73.wav
+unknown=0.999274
+noise=0.000363
+sheila=0.000363
+similarity: 0.618725 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s74.wav
+unknown=0.999935
+noise=0.000033
+sheila=0.000033
+similarity: 0.606879 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s75.wav
+unknown=0.999942
+noise=0.000029
+sheila=0.000029
+similarity: 0.583702 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s76.wav
+unknown=0.899292
+noise=0.050354
+sheila=0.050354
+similarity: 0.611116 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s77.wav
+unknown=0.999833
+noise=0.000084
+sheila=0.000084
+similarity: 0.608627 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s78.wav
+noise=0.547385
+unknown=0.233944
+sheila=0.218671
+similarity: 0.612413 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s79.wav
+unknown=0.999913
+noise=0.000043
+sheila=0.000043
+similarity: 0.612863 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s8.wav
+unknown=0.791115
+noise=0.156644
+sheila=0.052242
+similarity: 0.615244 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s80.wav
+unknown=0.988140
+noise=0.005930
+sheila=0.005930
+similarity: 0.610442 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s81.wav
+sheila=0.988286
+unknown=0.006673
+noise=0.005041
+similarity: 0.614332 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s82.wav
+unknown=0.985814
+noise=0.007093
+sheila=0.007093
+similarity: 0.584990 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s83.wav
+unknown=0.999866
+noise=0.000067
+sheila=0.000067
+similarity: 0.590514 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s84.wav
+unknown=0.989568
+sheila=0.008294
+noise=0.002138
+similarity: 0.608308 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s85.wav
+unknown=0.925494
+noise=0.037253
+sheila=0.037253
+similarity: 0.600322 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s86.wav
+unknown=0.988422
+noise=0.005789
+sheila=0.005789
+similarity: 0.593294 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s87.wav
+unknown=0.999281
+noise=0.000360
+sheila=0.000360
+similarity: 0.624054 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s88.wav
+unknown=0.925955
+noise=0.050451
+sheila=0.023594
+similarity: 0.615701 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s89.wav
+unknown=0.998651
+sheila=0.001202
+noise=0.000147
+similarity: 0.616267 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s9.wav
+unknown=0.999764
+noise=0.000118
+sheila=0.000118
+similarity: 0.601794 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s90.wav
+unknown=0.999982
+noise=0.000009
+sheila=0.000009
+similarity: 0.583161 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s91.wav
+unknown=0.993275
+noise=0.003362
+sheila=0.003362
+similarity: 0.600829 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s92.wav
+unknown=0.969822
+noise=0.015089
+sheila=0.015089
+similarity: 0.621907 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s93.wav
+unknown=1.000000
+noise=0.000000
+sheila=0.000000
+similarity: 0.616618 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s94.wav
+unknown=0.723251
+sheila=0.217741
+noise=0.059008
+similarity: 0.599043 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s95.wav
+unknown=0.993045
+sheila=0.003649
+noise=0.003306
+similarity: 0.611721 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s96.wav
+unknown=0.999548
+noise=0.000226
+sheila=0.000226
+similarity: 0.623814 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s97.wav
+unknown=0.999579
+noise=0.000211
+sheila=0.000211
+similarity: 0.616097 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s98.wav
+unknown=0.980820
+noise=0.009590
+sheila=0.009590
+similarity: 0.622108 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s99.wav
+unknown=0.998370
+noise=0.000815
+sheila=0.000815
+similarity: 0.599933 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9qqrk.ingestion-856ccfd98c-7psd8.wav
+noise=0.739958
+sheila=0.130021
+unknown=0.130021
+similarity: 0.579787 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9rh04.ingestion-856ccfd98c-f8vjf.wav
+noise=0.585433
+sheila=0.207283
+unknown=0.207283
+similarity: 0.595368 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s1.wav
+sheila=0.527485
+unknown=0.453519
+noise=0.018996
+similarity: 0.582859 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s10.wav
+unknown=0.939037
+sheila=0.048028
+noise=0.012936
+similarity: 0.600595 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s11.wav
+unknown=0.999893
+noise=0.000054
+sheila=0.000054
+similarity: 0.605559 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s12.wav
+sheila=0.962236
+noise=0.018882
+unknown=0.018882
+similarity: 0.622883 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s13.wav
+sheila=0.999677
+unknown=0.000254
+noise=0.000069
+similarity: 0.582305 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s14.wav
+sheila=0.999866
+unknown=0.000117
+noise=0.000017
+similarity: 0.591381 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s15.wav
+unknown=0.999948
+noise=0.000026
+sheila=0.000026
+similarity: 0.612061 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s16.wav
+sheila=0.916147
+unknown=0.069652
+noise=0.014201
+similarity: 0.594747 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s17.wav
+unknown=0.999998
+noise=0.000001
+sheila=0.000001
+similarity: 0.606703 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s18.wav
+unknown=0.991788
+sheila=0.007441
+noise=0.000770
+similarity: 0.602149 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s19.wav
+sheila=0.581455
+unknown=0.396803
+noise=0.021742
+similarity: 0.610011 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s2.wav
+noise=0.426507
+sheila=0.370648
+unknown=0.202845
+similarity: 0.612174 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s20.wav
+unknown=0.973448
+sheila=0.024126
+noise=0.002426
+similarity: 0.575876 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s21.wav
+sheila=0.998307
+unknown=0.001525
+noise=0.000168
+similarity: 0.560950 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s22.wav
+unknown=0.975585
+noise=0.012208
+sheila=0.012208
+similarity: 0.619822 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s23.wav
+noise=0.949965
+sheila=0.025017
+unknown=0.025017
+similarity: 0.598320 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s24.wav
+noise=0.905434
+sheila=0.047283
+unknown=0.047283
+similarity: 0.582736 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s25.wav
+sheila=0.791716
+unknown=0.157063
+noise=0.051220
+similarity: 0.604553 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s26.wav
+unknown=0.989505
+sheila=0.008866
+noise=0.001629
+similarity: 0.590491 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s27.wav
+unknown=0.999493
+noise=0.000253
+sheila=0.000253
+similarity: 0.624645 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s28.wav
+unknown=0.999891
+noise=0.000055
+sheila=0.000055
+similarity: 0.607897 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s29.wav
+sheila=0.649210
+unknown=0.346522
+noise=0.004267
+similarity: 0.602493 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s3.wav
+unknown=0.861552
+noise=0.069224
+sheila=0.069224
+similarity: 0.599307 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s30.wav
+noise=0.616548
+sheila=0.198798
+unknown=0.184655
+similarity: 0.600387 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s31.wav
+unknown=0.336431
+noise=0.331785
+sheila=0.331785
+similarity: 0.610376 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s32.wav
+unknown=0.955787
+noise=0.022107
+sheila=0.022107
+similarity: 0.618512 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s33.wav
+unknown=0.999822
+noise=0.000089
+sheila=0.000089
+similarity: 0.629462 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s34.wav
+unknown=0.999846
+noise=0.000077
+sheila=0.000077
+similarity: 0.581344 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s35.wav
+unknown=0.877465
+sheila=0.103521
+noise=0.019014
+similarity: 0.581420 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s36.wav
+unknown=0.568511
+noise=0.381583
+sheila=0.049906
+similarity: 0.616096 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s37.wav
+unknown=0.999986
+noise=0.000007
+sheila=0.000007
+similarity: 0.615110 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s38.wav
+unknown=0.964783
+sheila=0.031889
+noise=0.003328
+similarity: 0.586121 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s39.wav
+unknown=0.999743
+noise=0.000128
+sheila=0.000128
+similarity: 0.586061 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s4.wav
+unknown=0.995297
+noise=0.002351
+sheila=0.002351
+similarity: 0.615192 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s40.wav
+sheila=0.999893
+unknown=0.000081
+noise=0.000026
+similarity: 0.591782 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s41.wav
+unknown=0.999999
+noise=0.000001
+sheila=0.000001
+similarity: 0.612102 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s42.wav
+unknown=0.897466
+noise=0.051267
+sheila=0.051267
+similarity: 0.611397 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s43.wav
+unknown=0.999985
+noise=0.000008
+sheila=0.000008
+similarity: 0.593118 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s44.wav
+noise=0.922269
+sheila=0.038866
+unknown=0.038866
+similarity: 0.607041 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s45.wav
+sheila=0.999905
+unknown=0.000055
+noise=0.000040
+similarity: 0.615619 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s46.wav
+unknown=0.999988
+noise=0.000006
+sheila=0.000006
+similarity: 0.598724 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s47.wav
+unknown=0.999996
+noise=0.000002
+sheila=0.000002
+similarity: 0.599472 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s48.wav
+noise=0.990140
+sheila=0.004930
+unknown=0.004930
+similarity: 0.602405 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s49.wav
+noise=0.999733
+sheila=0.000134
+unknown=0.000134
+similarity: 0.601655 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s5.wav
+unknown=0.996666
+noise=0.001667
+sheila=0.001667
+similarity: 0.609583 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s50.wav
+unknown=0.998532
+noise=0.000734
+sheila=0.000734
+similarity: 0.617632 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s51.wav
+unknown=0.517982
+noise=0.411008
+sheila=0.071010
+similarity: 0.623193 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s52.wav
+noise=0.333333
+sheila=0.333333
+unknown=0.333333
+similarity: 0.618010 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s53.wav
+unknown=0.999378
+noise=0.000311
+sheila=0.000311
+similarity: 0.603483 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s54.wav
+unknown=0.998742
+noise=0.000629
+sheila=0.000629
+similarity: 0.625602 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s55.wav
+unknown=0.999972
+noise=0.000014
+sheila=0.000014
+similarity: 0.590685 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s56.wav
+noise=0.996000
+sheila=0.002000
+unknown=0.002000
+similarity: 0.583173 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s57.wav
+noise=0.984965
+sheila=0.007518
+unknown=0.007518
+similarity: 0.587205 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s58.wav
+unknown=0.999913
+noise=0.000043
+sheila=0.000043
+similarity: 0.609304 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s59.wav
+unknown=0.998225
+noise=0.000888
+sheila=0.000888
+similarity: 0.621401 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s6.wav
+unknown=0.888538
+sheila=0.105673
+noise=0.005789
+similarity: 0.615981 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s7.wav
+noise=0.465757
+unknown=0.418868
+sheila=0.115374
+similarity: 0.624512 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s8.wav
+unknown=0.982503
+noise=0.008749
+sheila=0.008749
+similarity: 0.592494 --- Class: 0
+
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nda9no0.ingestion-856ccfd98c-f8vjf.s9.wav
+unknown=0.999966
+noise=0.000017
+sheila=0.000017
+similarity: 0.615484 --- Class: 0
+
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+
+
+=== SUMMARY STATISTICS ===
+HELLO MATTEO occurrences: 155
+USER NOT ENROLLED occurrences: 81
+Total files processed:      236
