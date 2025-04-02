@@ -120,17 +120,17 @@ void audio_processing(short* audio_buffer, int framesNumber) {
     float output[1600];
     compute_spectrogram(audio_buffer, output, framesNumber);
     int result=kws_neural_network(output);
-    if(strcmp(class_names[result], "sheila")==0) {
+    //if(strcmp(class_names[result], "sheila")==0) {
         if(sv_neural_network(output)==0) {
             printf("\n\nHELLO MATTEO\n\n");
         }
         else {
             printf("\n\nUSER NOT ENROLLED\n\n");
         }
-    }
+    /*}
     else {
         printf("\n\nNOT SHEILA WORD RECOGNIZED\n\n");
-    }
+    }*/
 }
 
 void process_wav_file(const char* filename) {

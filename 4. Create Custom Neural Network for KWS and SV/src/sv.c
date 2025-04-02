@@ -1,64 +1,133 @@
 #include "sv.h"
 
-void batch_normalization(const float input[], float output[], int height, int width, int num_batch, float gamma, float beta) {
-    for(int i=0; i<height*width*num_batch; i++) {
-        output[i]=input[i]*gamma+beta; // y=γx+β
+void save_debug_output_sv(const char* filename, const char* message, float* data, int rows, int cols) {
+    FILE* file = fopen(filename, "a");
+    if (!file) {
+        printf("Error: Could not open debug file for writing\n");
+        return;
     }
+    fprintf(file, "%s\n", message);
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            fprintf(file, "%.6f\t", data[i * cols + j]);
+        }
+        fprintf(file, "\n");
+    }
+    fprintf(file, "\n");
+    fclose(file);
 }
 
-void conv2d(const float input[], float output[], int in_height, int in_width, int in_channels, int out_channels, int stride, const float weights[], const float biases[])  {
-    int out_height=(in_height-3)/stride+1;
-    int out_width=(in_width-3)/stride+1;
+void batch_normalization(const float input[], float output[], int height, int width, int num_batch, float gamma, float beta) {
+    for(int i=0; i<height*width*num_batch; i++) {
+        output[i]=input[i]*gamma-beta; // y=γx+β
+    }
+    //save_debug_output_sv("debug.txt", "BatchNormalization:", output, 1, height*width*num_batch);
+}
 
-    for(int oc=0; oc<out_channels; oc++) {
-        for(int oh=0; oh<out_height; oh++) {
-            for(int ow=0; ow<out_width; ow++) {
+void conv2d(const float input[], float output[], int in_height, int in_width, int in_channels, int out_channels, int kernel_size, int stride, const float weights[], const float biases[], const char padding[])  {
+    int out_height;
+    int out_width;
+    int pad_top=0;
+    int pad_bottom=0;
+    int pad_left=0;
+    int pad_right=0;
+
+    //"same"
+    if(strcmp(padding, "same")==0) {
+        out_height=(int)ceilf((float)in_height/(float)stride);
+        out_width=(int)ceilf((float)in_width/(float)stride);
+        int pad_h=(out_height-1)*stride+kernel_size-in_height;
+        int pad_w=(out_width-1)*stride+kernel_size-in_width;
+        pad_h=pad_h>0 ? pad_h : 0;
+        pad_w=pad_w>0 ? pad_w : 0;
+        pad_top=pad_h/2;
+        pad_bottom=pad_h-pad_top;
+        pad_left=pad_w/2;
+        pad_right=pad_w-pad_left;
+    }
+    //"valid"
+    else { 
+        out_height=(in_height-kernel_size)/stride+1;
+        out_width=(in_width-kernel_size)/stride+1;
+    }
+   
+    int padded_height=in_height+pad_top+pad_bottom;
+    int padded_width=in_width+pad_left+pad_right;
+    float* padded_input=(float*)calloc(padded_height*padded_width*in_channels, sizeof(float));
+
+    for(int h=0; h<in_height; h++) {
+        for(int w=0; w<in_width; w++) {
+            for(int c=0; c<in_channels; c++) {
+                int padded_h=h+pad_top;
+                int padded_w=w+pad_left;
+                padded_input[(padded_h*padded_width+padded_w)*in_channels+c]=input[(h*in_width+w)*in_channels+c];
+            }
+        }
+    }
+
+    for(int i=0; i<out_height; i++) {
+        for(int j=0; j<out_width; j++) {
+            for(int oc=0; oc<out_channels; oc++) {
                 float sum=biases[oc];
-
-                for(int kh=0; kh<3; kh++) {
-                    for(int kw=0; kw<3; kw++) {
-                        for(int ic=0; ic<in_channels; ic++) {
-                            int ih=oh*stride+kh;
-                            int iw=ow*stride+kw;
-                            if(ih<in_height && iw<in_width) {
-                                int input_idx=ih*in_width*in_channels+iw*in_channels+ic;
-                                int weight_idx=kh*3*in_channels*out_channels+kw*in_channels*out_channels+ic*out_channels+oc;
-                                sum+=input[input_idx]*weights[weight_idx];
+                int h_s=i*stride;
+                int w_s=j*stride;
+                for(int kh=0; kh<kernel_size; kh++) {
+                    for(int kw=0; kw<kernel_size; kw++) {
+                        int h=h_s+kh;
+                        int w=w_s+kw;
+                        if(h<padded_height && w<padded_width) {
+                            for(int ic=0; ic<in_channels; ic++) {
+                                int input_idx=(h*padded_width+w)*in_channels+ic;
+                                int weights_idx=((kh*kernel_size+kw)*in_channels+ic)*out_channels+oc;
+                                sum+=padded_input[input_idx]*weights[weights_idx];
                             }
                         }
                     }
                 }
-
-                output[oh*out_width*out_channels+ow*out_channels+oc]=max(sum, 0.0f);
+                output[(i*out_width+j)*out_channels+oc]=sum;
             }
         }
     }
+    //save_debug_output_sv("debug.txt", "CONV2D:", output, 1, out_height*out_width*out_channels);
+    free(padded_input);
+
 }
 
 void max_pool2d(const float input[], float* output, int in_height, int in_width, int channels, int pool_size) {
-    int out_height=in_height/pool_size;
-    int out_width=in_width/pool_size;
+    int out_height=(int)(in_height/pool_size);
+    int out_width=(int)(in_width/pool_size);
 
-    for(int c=0; c<channels; c++) {
-        for(int oh=0; oh<out_height; oh++) {
-            for(int ow=0; ow<out_width; ow++) {
+    for(int i = 0; i < out_height * out_width * channels; i++) {
+        output[i] = 0.0f;
+    }
+
+    for(int i=0; i<out_height; i++) {
+        for(int j=0; j<out_width; j++) {
+            int h_s=i*pool_size;
+            int w_s=j*pool_size;
+            for(int c=0; c<channels; c++) {
+                int found=0;
                 float max_val=-INFINITY;
 
                 for(int ph=0; ph<pool_size; ph++) {
                     for(int pw=0; pw<pool_size; pw++) {
-                        int ih=oh*pool_size+ph;
-                        int iw=ow*pool_size+pw;
-                        if(ih<in_height && iw<in_width) {
-                            float val=input[ih*in_width*channels+iw*channels+c];
-                            max_val=max(max_val, val);
+                        int h=h_s+ph;
+                        int w=w_s+pw;
+                        if(h<in_height && w<in_width) {
+                            float val=input[(h*in_width+w)*channels+c];
+                            if(val>max_val) {
+                                max_val=val;
+                                found=1;
+                            }
                         }
                     }
                 }
-
-                output[oh*out_width*channels+ow*channels+c]=max_val;
+                int output_idx = (i * out_width + j) * channels + c;
+                output[output_idx] = found ? max_val : 0.0f;
             }
         }
     }
+   //save_debug_output_sv("debug.txt", "MAXPOOL:", output, 1, channels*out_height*out_width);
 }
 
 //ALREADY FLAT IN THIS C IMPLEMENTATION
@@ -98,6 +167,22 @@ int bestmatching(const float input_vector[], const float d_vectors[][DVECTORS], 
     int total_auth=0;
     int total_denied=0;
 
+    float min=input_vector[0];
+    float max=input_vector[0];
+
+    for(int i=1; i<DVECTORS; i++) {
+        if(input_vector[i]<min) {
+            min=input_vector[i];
+        }
+        if(input_vector[i]>max) {
+            max=input_vector[i];
+        }
+    }
+    float norm_vector[DVECTORS];
+    for(int i=0; i<DVECTORS; i++) {
+        norm_vector[i]=(input_vector[i]-min)/(max-min);
+    }
+
     for(int i=0; i<num_inputs; i++) {
         if(input_labels[i]==auth_label) {
             total_auth++;
@@ -109,7 +194,7 @@ int bestmatching(const float input_vector[], const float d_vectors[][DVECTORS], 
     int correct_auth=0;
     int correct_denied=0;
     for(int i=0; i<num_inputs; i++) {
-        float similarity=compute_similarity(input_vector, d_vectors, num_d_vectors);
+        float similarity=compute_similarity(norm_vector, d_vectors, num_d_vectors);
         if(verbose) {
             printf("similarity: %f --- Class: %d\n", similarity, input_labels[i]);
         }
@@ -134,21 +219,21 @@ int sv_neural_network(const float mfe_input[]) {
     float maxPool2[MAX_POOL_L2_SIZE];
     float conv3[CONV_L3_SIZE];
     float conv4[CONV_L4_SIZE];
+    int kernel_size=3;
 
     batch_normalization(mfe_input, batchNorm, INPUT_H, INPUT_W, INPUT_CHANNELS, batch_norm_mul[0], batch_norm_sub[0]);
     //STRIDE FOR CONVOLUTION (1 - SAME OUTPUT SIZE, 2 - HALF DIMENSION, 3 - A THIRD OF DIMENSION)
-    conv2d(batchNorm, conv1, INPUT_H, INPUT_W, INPUT_CHANNELS, CONV_L1_CHANNELS, 1, conv_1_Weights, conv_1_BiasAdd_ReadVariableOp);
+    conv2d(batchNorm, conv1, INPUT_H, INPUT_W, INPUT_CHANNELS, CONV_L1_CHANNELS, kernel_size, 1, conv_1_Weights, conv_1_BiasAdd_ReadVariableOp, "same");
 
     max_pool2d(conv1, maxPool1, CONV_L1_H, CONV_L1_W, CONV_L1_CHANNELS, 3);
 
-    conv2d(maxPool1, conv2, MAX_POOL_L1_H, MAX_POOL_L1_W, MAX_POOL_L1_CHANNELS, CONV_L2_CHANNELS, 1, conv_2_Weights, conv_2_BiasAdd_ReadVariableOp);
+    conv2d(maxPool1, conv2, MAX_POOL_L1_H, MAX_POOL_L1_W, MAX_POOL_L1_CHANNELS, CONV_L2_CHANNELS, kernel_size, 1, conv_2_Weights, conv_2_BiasAdd_ReadVariableOp, "same");
 
     max_pool2d(conv2, maxPool2, CONV_L2_H, CONV_L2_W, CONV_L2_CHANNELS, 2);
 
-    conv2d(maxPool2, conv3, MAX_POOL_L2_H, MAX_POOL_L2_W, MAX_POOL_L2_CHANNELS, CONV_L3_CHANNELS, 2, conv_3_Weights, conv_3_BiasAdd_ReadVariableOp);
+    conv2d(maxPool2, conv3, MAX_POOL_L2_H, MAX_POOL_L2_W, MAX_POOL_L2_CHANNELS, CONV_L3_CHANNELS, kernel_size, 2, conv_3_Weights, conv_3_BiasAdd_ReadVariableOp, "same");
 
-    conv2d(conv3, conv4, CONV_L3_H, CONV_L3_W, CONV_L3_CHANNELS, CONV_L4_CHANNELS, 2, conv_4_Weights, conv_4_BiasAdd_ReadVariableOp);
-
+    conv2d(conv3, conv4, CONV_L3_H, CONV_L3_W, CONV_L3_CHANNELS, CONV_L4_CHANNELS, kernel_size, 2, conv_4_Weights, conv_4_BiasAdd_ReadVariableOp, "same");
     int cols=8;
     for(int i=0; i<CONV_L4_SIZE; i++) {
         if(i%cols==0) {
