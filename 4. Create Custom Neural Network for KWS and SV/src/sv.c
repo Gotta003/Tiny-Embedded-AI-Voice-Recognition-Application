@@ -152,6 +152,27 @@ float cosine_similarity(const float vec1[DVECTORS], const float vec2[DVECTORS]) 
     return dot_product/(norm_vec1*norm_vec2);
 }
 
+void normalize_vector(float vector[], int size) {
+    float min=vector[0];
+    float max=vector[0];
+    for(int i=1; i<size; i++) {
+        if(vector[i]<min) {min=vector[i];}
+        if(vector[i]>max) {max=vector[i];}
+    }
+    float range=max-min;
+    if(range==0) return;
+    for(int i=0; i<size; i++) {
+        vector[i]=(vector[i]-min)/range;
+    }
+}
+
+/*void normalize_all_d_vectors(const float d_vectors[][DVECTORS], float new_d_vectors[][DVECTORS], int num_vectors) {
+    for(int i=0; i<num_vectors; i++) {
+        memcpy(new_d_vectors[i], d_vectors[i], DVECTORS*sizeof(float));
+        normalize_vector(new_d_vectors[i], DVECTORS);
+    }
+}*/
+
 float compute_similarity(const float input_vector[DVECTORS], const float d_vectors[][DVECTORS], int num_vectors) {
     float max_similarity=-1.0f;
     for(int i=0; i<num_vectors; i++) {
@@ -163,51 +184,10 @@ float compute_similarity(const float input_vector[DVECTORS], const float d_vecto
     return max_similarity;
 }
 
-int bestmatching(const float input_vector[], const float d_vectors[][DVECTORS], int num_d_vectors, const int input_labels[], int num_inputs, int auth_label, float threshold, int verbose) {
-    int total_auth=0;
-    int total_denied=0;
-
-    float min=input_vector[0];
-    float max=input_vector[0];
-
-    for(int i=1; i<DVECTORS; i++) {
-        if(input_vector[i]<min) {
-            min=input_vector[i];
-        }
-        if(input_vector[i]>max) {
-            max=input_vector[i];
-        }
-    }
-    float norm_vector[DVECTORS];
-    for(int i=0; i<DVECTORS; i++) {
-        norm_vector[i]=(input_vector[i]-min)/(max-min);
-    }
-
+void bestmatching(const float input_vectors[][DVECTORS], const float d_vectors[][DVECTORS], float y_prediction_prob[], int num_inputs, int vector_size) {
     for(int i=0; i<num_inputs; i++) {
-        if(input_labels[i]==auth_label) {
-            total_auth++;
-        }
-        else {
-            total_denied++;
-        }
+        y_prediction_prob[i]=compute_similarity(input_vectors[i], d_vectors, vector_size);
     }
-    int correct_auth=0;
-    int correct_denied=0;
-    for(int i=0; i<num_inputs; i++) {
-        float similarity=compute_similarity(norm_vector, d_vectors, num_d_vectors);
-        if(verbose) {
-            printf("similarity: %f --- Class: %d\n", similarity, input_labels[i]);
-        }
-        if(similarity>threshold && input_labels[i]==auth_label) {
-            correct_auth++;
-            return 0;
-        }
-        if(similarity<=threshold && input_labels[i]!=auth_label) {
-            correct_denied++;
-            return 1;
-        }
-    }
-    return 2;
 }
 
 int sv_neural_network(const float mfe_input[]) {
@@ -234,6 +214,7 @@ int sv_neural_network(const float mfe_input[]) {
     conv2d(maxPool2, conv3, MAX_POOL_L2_H, MAX_POOL_L2_W, MAX_POOL_L2_CHANNELS, CONV_L3_CHANNELS, kernel_size, 2, conv_3_Weights, conv_3_BiasAdd_ReadVariableOp, "same");
 
     conv2d(conv3, conv4, CONV_L3_H, CONV_L3_W, CONV_L3_CHANNELS, CONV_L4_CHANNELS, kernel_size, 2, conv_4_Weights, conv_4_BiasAdd_ReadVariableOp, "same");
+    normalize_vector(conv4, CONV_L4_SIZE);
     /*int cols=8;
     for(int i=0; i<CONV_L4_SIZE; i++) {
         if(i%cols==0) {
@@ -244,9 +225,15 @@ int sv_neural_network(const float mfe_input[]) {
             printf("\n");
         }
     }*/
-
-    const int input_labels[]={0, 1};
-    return bestmatching(conv4, d_vectors_0_64, 64, input_labels, 1, 0, 0.6, 1);
+    int num_inputs=1;
+    float prob_0[num_inputs];
+    float input_vectors[1][DVECTORS];
+    memcpy(input_vectors[0], conv4, sizeof(float) * DVECTORS);
+    float new_d_vectors_0_64[64][DVECTORS];
+    //normalize_all_d_vectors(d_vectors_0_64, new_d_vectors_0_64, 64);
+    bestmatching(input_vectors, new_d_vectors_0_64, prob_0, num_inputs, 64);
+    printf("PROB 0: %.6f", prob_0[0]);
+    return (prob_0[0]>SIMILARITY_THRESHOLD ? 0 : 1);
 }
 
 /*Model: "d-vector-extractor-256"

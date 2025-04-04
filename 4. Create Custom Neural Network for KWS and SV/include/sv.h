@@ -48,14 +48,17 @@
 
 #define max(a, b) ((a) > (b) ? (a) : (b))
 #define DVECTORS 256
+#define SIMILARITY_THRESHOLD 0.9
 
 int sv_neural_network(const float mfe_input[]);
 void batch_normalization(const float input[], float output[], int height, int width, int num_batch, float gamma, float beta);
 void conv2d(const float input[], float output[], int in_height, int in_width, int in_channels, int out_channels, int kernel_size, int stride, const float weights[], const float biases[], const char padding[]) ;
 void max_pool2d(const float input[], float* output, int in_height, int in_width, int channels, int pool_size);
 //void flatten(const float input[], float output[], int height, int width, int channels);
-int bestmatching(const float input_vector[], const float d_vectors[][DVECTORS], int num_d_vectors, const int input_labels[], int num_inputs, int auth_label, float threshold, int verbose);
+void bestmatching(const float input_vectors[][DVECTORS], const float d_vectors[][DVECTORS], float y_prediction_prob[], int num_inputs, int vector_size);
 float cosine_similarity(const float vec1[DVECTORS], const float vec2[DVECTORS]);
 void save_debug_output_sv(const char* filename, const char* message, float* data, int rows, int cols);
+void normalize_vector(float vector[], int size);
+//void normalize_all_d_vectors(const float d_vectors[][DVECTORS], float new_d_vectors[][DVECTORS], int num_vectors);
 
 #endif

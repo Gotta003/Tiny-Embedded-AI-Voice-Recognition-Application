@@ -1,69 +1,76 @@
 #!/bin/bash
 
-# Check if folder path was provided
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 <wav_folder_path>"
     exit 1
 fi
 
 wav_folder="$1"
-output_file="${wav_folder}/combined_results.txt"
-temp_file="${wav_folder}/temp_results.txt"
+output_file="${wav_folder%/}/combined_results.txt"
+temp_file="$(mktemp)"
 
-gcc src/*.c -o ndp_model -I./include -I/opt/homebrew/include -L/opt/homebrew/lib -lportaudio -lfftw3 -lm
-
-# Initialize counters
 hello_matteo_count=0
 user_not_enrolled_count=0
+not_sheila_word_recognized_count=0
 
-# Clear previous output files
-> "$output_file"
-> "$temp_file"
+echo "Compiling model..."
+    gcc src/*.c -o ndp_model -I./include -I/opt/homebrew/include -L/opt/homebrew/lib -lportaudio -lfftw3 -lm || {
+        echo "Compilation failed"
+        exit 1
+    }
 
-# Process each WAV file in the folder
+: > "$output_file"
+
+shopt -s nullglob
 for wav_file in "$wav_folder"/*.wav; do
-    if [ -f "$wav_file" ]; then
-        # Get the base filename
-        base_name=$(basename "$wav_file")
-        
-        echo "Processing: $base_name" | tee -a "$temp_file"
-        
-        # Run the model and capture output
-        ./ndp_model 1 "$wav_file" | tee -a "$temp_file"
-        
-        # Check the exit status
-        if [ $? -eq 0 ]; then
-            echo "----- SUCCESS -----" | tee -a "$temp_file"
+    base_name=$(basename "$wav_file")
+    
+    {
+        echo "Processing: $base_name"
+        if ./ndp_model 1 "$wav_file"; then
+            echo "----- SUCCESS -----"
         else
-            echo "----- ERROR -----" | tee -a "$temp_file"
+            echo "----- ERROR -----" >&2
         fi
         
-        echo -e "\n" | tee -a "$temp_file"
-    fi
+        echo -e "\n"
+    } | tee -a "$temp_file"
 done
 
-# Process the results and count occurrences
-while read -r line; do
-    # Write all lines to output file
+while IFS= read -r line; do
     echo "$line" >> "$output_file"
+    line_lower=$(echo "$line" | tr '[:upper:]' '[:lower:]')
     
-    # Count patterns (case insensitive)
-    if [[ "$line" =~ [Hh][Ee][Ll][Ll][Oo].*[Mm][Aa][Tt][Tt][Ee][Oo] ]]; then
-        ((hello_matteo_count++))
-    elif [[ "$line" =~ [Uu][Ss][Ee][Rr].*[Nn][Oo][Tt].*[Ee][Nn][Rr][Oo][Ll][Ll][Ee][Dd] ]]; then
-        ((user_not_enrolled_count++))
+    # Count patterns
+    if [[ "$line_lower" == *"hello"* ]] && [[ "$line_lower" == *"matteo"* ]]; then
+        hello_matteo_count=$((hello_matteo_count + 1))
+    elif [[ "$line_lower" == *"user not enrolled"* ]]; then
+        user_not_enrolled_count=$((user_not_enrolled_count + 1))
+    elif [[ "$line_lower" == *"not sheila word recognized"* ]]; then
+        not_sheila_word_recognized_count=$((not_sheila_word_recognized_count + 1))
     fi
 done < "$temp_file"
 
-# Append summary statistics
-echo -e "\n\n=== SUMMARY STATISTICS ===" >> "$output_file"
-echo "HELLO MATTEO occurrences: $hello_matteo_count" >> "$output_file"
-echo "USER NOT ENROLLED occurrences: $user_not_enrolled_count" >> "$output_file"
-echo "Total files processed: $(ls "$wav_folder"/*.wav 2>/dev/null | wc -l)" >> "$output_file"
+sheila_word_recognized_count=$((hello_matteo_count + user_not_enrolled_count))
+total_files_processed=$(ls "$wav_folder"/*.wav 2>/dev/null | wc -l | tr -d ' ')
 
-# Clean up temporary file
-rm "$temp_file"
+{
+    echo ""
+    echo "=== SUMMARY STATISTICS ==="
+    echo "HELLO MATTEO occurrences: $hello_matteo_count"
+    echo "USER NOT ENROLLED occurrences: $user_not_enrolled_count"
+    echo "NOT SHEILA WORD RECOGNIZED: $not_sheila_word_recognized_count"
+    echo "SHEILA WORD RECOGNIZED: $sheila_word_recognized_count"
+    echo "Total files processed: $total_files_processed"
+} >> "$output_file"
+
+rm -f "$temp_file"
 
 echo "Processing complete. Results saved to $output_file"
+echo ""
+echo "=== FINAL RESULTS ==="
 echo "HELLO MATTEO: $hello_matteo_count"
 echo "USER NOT ENROLLED: $user_not_enrolled_count"
+echo "NOT SHEILA WORD RECOGNIZED: $not_sheila_word_recognized_count"
+echo "SHEILA WORD RECOGNIZED: $sheila_word_recognized_count"
+echo "Total files processed: $total_files_processed"

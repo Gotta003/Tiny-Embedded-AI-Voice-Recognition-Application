@@ -1,15 +1,25 @@
 import os
+import shutil
 import numpy as np
 import librosa
 from tqdm import tqdm
+import matplotlib.pyplot as plt
+from scipy.fftpack import dct
+from scipy.signal import get_window
+import soundfile as sf
+from collections import defaultdict
 
-# Constants matching your C implementation
 SAMPLE_RATE = 16000
-FRAME_SIZE = 512
-HOP_LENGTH = 384
-N_FFT = 512
-N_MELS = 40
-PRE_EMPHASIS_COEFF = 0.96785  # From your C code
+FRAME_DUR = 0.032
+FRAME_SIZE = int(SAMPLE_RATE * FRAME_DUR)
+FRAME_STRIDE_DUR = 0.024
+FRAME_STRIDE = int(SAMPLE_RATE * FRAME_STRIDE_DUR)
+NUM_BINS = FRAME_SIZE // 2
+FILTER_NUMBER = 40
+MIN_FREQ = 0
+MAX_FREQ = SAMPLE_RATE // 2
+COEFFICIENT = 0.96875
+NOISE_FLOOR = -40.0
 
 def load_metadata(input_dir):
     """Load both speaker and chapter metadata"""
@@ -50,80 +60,106 @@ def load_metadata(input_dir):
 
     return speaker_info, chapter_info
 
-def apply_pre_emphasis(y, coeff=PRE_EMPHASIS_COEFF):
-    """Apply pre-emphasis matching your C implementation"""
-    emphasized = np.zeros_like(y, dtype=np.float32)
-    emphasized[0] = y[0]
-    for i in range(1, len(y)):
-        emphasized[i] = y[i] - coeff * y[i-1]
+def pre_emphasis(audio):
+    emphasized = np.zeros_like(audio, dtype=np.float32)
+    emphasized[0] = audio[0] / 32768.0
+    for i in range(1, len(audio)):
+        emphasized[i] = (audio[i] / 32768.0) - COEFFICIENT * (audio[i-1] / 32768.0)
     return emphasized
 
-def apply_re_emphasis(y, coeff=PRE_EMPHASIS_COEFF):
-    """Apply inverse of pre-emphasis (re-emphasis)"""
-    reemphasized = np.zeros_like(y, dtype=np.float32)
-    reemphasized[0] = y[0]
-    for i in range(1, len(y)):
-        reemphasized[i] = y[i] + coeff * reemphasized[i-1]
-    return reemphasized
+def apply_windowing(frame):
+    window = 0.54 - 0.46 * np.cos(2 * np.pi * np.arange(len(frame)) / (len(frame) - 1))
+    return frame * window
 
-def extract_mfe_segmented(audio_path, segment_sec=1.0, target_frames=None):
-    """Extract 1-second segmented MFEs (pad/truncate to target_frames if specified)"""
-    # Load audio
-    y, sr = librosa.load(audio_path, sr=SAMPLE_RATE)
-    y = y / np.max(np.abs(y))  # Normalize
+def hz_to_mel(hz):
+    return 1127.0 * np.log10(1 + hz / 700.0)
 
-    # Pre-emphasis
-    y_emphasized = apply_pre_emphasis(y)
+def mel_to_hz(mel):
+    return 700 * (10 ** (mel / 1127.0) - 1)
 
-    # Calculate segmentation
-    hop_samples = HOP_LENGTH
-    frames_per_segment = int(segment_sec * SAMPLE_RATE / hop_samples)
+def create_mel_filterbank():
+    min_mel = hz_to_mel(MIN_FREQ)
+    max_mel = hz_to_mel(MAX_FREQ)
+    #mel_points = np.linspace(min_mel, max_mel, FILTER_NUMBER + 2)
+    #hz_points = mel_to_hz(mel_points)
+    mel_points = np.zeros(FILTER_NUMBER + 2)
+    mel_spacing = (max_mel - min_mel) / (FILTER_NUMBER + 1)
+    for i in range(FILTER_NUMBER + 2):
+        mel_points[i] = mel_to_hz(min_mel + i * mel_spacing)
+        if mel_points[i] > MAX_FREQ:
+            mel_points[i] = MAX_FREQ
 
-    # Process in 1-second chunks
-    mfe_segments = []
-    for start_idx in range(0, len(y_emphasized), SAMPLE_RATE):  # Jump by 1-second intervals
-        end_idx = start_idx + SAMPLE_RATE
-        if end_idx > len(y_emphasized):
-            break  # Discard incomplete segment
+    #bin_indices = np.floor((NUM_BINS) * hz_points / (SAMPLE_RATE / 2)).astype(int)
+    #bin_indices = np.clip(bin_indices, 0, NUM_BINS - 1)
+    bin_indices = np.zeros(FILTER_NUMBER + 2, dtype=int)
+    for i in range(FILTER_NUMBER + 2):
+        bin_indices[i] = int(mel_points[i] * (NUM_BINS - 1) / (SAMPLE_RATE / 2.0))
+        bin_indices[i] = max(0, min(NUM_BINS - 1, bin_indices[i]))
 
-        # Extract segment
-        segment = y_emphasized[start_idx:end_idx]
+    filterbank = np.zeros((FILTER_NUMBER, NUM_BINS))
 
-        # Compute STFT
-        stft = librosa.stft(
-            segment,
-            n_fft=N_FFT,
-            hop_length=HOP_LENGTH,
-            win_length=FRAME_SIZE,
-            window='hamming'
-        )
-        spectrogram = np.abs(stft)
+    for i in range(FILTER_NUMBER):
+        left = bin_indices[i]
+        middle = bin_indices[i+1]
+        right = bin_indices[i+2]
 
-        # Convert to dB and normalize
-        spectrogram = 10 * np.log10(spectrogram**2 + 1e-20)
-        spectrogram = np.maximum(spectrogram, -50)
-        spectrogram = (spectrogram + 50) / 62
+        if left == middle:
+            middle = min(left + 1, NUM_BINS - 1)
+        if middle == right:
+            right = min(middle + 1, NUM_BINS - 1)
 
-        # Mel scaling
-        mel_basis = librosa.filters.mel(
-            sr=SAMPLE_RATE,
-            n_fft=N_FFT,
-            n_mels=N_MELS,
-            fmin=0,
-            fmax=8000
-        )
-        mfe = np.dot(mel_basis, spectrogram)
+        #filterbank[i, left:middle] = np.linspace(0, 1, middle - left)
+        for j in range(left, middle):
+            filterbank[i, j] = (j - left) / (middle - left)
 
-        # Pad/truncate if target_frames is specified
-        if target_frames:
-            if mfe.shape[1] < target_frames:
-                mfe = np.pad(mfe, ((0, 0), (0, target_frames - mfe.shape[1])))
-            else:
-                mfe = mfe[:, :target_frames]
+        #filterbank[i, middle:right] = np.linspace(1, 0, right - middle)
+        for j in range(middle, right):
+            filterbank[i, j] = 1.0 - (j - middle) / (right - middle)
+    return filterbank
 
-        mfe_segments.append(mfe.T)  # Transpose to (time, mel)
+def compute_spectrogram(audio_path, show_plot=True):
+    audio, _ = librosa.load(audio_path, sr=SAMPLE_RATE, mono=True, dtype=np.float32)
+    num_samples = len(audio)
+    total_duration = num_samples / SAMPLE_RATE
+    num_frames_full_second = int((total_duration - FRAME_DUR) / FRAME_STRIDE_DUR) + 1
+    num_frames = min(num_frames_full_second, 40)
+    pre_emphasis_array = pre_emphasis(audio)
+    spectrogram = np.zeros((num_frames, NUM_BINS))
 
-    return mfe_segments  # List of (62, 40) arrays (or target_frames if specified)
+    for frame in range(num_frames):
+        start = frame * FRAME_STRIDE
+        end = start + FRAME_SIZE
+        segment = pre_emphasis_array[start:end]
+        if len(segment) < FRAME_SIZE:
+            segment = np.pad(segment, (0, FRAME_SIZE - len(segment)))
+
+        windowed = apply_windowing(segment)
+        fft = np.fft.rfft(windowed, n=FRAME_SIZE)
+        magnitude = np.abs(fft)
+        spectrogram[frame] = magnitude[:NUM_BINS]
+
+    mel_filterbank = create_mel_filterbank()
+    mel_spectrogram = np.dot(spectrogram, mel_filterbank.T)
+    log_mel_spectrogram = 10* np.log10(mel_spectrogram + 1e-20)
+
+    log_mel_spectrogram = (log_mel_spectrogram - NOISE_FLOOR) / (-NOISE_FLOOR + 12)
+    log_mel_spectrogram = np.clip(log_mel_spectrogram, 0, 1)
+    quantized = np.round(log_mel_spectrogram * 256) / 256.0
+    quantized = np.where(quantized >= 0.65, quantized, 0)
+    quantized = quantized[:40]
+
+    if show_plot:
+        plt.figure(figsize=(10, 6))
+        time_axis = np.linspace(0, 0.968, 40)
+        plt.imshow(quantized.T, aspect='auto', origin='lower',
+                  extent=[0, 0.968, 0, FILTER_NUMBER])
+        plt.colorbar(label='Magnitude')
+        plt.xlabel('Time (s)')
+        plt.ylabel('Mel filter index')
+        plt.title('40x40 Mel Spectrogram (0.968s duration)')
+        plt.show()
+
+    return quantized
 
 
 def process_librispeech_segmented(input_dir, output_path, min_samples=1448, segment_sec=1.0):
@@ -142,7 +178,7 @@ def process_librispeech_segmented(input_dir, output_path, min_samples=1448, segm
             for file in files:
                 if file.endswith('.flac'):
                     audio_path = os.path.join(root, file)
-                    y, sr = librosa.load(audio_path, sr=SAMPLE_RATE)
+                    y, sr = librosa.load(audio_path, sr=SAMPLE_RATE, mono=True, dtype=np.float32)
                     num_segments = int(len(y) / SAMPLE_RATE)  # Full 1-second segments
                     speaker_counts[speaker_id] = speaker_counts.get(speaker_id, 0) + num_segments
 
@@ -161,7 +197,7 @@ def process_librispeech_segmented(input_dir, output_path, min_samples=1448, segm
             for file in sorted(files):
                 if file.endswith('.flac') and processed_segments < min_samples:
                     audio_path = os.path.join(root, file)
-                    mfe_segments = extract_mfe_segmented(audio_path, segment_sec=segment_sec)
+                    mfe_segments = compute_spectrogram(audio_path)
 
                     for mfe in mfe_segments:
                         if processed_segments >= min_samples:

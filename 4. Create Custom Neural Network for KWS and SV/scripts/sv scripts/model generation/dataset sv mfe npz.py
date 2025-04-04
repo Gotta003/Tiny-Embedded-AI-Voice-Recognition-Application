@@ -97,7 +97,7 @@ def create_mel_filterbank():
     
     return filterbank
 
-def compute_spectrogram(audio, show_plot=True):
+def compute_spectrogram(audio, show_plot=False):
     num_samples = len(audio)
     
     total_duration = num_samples / SAMPLE_RATE
@@ -169,18 +169,32 @@ def process_librispeech_segmented(input_dir, output_path, min_samples=1448, segm
         processed_segments = 0
         speaker_path = os.path.join(input_dir, speaker)
 
+        audio_files = []
         for root, _, files in os.walk(speaker_path):
-            for file in sorted(files):
-                if file.endswith('.flac') and processed_segments < min_samples:
-                    audio_path = os.path.join(root, file)
-                    mfe_segments = compute_spectrogram(audio_path, segment_sec=segment_sec)
+            for file in files:
+                if file.endswith('.flac'):
+                    audio_files.append(os.path.join(root, file))
 
-                    for mfe in mfe_segments:
-                        if processed_segments >= min_samples:
-                            break
-                        samples.append(mfe)
-                        classes.append(speaker_ids[speaker])
-                        processed_segments += 1
+        np.random.shuffle(audio_files)
+
+        for audio_path in audio_files:
+            if processed_segments >= min_samples:
+                break
+
+            audio, sr=librosa.load(audio_path, sr=SAMPLE_RATE, mono=True)
+            audio_int16=(audio*32768).astype(np.int16)
+            segment_length=int(0.968*SAMPLE_RATE)
+            num_segments=len(audio_int16)//segment_length
+            for i in range(num_segments):
+                if processed_segments>=min_samples:
+                  break
+                start = i * segment_length
+                end = start + segment_length
+                segment = audio_int16[start:end]
+                mfe = compute_spectrogram(segment)
+                samples.append(mfe)
+                classes.append(speaker_ids[speaker])
+                processed_segments += 1
 
     samples = np.array(samples, dtype=np.float32)
     classes = np.array(classes, dtype=np.int32)

@@ -1,14 +1,11 @@
 import os
-# Set warning suppressions
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 import shutil
 import numpy as np
 import tensorflow as tf
-#Matplotlib import
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-#Math import
 import math
 
 import subprocess
@@ -26,30 +23,22 @@ print(tf.__version__)
 dataset_path = "librispeech-train-100-clean-mfe-1sec.npz"
 dataset = np.load(dataset_path)
 print(dataset.files)
-# Convert the npz to a dictionary
 
 dataset = dict(dataset)
-# Access the data in the dictionary
 samples = dataset['features'][:, :40, :]
 classes = dataset['speaker_labels'].astype(int)
 
-# Print the shapes of the data arrays
 print(samples.shape)
 print(classes.shape)
 
-# Find the number of classes
-# Find the unique elements in the array
 classes_list = np.unique(classes)
 classes.astype(int)
 
-# Print the number of unique elements
 print("Number of classes: " + str(len(classes_list)))
 
-# Count the number of samples for each class
 counts = np.unique(classes, return_counts=True)[1]
 
-# Filter out the classes with fewer samples
-threshold = 1448  # Keep only classes with at least 1455 samples
+threshold = 1448
 keep_classes = np.where(counts >= threshold)[0]
 
 print("There are %d classes with more than %d samples." % (len(keep_classes), threshold))
@@ -58,7 +47,6 @@ print("Discarding classes with fewer samples...")
 filtered_samples = []
 filtered_classes = []
 
-# Filter the samples and labels to include only the samples that belong to the keep_classes
 for i in range(0, len(classes)):
   if(classes[i] in keep_classes):
     filtered_samples.append(samples[i])
@@ -67,21 +55,17 @@ for i in range(0, len(classes)):
 filtered_samples = np.array(filtered_samples)
 filtered_classes = np.array(filtered_classes)
 
-# Count the number of samples for each remaining class
 counts = np.unique(filtered_classes, return_counts=True)
 
-## Last: adapt the numbering of classes from 0 to (number of classes)-1
 for i in range(0, len(filtered_classes)):
   filtered_classes[i] = np.where(counts[0] == filtered_classes[i])[0]
 
-# Count the number of samples for each remaining class
 counts = np.unique(filtered_classes, return_counts=True)
 
 print("New number of samples in dataset: %d" % (len(filtered_classes)))
 for i in range(0, len(keep_classes)):
   print("Samples for class %d: %d" %(counts[0][i], counts[1][i]))
 
-# Free up some memory or Google Colab will crash
 del samples
 del classes
 del dataset
@@ -160,13 +144,12 @@ class DataGenerator(tfk.utils.Sequence):
             np.random.shuffle(self.indexes)
 
     def __data_generation(self, samples_list_temp):
-        X = np.empty((self.batch_size, *self.dim, self.n_channels))  # (batch_size, 40, 40, 1)
+        X = np.empty((self.batch_size, *self.dim, self.n_channels))
         y = np.empty((self.batch_size), dtype=int)
 
         for i, sample in enumerate(samples_list_temp):
-            # Truncate to 40x40 and reshape
-            spectrogram = self.data[sample][:40, :]  # Ensure shape (40, 40)
-            X[i,] = spectrogram.reshape(40, 40, 1)   # Reshape for CNN input
+            spectrogram = self.data[sample][:40, :]
+            X[i,] = spectrogram.reshape(40, 40, 1)
             y[i] = self.labels[sample]
 
         return X, tfk.utils.to_categorical(y, num_classes=self.n_classes)
@@ -176,15 +159,12 @@ n_classes = len(keep_classes)
 spectrogram_size = (40,40)
 spectrogram_channels = 1
 
-# Parameters
 params = {'dim': spectrogram_size,
           'batch_size': batch_size,
           'n_classes': n_classes,
           'n_channels': spectrogram_channels,
           'shuffle': True}
 
-
-# Generators
 training_generator = DataGenerator(X_train, y_train, n_samples=len(y_train), **params)
 validation_generator = DataGenerator(X_val, y_val, n_samples=len(y_val), **params)
 testing_generator = DataGenerator(X_test, y_test, n_samples=len(y_test), **params)
@@ -192,9 +172,8 @@ testing_generator = DataGenerator(X_test, y_test, n_samples=len(y_test), **param
 example_spectrogram = training_generator.__getitem__(0)[0]
 print("Neural Network input shape: " + str(example_spectrogram.shape))
 
-input_shape = (*spectrogram_size, spectrogram_channels) #do not modify
+input_shape = (*spectrogram_size, spectrogram_channels)
 
-# Assign the name you want to your model
 model_name = 'cnn-librispeech-classifier'
 
 # Build your model here:
@@ -275,27 +254,21 @@ def build_model(input_shape):
                     use_bias = True,
                     name='output')(dropout)
 
-  # Connect input and output through the Model class
   model = tfk.Model(inputs=input_layer, outputs=output_layer, name=model_name)
 
   optimizer = tfk.optimizers.Adam(learning_rate=0.0001)
 
-  # Compile the model
   model.compile(loss=tfk.losses.CategoricalCrossentropy(),
                 optimizer=optimizer,
                 metrics=['accuracy'])
 
-  # Return the model
   return model
 
 model = build_model(input_shape)
 model.summary()
 
-# How many epochs?
-# Train for a total of 700 epochs without early stopping at least.
-epochs = 300
+epochs = 700
 
-# Train the model
 history = model.fit(
     x = training_generator,
     epochs = epochs,
@@ -304,13 +277,9 @@ history = model.fit(
 
 model_metrics = model.evaluate(testing_generator, return_dict=True)
 
-## Confusion Matrix Print ##
-
-#Predict
 y_prediction = model.predict(X_test)
 y_prediction = np.argmax(y_prediction, axis = 1)
 
-#Create confusion matrix and normalizes it over predicted (columns)
 result = confusion_matrix(y_test, y_prediction , normalize=None)
 
 import seaborn as sns
@@ -318,26 +287,20 @@ import matplotlib.pyplot as plt
 
 fig, ax = plt.subplots(figsize=(24,24))
 
-sns.heatmap(result, annot=True, fmt='g', ax=ax);  #annot=True to annotate cells, ftm='g' to disable scientific notation
+sns.heatmap(result, annot=True, fmt='g', ax=ax);
 
-# labels, title and ticks
 ax.set_xlabel('Predicted labels');ax.set_ylabel('True labels');
 ax.set_title('Confusion Matrix - Testing Data');
 ax.xaxis.set_ticks_position('top')
 ax.xaxis.set_label_position('top')
 
-#model.save(os.path.join('models', model_name))
-
 h5_model_name = model_name + '.h5'
 tfk.models.save_model(model, os.path.join('models', h5_model_name))
 
-### Extraction of the embeddings generator model ##
-
-## Feature extractor part for D-Vector classification
 fe_name = "d-vector-extractor-256"
 fe_model = tfk.Sequential(name=fe_name)
 
-for layer in model.layers[:-3]: # go through until last layer
+for layer in model.layers[:-3]:
     fe_model.add(layer)
 
 fe_model.add(
@@ -347,28 +310,21 @@ fe_model.add(
 fe_model.summary()
 fe_model.compile(optimizer='adam', loss='categorical_crossentropy')
 
-### Saving the embeddings extractor model:
-
 #fe_model.save(os.path.join('models', fe_name))
 
 h5_model_name = fe_name + '.h5'
 
 tfk.models.save_model(fe_model, os.path.join('models', h5_model_name))
 
-# Function to convert a Keras model to TFLite
 def convert_to_tflite(keras_model, output_filename):
-    # Convert the model
     converter = tf.lite.TFLiteConverter.from_keras_model(keras_model)
     tflite_model = converter.convert()
 
-    # Save the model
     with open(os.path.join('models', output_filename), 'wb') as f:
         f.write(tflite_model)
 
-# Convert and save the main model
 convert_to_tflite(model, f'{model_name}.tflite')
 
-# Convert and save the feature extractor model
 convert_to_tflite(fe_model, f'{fe_name}.tflite')
 
 print("Models successfully converted to TFLite format!")

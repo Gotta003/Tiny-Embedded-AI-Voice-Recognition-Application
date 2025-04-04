@@ -1,0 +1,2823 @@
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s1.wav
+sheila=0.997901
+noise=0.001049
+unknown=0.001049
+PROB 0: 0.723955
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s10.wav
+sheila=0.999998
+unknown=0.000002
+noise=0.000000
+PROB 0: 0.781986
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s11.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.814525
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s12.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.778344
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s13.wav
+sheila=0.997139
+noise=0.001430
+unknown=0.001430
+PROB 0: 0.817555
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s14.wav
+sheila=0.999998
+unknown=0.000001
+noise=0.000000
+PROB 0: 0.962448
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s15.wav
+sheila=0.999978
+unknown=0.000016
+noise=0.000005
+PROB 0: 0.849100
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s16.wav
+sheila=0.999575
+noise=0.000212
+unknown=0.000212
+PROB 0: 0.792154
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s17.wav
+sheila=0.962724
+noise=0.018638
+unknown=0.018638
+PROB 0: 0.808828
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s18.wav
+sheila=0.999913
+unknown=0.000072
+noise=0.000015
+PROB 0: 0.801412
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s19.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.873793
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s2.wav
+sheila=0.999977
+unknown=0.000018
+noise=0.000005
+PROB 0: 0.764984
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s20.wav
+sheila=0.999915
+noise=0.000042
+unknown=0.000042
+PROB 0: 0.695010
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s21.wav
+sheila=0.999824
+noise=0.000088
+unknown=0.000088
+PROB 0: 0.683595
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s22.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.812978
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s23.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.801669
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s24.wav
+sheila=0.999997
+unknown=0.000002
+noise=0.000001
+PROB 0: 0.842491
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s25.wav
+sheila=0.999142
+noise=0.000429
+unknown=0.000429
+PROB 0: 0.737768
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s26.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.840910
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s27.wav
+sheila=0.999971
+unknown=0.000025
+noise=0.000004
+PROB 0: 0.882339
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s28.wav
+sheila=0.999994
+unknown=0.000004
+noise=0.000002
+PROB 0: 0.842313
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s29.wav
+sheila=0.999848
+noise=0.000076
+unknown=0.000076
+PROB 0: 0.811732
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s3.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.841976
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s30.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.823958
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s31.wav
+sheila=0.999995
+unknown=0.000003
+noise=0.000002
+PROB 0: 0.809763
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s32.wav
+sheila=0.999997
+unknown=0.000002
+noise=0.000001
+PROB 0: 0.833795
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s33.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.783206
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s34.wav
+sheila=0.992899
+unknown=0.004571
+noise=0.002531
+PROB 0: 0.821107
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s35.wav
+sheila=0.993583
+noise=0.003209
+unknown=0.003209
+PROB 0: 0.703117
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s36.wav
+sheila=0.997234
+noise=0.001383
+unknown=0.001383
+PROB 0: 0.848135
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s37.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.741089
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s38.wav
+sheila=0.999999
+unknown=0.000001
+noise=0.000000
+PROB 0: 0.809220
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s39.wav
+sheila=0.999946
+unknown=0.000049
+noise=0.000005
+PROB 0: 0.896258
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s4.wav
+sheila=0.999980
+unknown=0.000012
+noise=0.000008
+PROB 0: 0.721994
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s40.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.842518
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s41.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.927643
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s42.wav
+sheila=0.999998
+noise=0.000001
+unknown=0.000001
+PROB 0: 0.782281
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s43.wav
+sheila=0.999982
+unknown=0.000012
+noise=0.000005
+PROB 0: 0.850519
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s44.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.841311
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s45.wav
+sheila=0.999997
+unknown=0.000001
+noise=0.000001
+PROB 0: 0.801133
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s46.wav
+sheila=0.999968
+unknown=0.000019
+noise=0.000013
+PROB 0: 0.798968
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s47.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.742522
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s48.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.917828
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s49.wav
+sheila=0.999966
+unknown=0.000024
+noise=0.000010
+PROB 0: 0.836348
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s5.wav
+sheila=0.999697
+unknown=0.000214
+noise=0.000089
+PROB 0: 0.902202
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s50.wav
+sheila=0.998768
+unknown=0.000740
+noise=0.000492
+PROB 0: 0.775311
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s51.wav
+sheila=0.986860
+noise=0.006570
+unknown=0.006570
+PROB 0: 0.819944
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s52.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.944912
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s53.wav
+sheila=0.999827
+unknown=0.000087
+noise=0.000086
+PROB 0: 0.802050
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s54.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.824898
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s55.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.821294
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s56.wav
+sheila=0.999997
+noise=0.000002
+unknown=0.000002
+PROB 0: 0.835249
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s57.wav
+sheila=0.999999
+noise=0.000001
+unknown=0.000001
+PROB 0: 0.822272
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s58.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.812476
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s59.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.813367
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s6.wav
+sheila=0.999983
+noise=0.000008
+unknown=0.000008
+PROB 0: 0.902721
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s60.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.817889
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s61.wav
+sheila=0.997530
+unknown=0.001509
+noise=0.000961
+PROB 0: 0.837744
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s62.wav
+sheila=0.999984
+unknown=0.000013
+noise=0.000003
+PROB 0: 0.833060
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s63.wav
+sheila=0.999997
+unknown=0.000002
+noise=0.000001
+PROB 0: 0.863438
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s64.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.800060
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s65.wav
+sheila=0.999805
+noise=0.000097
+unknown=0.000097
+PROB 0: 0.829193
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s66.wav
+sheila=0.999999
+unknown=0.000000
+noise=0.000000
+PROB 0: 0.818017
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s67.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.822818
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s68.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.945194
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s69.wav
+sheila=0.999996
+noise=0.000002
+unknown=0.000002
+PROB 0: 0.814475
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s7.wav
+sheila=0.999998
+unknown=0.000002
+noise=0.000001
+PROB 0: 0.722694
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s70.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.832511
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s71.wav
+sheila=0.996660
+noise=0.001670
+unknown=0.001670
+PROB 0: 0.906370
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s72.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.854080
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s73.wav
+sheila=0.996533
+noise=0.001734
+unknown=0.001734
+PROB 0: 0.785069
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s8.wav
+sheila=0.999950
+noise=0.000025
+unknown=0.000025
+PROB 0: 0.799110
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s9.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.934804
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s1.wav
+sheila=0.999980
+unknown=0.000014
+noise=0.000006
+PROB 0: 0.859540
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s10.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.847665
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s11.wav
+sheila=0.999941
+unknown=0.000043
+noise=0.000016
+PROB 0: 0.820974
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s12.wav
+sheila=0.593151
+noise=0.293166
+unknown=0.113682
+PROB 0: 0.818101
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s13.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.819527
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s14.wav
+sheila=0.997440
+noise=0.001280
+unknown=0.001280
+PROB 0: 0.840914
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s15.wav
+sheila=0.999998
+unknown=0.000001
+noise=0.000001
+PROB 0: 0.841796
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s16.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.816529
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s17.wav
+sheila=0.999943
+noise=0.000029
+unknown=0.000029
+PROB 0: 0.828152
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s18.wav
+sheila=0.999311
+unknown=0.000414
+noise=0.000275
+PROB 0: 0.829267
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s19.wav
+sheila=0.998867
+noise=0.000567
+unknown=0.000567
+PROB 0: 0.784336
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s2.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.852120
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s20.wav
+sheila=0.994556
+unknown=0.004493
+noise=0.000951
+PROB 0: 0.844509
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s21.wav
+sheila=0.999950
+unknown=0.000035
+noise=0.000015
+PROB 0: 0.831392
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s22.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.843320
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s23.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.818945
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s24.wav
+sheila=0.997683
+noise=0.001159
+unknown=0.001159
+PROB 0: 0.825973
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s25.wav
+sheila=0.997593
+noise=0.001204
+unknown=0.001204
+PROB 0: 0.828156
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s26.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.824277
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s27.wav
+sheila=0.998154
+noise=0.000923
+unknown=0.000923
+PROB 0: 0.817989
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s28.wav
+sheila=0.998578
+noise=0.000711
+unknown=0.000711
+PROB 0: 0.833356
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s29.wav
+sheila=0.999644
+noise=0.000178
+unknown=0.000178
+PROB 0: 0.836079
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s3.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.831190
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s30.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.842615
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s31.wav
+sheila=0.999989
+unknown=0.000009
+noise=0.000003
+PROB 0: 0.858406
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s32.wav
+sheila=0.999845
+unknown=0.000094
+noise=0.000061
+PROB 0: 0.841255
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s33.wav
+sheila=0.999933
+noise=0.000033
+unknown=0.000033
+PROB 0: 0.836354
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s34.wav
+sheila=0.997435
+noise=0.001283
+unknown=0.001283
+PROB 0: 0.843077
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s35.wav
+sheila=0.999849
+noise=0.000076
+unknown=0.000076
+PROB 0: 0.834738
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s36.wav
+sheila=0.984232
+noise=0.007884
+unknown=0.007884
+PROB 0: 0.839149
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s37.wav
+sheila=0.979069
+unknown=0.012894
+noise=0.008037
+PROB 0: 0.837333
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s38.wav
+sheila=0.992540
+unknown=0.005963
+noise=0.001496
+PROB 0: 0.843000
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s39.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.791431
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s4.wav
+sheila=0.999706
+unknown=0.000273
+noise=0.000021
+PROB 0: 0.855166
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s40.wav
+sheila=0.992015
+noise=0.003992
+unknown=0.003992
+PROB 0: 0.836579
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s5.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.818613
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s6.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.817094
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s7.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.841293
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s8.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.828990
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s9.wav
+sheila=0.999377
+noise=0.000312
+unknown=0.000312
+PROB 0: 0.846924
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s1.wav
+sheila=0.999998
+noise=0.000001
+unknown=0.000001
+PROB 0: 0.826503
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s10.wav
+sheila=0.999780
+noise=0.000110
+unknown=0.000110
+PROB 0: 0.823700
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s11.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.826476
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s12.wav
+sheila=0.999999
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.835189
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s13.wav
+sheila=0.998083
+unknown=0.001381
+noise=0.000537
+PROB 0: 0.840171
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s14.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.817913
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s15.wav
+sheila=0.999942
+unknown=0.000047
+noise=0.000011
+PROB 0: 0.851690
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s16.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.832867
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s17.wav
+sheila=0.999632
+noise=0.000184
+unknown=0.000184
+PROB 0: 0.835949
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s18.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.833552
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s19.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.830364
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s2.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.818796
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s20.wav
+sheila=0.999916
+unknown=0.000053
+noise=0.000031
+PROB 0: 0.809820
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s21.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.816577
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s22.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.852676
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s23.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.852606
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s24.wav
+sheila=0.999986
+noise=0.000007
+unknown=0.000007
+PROB 0: 0.825129
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s25.wav
+sheila=0.999965
+noise=0.000018
+unknown=0.000018
+PROB 0: 0.801795
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s26.wav
+sheila=0.995616
+noise=0.002192
+unknown=0.002192
+PROB 0: 0.829500
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s27.wav
+sheila=0.997272
+noise=0.001364
+unknown=0.001364
+PROB 0: 0.844365
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s28.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.832805
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s29.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.806493
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s3.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.843722
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s30.wav
+sheila=0.999999
+unknown=0.000000
+noise=0.000000
+PROB 0: 0.824025
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s31.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.849396
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s32.wav
+sheila=0.993686
+noise=0.003157
+unknown=0.003157
+PROB 0: 0.800385
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s33.wav
+sheila=0.999995
+unknown=0.000004
+noise=0.000001
+PROB 0: 0.855245
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s34.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.802037
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s35.wav
+sheila=0.998546
+noise=0.000727
+unknown=0.000727
+PROB 0: 0.815113
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s36.wav
+sheila=0.995831
+noise=0.002084
+unknown=0.002084
+PROB 0: 0.848889
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s37.wav
+sheila=0.999996
+unknown=0.000003
+noise=0.000002
+PROB 0: 0.851928
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s38.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.798388
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s39.wav
+sheila=0.980478
+noise=0.009761
+unknown=0.009761
+PROB 0: 0.750726
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s4.wav
+sheila=0.999252
+noise=0.000374
+unknown=0.000374
+PROB 0: 0.823160
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s40.wav
+sheila=0.999994
+unknown=0.000004
+noise=0.000002
+PROB 0: 0.859918
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s5.wav
+sheila=0.999317
+unknown=0.000501
+noise=0.000182
+PROB 0: 0.823596
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s6.wav
+sheila=0.999993
+unknown=0.000004
+noise=0.000002
+PROB 0: 0.831818
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s7.wav
+sheila=0.999986
+noise=0.000007
+unknown=0.000007
+PROB 0: 0.828682
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s8.wav
+sheila=1.000000
+unknown=0.000000
+noise=0.000000
+PROB 0: 0.856162
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s9.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.839839
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s1.wav
+sheila=0.999465
+noise=0.000267
+unknown=0.000267
+PROB 0: 0.827287
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s10.wav
+sheila=0.999678
+noise=0.000161
+unknown=0.000161
+PROB 0: 0.819440
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s11.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.806051
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s12.wav
+sheila=0.999588
+noise=0.000206
+unknown=0.000206
+PROB 0: 0.804374
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s13.wav
+sheila=0.998951
+noise=0.000525
+unknown=0.000525
+PROB 0: 0.782529
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s14.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.805531
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s15.wav
+sheila=0.999981
+unknown=0.000013
+noise=0.000006
+PROB 0: 0.831504
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s16.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.824989
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s17.wav
+sheila=0.999999
+unknown=0.000001
+noise=0.000000
+PROB 0: 0.845791
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s18.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.851168
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s19.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.840336
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s2.wav
+sheila=0.999696
+noise=0.000152
+unknown=0.000152
+PROB 0: 0.863720
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s20.wav
+sheila=0.999640
+unknown=0.000211
+noise=0.000149
+PROB 0: 0.819354
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s21.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.813212
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s22.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.819271
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s23.wav
+sheila=0.999999
+noise=0.000001
+unknown=0.000001
+PROB 0: 0.839822
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s24.wav
+sheila=0.999394
+noise=0.000303
+unknown=0.000303
+PROB 0: 0.846273
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s25.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.827795
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s26.wav
+sheila=0.994597
+noise=0.002702
+unknown=0.002702
+PROB 0: 0.829595
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s27.wav
+sheila=0.999387
+noise=0.000306
+unknown=0.000306
+PROB 0: 0.822672
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s28.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.827537
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s29.wav
+sheila=0.999986
+unknown=0.000010
+noise=0.000004
+PROB 0: 0.842011
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s3.wav
+sheila=0.975064
+noise=0.012468
+unknown=0.012468
+PROB 0: 0.811513
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s30.wav
+sheila=0.994198
+noise=0.002901
+unknown=0.002901
+PROB 0: 0.808669
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s31.wav
+sheila=0.999992
+noise=0.000004
+unknown=0.000004
+PROB 0: 0.828492
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s32.wav
+sheila=0.999857
+noise=0.000072
+unknown=0.000072
+PROB 0: 0.813246
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s33.wav
+sheila=0.999998
+unknown=0.000001
+noise=0.000001
+PROB 0: 0.864094
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s34.wav
+sheila=0.998586
+noise=0.000707
+unknown=0.000707
+PROB 0: 0.825425
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s35.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.828418
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s36.wav
+sheila=0.999886
+noise=0.000057
+unknown=0.000057
+PROB 0: 0.754767
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s37.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.817874
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s38.wav
+sheila=0.999563
+noise=0.000218
+unknown=0.000218
+PROB 0: 0.789381
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s4.wav
+sheila=0.999914
+noise=0.000043
+unknown=0.000043
+PROB 0: 0.830634
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s5.wav
+sheila=0.998850
+noise=0.000575
+unknown=0.000575
+PROB 0: 0.824580
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s6.wav
+sheila=0.999311
+noise=0.000344
+unknown=0.000344
+PROB 0: 0.832672
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s7.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.843389
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s8.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.842896
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s9.wav
+sheila=0.999979
+noise=0.000010
+unknown=0.000010
+PROB 0: 0.835041
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s1.wav
+sheila=0.999999
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.844379
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s10.wav
+sheila=0.999943
+noise=0.000028
+unknown=0.000028
+PROB 0: 0.825852
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s11.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.846962
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s12.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.848338
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s13.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.857927
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s14.wav
+sheila=0.997824
+noise=0.001088
+unknown=0.001088
+PROB 0: 0.817970
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s15.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.833682
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s16.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.820555
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s17.wav
+sheila=0.999821
+unknown=0.000105
+noise=0.000074
+PROB 0: 0.850940
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s18.wav
+sheila=0.999569
+noise=0.000216
+unknown=0.000216
+PROB 0: 0.837779
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s19.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.837868
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s2.wav
+sheila=0.999872
+noise=0.000064
+unknown=0.000064
+PROB 0: 0.836293
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s20.wav
+sheila=0.999991
+unknown=0.000006
+noise=0.000003
+PROB 0: 0.846480
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s21.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.846891
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s22.wav
+sheila=0.999999
+unknown=0.000001
+noise=0.000000
+PROB 0: 0.831129
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s23.wav
+sheila=0.999969
+unknown=0.000022
+noise=0.000009
+PROB 0: 0.861478
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s24.wav
+sheila=0.998711
+noise=0.000644
+unknown=0.000644
+PROB 0: 0.821856
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s25.wav
+sheila=0.999950
+unknown=0.000027
+noise=0.000023
+PROB 0: 0.832997
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s26.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.844443
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s27.wav
+sheila=0.999838
+noise=0.000081
+unknown=0.000081
+PROB 0: 0.847944
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s28.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.817359
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s29.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.831196
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s3.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.839558
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s30.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.823807
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s31.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.828094
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s32.wav
+sheila=0.999944
+noise=0.000028
+unknown=0.000028
+PROB 0: 0.856217
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s33.wav
+sheila=0.999918
+unknown=0.000045
+noise=0.000037
+PROB 0: 0.827092
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s34.wav
+sheila=0.999892
+unknown=0.000067
+noise=0.000041
+PROB 0: 0.848980
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s35.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.803734
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s36.wav
+sheila=0.999866
+noise=0.000067
+unknown=0.000067
+PROB 0: 0.788022
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s37.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.830529
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s38.wav
+sheila=0.999973
+unknown=0.000017
+noise=0.000010
+PROB 0: 0.829784
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s39.wav
+sheila=0.999985
+unknown=0.000012
+noise=0.000003
+PROB 0: 0.842650
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s4.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.829605
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s40.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.825468
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s41.wav
+sheila=0.999944
+unknown=0.000041
+noise=0.000014
+PROB 0: 0.837328
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s42.wav
+sheila=0.999907
+unknown=0.000050
+noise=0.000043
+PROB 0: 0.832903
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s43.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.820023
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s44.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.829287
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s45.wav
+sheila=0.999995
+unknown=0.000003
+noise=0.000002
+PROB 0: 0.826850
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s46.wav
+sheila=0.999957
+noise=0.000021
+unknown=0.000021
+PROB 0: 0.834716
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s47.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.824550
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s48.wav
+sheila=0.999843
+unknown=0.000105
+noise=0.000053
+PROB 0: 0.796491
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s49.wav
+sheila=0.999961
+noise=0.000020
+unknown=0.000020
+PROB 0: 0.829666
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s5.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.811552
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s50.wav
+sheila=0.999915
+noise=0.000043
+unknown=0.000043
+PROB 0: 0.835260
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s51.wav
+sheila=0.999803
+unknown=0.000102
+noise=0.000095
+PROB 0: 0.818249
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s52.wav
+sheila=0.999996
+unknown=0.000002
+noise=0.000002
+PROB 0: 0.861032
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s53.wav
+sheila=0.999658
+noise=0.000171
+unknown=0.000171
+PROB 0: 0.828211
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s54.wav
+sheila=0.999988
+unknown=0.000007
+noise=0.000006
+PROB 0: 0.843846
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s55.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.819184
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s56.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.833526
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s57.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.803925
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s58.wav
+sheila=0.999996
+unknown=0.000003
+noise=0.000001
+PROB 0: 0.961843
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s59.wav
+sheila=0.999124
+noise=0.000438
+unknown=0.000438
+PROB 0: 0.845014
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s6.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.842130
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s60.wav
+sheila=0.999963
+unknown=0.000020
+noise=0.000018
+PROB 0: 0.816447
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s61.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.822459
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s62.wav
+sheila=0.999893
+unknown=0.000073
+noise=0.000034
+PROB 0: 0.838523
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s63.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.804034
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s64.wav
+sheila=0.999733
+noise=0.000134
+unknown=0.000134
+PROB 0: 0.826041
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s65.wav
+sheila=1.000000
+unknown=0.000000
+noise=0.000000
+PROB 0: 0.865313
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s7.wav
+sheila=1.000000
+unknown=0.000000
+noise=0.000000
+PROB 0: 0.847533
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s8.wav
+sheila=1.000000
+noise=0.000000
+unknown=0.000000
+PROB 0: 0.829154
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s9.wav
+sheila=0.999968
+unknown=0.000023
+noise=0.000009
+PROB 0: 0.835766
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+
+=== SUMMARY STATISTICS ===
+HELLO MATTEO occurrences: 10
+USER NOT ENROLLED occurrences: 246
+NOT SHEILA WORD RECOGNIZED: 0
+SHEILA WORD RECOGNIZED: 256
+Total files processed: 256

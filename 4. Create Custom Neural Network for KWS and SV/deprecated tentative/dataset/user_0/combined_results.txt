@@ -1,0 +1,290 @@
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s1.wav
+unknown=0.998315
+noise=0.000842
+sheila=0.000842
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s10.wav
+unknown=0.998817
+noise=0.000591
+sheila=0.000591
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s100.wav
+unknown=0.999969
+noise=0.000016
+sheila=0.000016
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s101.wav
+unknown=0.958109
+noise=0.020946
+sheila=0.020946
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s102.wav
+unknown=0.999995
+noise=0.000002
+sheila=0.000002
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s103.wav
+sheila=0.999842
+unknown=0.000114
+noise=0.000043
+PROB 0: 0.771046
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s104.wav
+unknown=0.935961
+noise=0.032019
+sheila=0.032019
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s105.wav
+unknown=0.999950
+noise=0.000025
+sheila=0.000025
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s106.wav
+sheila=0.968896
+unknown=0.016752
+noise=0.014352
+PROB 0: 0.807060
+
+HELLO MATTEO
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s107.wav
+unknown=0.999549
+noise=0.000226
+sheila=0.000226
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s108.wav
+unknown=0.998622
+noise=0.000689
+sheila=0.000689
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s109.wav
+unknown=0.999987
+noise=0.000006
+sheila=0.000006
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s11.wav
+unknown=1.000000
+noise=0.000000
+sheila=0.000000
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s110.wav
+unknown=0.999934
+noise=0.000033
+sheila=0.000033
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s111.wav
+unknown=1.000000
+noise=0.000000
+sheila=0.000000
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s112.wav
+unknown=0.999971
+noise=0.000014
+sheila=0.000014
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s113.wav
+unknown=0.997298
+noise=0.001351
+sheila=0.001351
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s114.wav
+unknown=0.988391
+noise=0.005804
+sheila=0.005804
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s115.wav
+unknown=0.999999
+noise=0.000000
+sheila=0.000000
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s116.wav
+unknown=0.996816
+noise=0.001592
+sheila=0.001592
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s117.wav
+unknown=0.999994
+noise=0.000003
+sheila=0.000003
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s118.wav
+unknown=0.932975
+sheila=0.053393
+noise=0.013631
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s119.wav
+unknown=0.999946
+noise=0.000027
+sheila=0.000027
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s12.wav
+unknown=0.999595
+noise=0.000202
+sheila=0.000202
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s120.wav
+unknown=0.986745
+sheila=0.009068
+noise=0.004187
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s121.wav
+unknown=0.998907
+sheila=0.000668
+noise=0.000424
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: user_0.5nd9nbmm.ingestion-856ccfd98c-b25gl.s122.wav
+sheila=0.884846
+unknown=0.105162
+noise=0.009991
