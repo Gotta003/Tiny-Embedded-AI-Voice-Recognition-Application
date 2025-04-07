@@ -48,7 +48,7 @@
 
 #define max(a, b) ((a) > (b) ? (a) : (b))
 #define DVECTORS 256
-#define SIMILARITY_THRESHOLD 0.9
+#define SIMILARITY_THRESHOLD 0.8
 
 int sv_neural_network(const float mfe_input[]);
 void batch_normalization(const float input[], float output[], int height, int width, int num_batch, float gamma, float beta);

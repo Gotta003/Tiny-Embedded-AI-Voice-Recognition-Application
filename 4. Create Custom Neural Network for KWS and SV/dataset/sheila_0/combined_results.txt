@@ -2,7 +2,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s1.wav
 sheila=0.997901
 noise=0.001049
 unknown=0.001049
-PROB 0: 0.723955
+PROB 0: 0.699880
 
 USER NOT ENROLLED
 
@@ -13,7 +13,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s10.wav
 sheila=0.999998
 unknown=0.000002
 noise=0.000000
-PROB 0: 0.781986
+PROB 0: 0.779927
 
 USER NOT ENROLLED
 
@@ -24,9 +24,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s11.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.814525
+PROB 0: 0.814034
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -35,7 +35,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s12.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.778344
+PROB 0: 0.780242
 
 USER NOT ENROLLED
 
@@ -46,9 +46,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s13.wav
 sheila=0.997139
 noise=0.001430
 unknown=0.001430
-PROB 0: 0.817555
+PROB 0: 0.824703
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -57,7 +57,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s14.wav
 sheila=0.999998
 unknown=0.000001
 noise=0.000000
-PROB 0: 0.962448
+PROB 0: 0.931507
 
 HELLO MATTEO
 
@@ -68,9 +68,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s15.wav
 sheila=0.999978
 unknown=0.000016
 noise=0.000005
-PROB 0: 0.849100
+PROB 0: 0.804234
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -79,9 +79,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s16.wav
 sheila=0.999575
 noise=0.000212
 unknown=0.000212
-PROB 0: 0.792154
+PROB 0: 0.822082
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -90,9 +90,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s17.wav
 sheila=0.962724
 noise=0.018638
 unknown=0.018638
-PROB 0: 0.808828
+PROB 0: 0.821821
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -101,7 +101,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s18.wav
 sheila=0.999913
 unknown=0.000072
 noise=0.000015
-PROB 0: 0.801412
+PROB 0: 0.775474
 
 USER NOT ENROLLED
 
@@ -112,9 +112,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s19.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.873793
+PROB 0: 0.861230
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -123,7 +123,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s2.wav
 sheila=0.999977
 unknown=0.000018
 noise=0.000005
-PROB 0: 0.764984
+PROB 0: 0.766651
 
 USER NOT ENROLLED
 
@@ -134,7 +134,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s20.wav
 sheila=0.999915
 noise=0.000042
 unknown=0.000042
-PROB 0: 0.695010
+PROB 0: 0.690188
 
 USER NOT ENROLLED
 
@@ -145,7 +145,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s21.wav
 sheila=0.999824
 noise=0.000088
 unknown=0.000088
-PROB 0: 0.683595
+PROB 0: 0.665654
 
 USER NOT ENROLLED
 
@@ -156,9 +156,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s22.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.812978
+PROB 0: 0.809543
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -167,9 +167,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s23.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.801669
+PROB 0: 0.812046
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -178,9 +178,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s24.wav
 sheila=0.999997
 unknown=0.000002
 noise=0.000001
-PROB 0: 0.842491
+PROB 0: 0.804907
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -189,7 +189,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s25.wav
 sheila=0.999142
 noise=0.000429
 unknown=0.000429
-PROB 0: 0.737768
+PROB 0: 0.759827
 
 USER NOT ENROLLED
 
@@ -200,9 +200,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s26.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.840910
+PROB 0: 0.820588
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -211,9 +211,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s27.wav
 sheila=0.999971
 unknown=0.000025
 noise=0.000004
-PROB 0: 0.882339
+PROB 0: 0.863980
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -222,9 +222,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s28.wav
 sheila=0.999994
 unknown=0.000004
 noise=0.000002
-PROB 0: 0.842313
+PROB 0: 0.816458
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -233,7 +233,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s29.wav
 sheila=0.999848
 noise=0.000076
 unknown=0.000076
-PROB 0: 0.811732
+PROB 0: 0.793145
 
 USER NOT ENROLLED
 
@@ -244,9 +244,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s3.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.841976
+PROB 0: 0.857305
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -255,7 +255,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s30.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.823958
+PROB 0: 0.788301
 
 USER NOT ENROLLED
 
@@ -266,7 +266,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s31.wav
 sheila=0.999995
 unknown=0.000003
 noise=0.000002
-PROB 0: 0.809763
+PROB 0: 0.791199
 
 USER NOT ENROLLED
 
@@ -277,9 +277,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s32.wav
 sheila=0.999997
 unknown=0.000002
 noise=0.000001
-PROB 0: 0.833795
+PROB 0: 0.819590
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -288,7 +288,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s33.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.783206
+PROB 0: 0.766774
 
 USER NOT ENROLLED
 
@@ -299,9 +299,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s34.wav
 sheila=0.992899
 unknown=0.004571
 noise=0.002531
-PROB 0: 0.821107
+PROB 0: 0.818013
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -310,7 +310,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s35.wav
 sheila=0.993583
 noise=0.003209
 unknown=0.003209
-PROB 0: 0.703117
+PROB 0: 0.728150
 
 USER NOT ENROLLED
 
@@ -321,9 +321,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s36.wav
 sheila=0.997234
 noise=0.001383
 unknown=0.001383
-PROB 0: 0.848135
+PROB 0: 0.823903
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -332,7 +332,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s37.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.741089
+PROB 0: 0.733349
 
 USER NOT ENROLLED
 
@@ -343,7 +343,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s38.wav
 sheila=0.999999
 unknown=0.000001
 noise=0.000000
-PROB 0: 0.809220
+PROB 0: 0.786204
 
 USER NOT ENROLLED
 
@@ -354,9 +354,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s39.wav
 sheila=0.999946
 unknown=0.000049
 noise=0.000005
-PROB 0: 0.896258
+PROB 0: 0.867848
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -365,7 +365,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s4.wav
 sheila=0.999980
 unknown=0.000012
 noise=0.000008
-PROB 0: 0.721994
+PROB 0: 0.758325
 
 USER NOT ENROLLED
 
@@ -376,9 +376,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s40.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.842518
+PROB 0: 0.814474
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -387,7 +387,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s41.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.927643
+PROB 0: 0.920280
 
 HELLO MATTEO
 
@@ -398,7 +398,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s42.wav
 sheila=0.999998
 noise=0.000001
 unknown=0.000001
-PROB 0: 0.782281
+PROB 0: 0.769621
 
 USER NOT ENROLLED
 
@@ -409,9 +409,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s43.wav
 sheila=0.999982
 unknown=0.000012
 noise=0.000005
-PROB 0: 0.850519
+PROB 0: 0.818041
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -420,9 +420,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s44.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.841311
+PROB 0: 0.847875
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -431,7 +431,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s45.wav
 sheila=0.999997
 unknown=0.000001
 noise=0.000001
-PROB 0: 0.801133
+PROB 0: 0.778347
 
 USER NOT ENROLLED
 
@@ -442,7 +442,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s46.wav
 sheila=0.999968
 unknown=0.000019
 noise=0.000013
-PROB 0: 0.798968
+PROB 0: 0.795569
 
 USER NOT ENROLLED
 
@@ -453,7 +453,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s47.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.742522
+PROB 0: 0.715054
 
 USER NOT ENROLLED
 
@@ -464,7 +464,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s48.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.917828
+PROB 0: 0.912936
 
 HELLO MATTEO
 
@@ -475,9 +475,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s49.wav
 sheila=0.999966
 unknown=0.000024
 noise=0.000010
-PROB 0: 0.836348
+PROB 0: 0.809314
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -486,7 +486,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s5.wav
 sheila=0.999697
 unknown=0.000214
 noise=0.000089
-PROB 0: 0.902202
+PROB 0: 0.901727
 
 HELLO MATTEO
 
@@ -497,7 +497,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s50.wav
 sheila=0.998768
 unknown=0.000740
 noise=0.000492
-PROB 0: 0.775311
+PROB 0: 0.762163
 
 USER NOT ENROLLED
 
@@ -508,9 +508,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s51.wav
 sheila=0.986860
 noise=0.006570
 unknown=0.006570
-PROB 0: 0.819944
+PROB 0: 0.819895
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -519,7 +519,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s52.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.944912
+PROB 0: 0.917382
 
 HELLO MATTEO
 
@@ -530,9 +530,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s53.wav
 sheila=0.999827
 unknown=0.000087
 noise=0.000086
-PROB 0: 0.802050
+PROB 0: 0.811313
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -541,9 +541,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s54.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.824898
+PROB 0: 0.805501
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -552,9 +552,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s55.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.821294
+PROB 0: 0.824600
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -563,9 +563,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s56.wav
 sheila=0.999997
 noise=0.000002
 unknown=0.000002
-PROB 0: 0.835249
+PROB 0: 0.819533
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -574,7 +574,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s57.wav
 sheila=0.999999
 noise=0.000001
 unknown=0.000001
-PROB 0: 0.822272
+PROB 0: 0.770707
 
 USER NOT ENROLLED
 
@@ -585,9 +585,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s58.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.812476
+PROB 0: 0.808411
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -596,9 +596,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s59.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.813367
+PROB 0: 0.813146
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -607,7 +607,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s6.wav
 sheila=0.999983
 noise=0.000008
 unknown=0.000008
-PROB 0: 0.902721
+PROB 0: 0.916279
 
 HELLO MATTEO
 
@@ -618,9 +618,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s60.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.817889
+PROB 0: 0.816247
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -629,9 +629,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s61.wav
 sheila=0.997530
 unknown=0.001509
 noise=0.000961
-PROB 0: 0.837744
+PROB 0: 0.837829
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -640,7 +640,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s62.wav
 sheila=0.999984
 unknown=0.000013
 noise=0.000003
-PROB 0: 0.833060
+PROB 0: 0.792128
 
 USER NOT ENROLLED
 
@@ -651,9 +651,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s63.wav
 sheila=0.999997
 unknown=0.000002
 noise=0.000001
-PROB 0: 0.863438
+PROB 0: 0.837528
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -662,7 +662,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s64.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.800060
+PROB 0: 0.788725
 
 USER NOT ENROLLED
 
@@ -673,9 +673,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s65.wav
 sheila=0.999805
 noise=0.000097
 unknown=0.000097
-PROB 0: 0.829193
+PROB 0: 0.830386
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -684,9 +684,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s66.wav
 sheila=0.999999
 unknown=0.000000
 noise=0.000000
-PROB 0: 0.818017
+PROB 0: 0.832458
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -695,9 +695,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s67.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.822818
+PROB 0: 0.808196
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -706,7 +706,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s68.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.945194
+PROB 0: 0.913457
 
 HELLO MATTEO
 
@@ -717,7 +717,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s69.wav
 sheila=0.999996
 noise=0.000002
 unknown=0.000002
-PROB 0: 0.814475
+PROB 0: 0.784467
 
 USER NOT ENROLLED
 
@@ -728,7 +728,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s7.wav
 sheila=0.999998
 unknown=0.000002
 noise=0.000001
-PROB 0: 0.722694
+PROB 0: 0.695924
 
 USER NOT ENROLLED
 
@@ -739,9 +739,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s70.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.832511
+PROB 0: 0.809232
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -750,7 +750,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s71.wav
 sheila=0.996660
 noise=0.001670
 unknown=0.001670
-PROB 0: 0.906370
+PROB 0: 0.902129
 
 HELLO MATTEO
 
@@ -761,9 +761,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s72.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.854080
+PROB 0: 0.842164
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -772,7 +772,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s73.wav
 sheila=0.996533
 noise=0.001734
 unknown=0.001734
-PROB 0: 0.785069
+PROB 0: 0.786305
 
 USER NOT ENROLLED
 
@@ -783,9 +783,9 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s8.wav
 sheila=0.999950
 noise=0.000025
 unknown=0.000025
-PROB 0: 0.799110
+PROB 0: 0.804222
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -794,7 +794,7 @@ Processing: sheila_0.5no9jpqn.ingestion-7dcc488448-zz5mz.s9.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.934804
+PROB 0: 0.922125
 
 HELLO MATTEO
 
@@ -805,9 +805,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s1.wav
 sheila=0.999980
 unknown=0.000014
 noise=0.000006
-PROB 0: 0.859540
+PROB 0: 0.848604
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -816,9 +816,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s10.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.847665
+PROB 0: 0.824552
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -827,9 +827,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s11.wav
 sheila=0.999941
 unknown=0.000043
 noise=0.000016
-PROB 0: 0.820974
+PROB 0: 0.819444
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -838,9 +838,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s12.wav
 sheila=0.593151
 noise=0.293166
 unknown=0.113682
-PROB 0: 0.818101
+PROB 0: 0.834871
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -849,9 +849,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s13.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.819527
+PROB 0: 0.824114
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -860,9 +860,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s14.wav
 sheila=0.997440
 noise=0.001280
 unknown=0.001280
-PROB 0: 0.840914
+PROB 0: 0.839533
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -871,9 +871,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s15.wav
 sheila=0.999998
 unknown=0.000001
 noise=0.000001
-PROB 0: 0.841796
+PROB 0: 0.845896
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -882,9 +882,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s16.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.816529
+PROB 0: 0.833778
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -893,9 +893,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s17.wav
 sheila=0.999943
 noise=0.000029
 unknown=0.000029
-PROB 0: 0.828152
+PROB 0: 0.830427
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -904,9 +904,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s18.wav
 sheila=0.999311
 unknown=0.000414
 noise=0.000275
-PROB 0: 0.829267
+PROB 0: 0.831934
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -915,7 +915,7 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s19.wav
 sheila=0.998867
 noise=0.000567
 unknown=0.000567
-PROB 0: 0.784336
+PROB 0: 0.798765
 
 USER NOT ENROLLED
 
@@ -926,9 +926,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s2.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.852120
+PROB 0: 0.834959
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -937,9 +937,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s20.wav
 sheila=0.994556
 unknown=0.004493
 noise=0.000951
-PROB 0: 0.844509
+PROB 0: 0.821246
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -948,9 +948,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s21.wav
 sheila=0.999950
 unknown=0.000035
 noise=0.000015
-PROB 0: 0.831392
+PROB 0: 0.826181
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -959,9 +959,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s22.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.843320
+PROB 0: 0.829270
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -970,9 +970,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s23.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.818945
+PROB 0: 0.834591
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -981,9 +981,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s24.wav
 sheila=0.997683
 noise=0.001159
 unknown=0.001159
-PROB 0: 0.825973
+PROB 0: 0.848983
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -992,9 +992,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s25.wav
 sheila=0.997593
 noise=0.001204
 unknown=0.001204
-PROB 0: 0.828156
+PROB 0: 0.830319
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1003,9 +1003,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s26.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.824277
+PROB 0: 0.828062
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1014,9 +1014,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s27.wav
 sheila=0.998154
 noise=0.000923
 unknown=0.000923
-PROB 0: 0.817989
+PROB 0: 0.839851
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1025,9 +1025,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s28.wav
 sheila=0.998578
 noise=0.000711
 unknown=0.000711
-PROB 0: 0.833356
+PROB 0: 0.819806
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1036,9 +1036,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s29.wav
 sheila=0.999644
 noise=0.000178
 unknown=0.000178
-PROB 0: 0.836079
+PROB 0: 0.827790
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1047,9 +1047,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s3.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.831190
+PROB 0: 0.840111
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1058,9 +1058,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s30.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.842615
+PROB 0: 0.825822
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1069,9 +1069,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s31.wav
 sheila=0.999989
 unknown=0.000009
 noise=0.000003
-PROB 0: 0.858406
+PROB 0: 0.828174
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1080,9 +1080,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s32.wav
 sheila=0.999845
 unknown=0.000094
 noise=0.000061
-PROB 0: 0.841255
+PROB 0: 0.837594
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1091,9 +1091,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s33.wav
 sheila=0.999933
 noise=0.000033
 unknown=0.000033
-PROB 0: 0.836354
+PROB 0: 0.830567
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1102,9 +1102,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s34.wav
 sheila=0.997435
 noise=0.001283
 unknown=0.001283
-PROB 0: 0.843077
+PROB 0: 0.835455
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1113,9 +1113,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s35.wav
 sheila=0.999849
 noise=0.000076
 unknown=0.000076
-PROB 0: 0.834738
+PROB 0: 0.833222
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1124,9 +1124,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s36.wav
 sheila=0.984232
 noise=0.007884
 unknown=0.007884
-PROB 0: 0.839149
+PROB 0: 0.834504
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1135,9 +1135,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s37.wav
 sheila=0.979069
 unknown=0.012894
 noise=0.008037
-PROB 0: 0.837333
+PROB 0: 0.826348
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1146,9 +1146,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s38.wav
 sheila=0.992540
 unknown=0.005963
 noise=0.001496
-PROB 0: 0.843000
+PROB 0: 0.834807
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1157,7 +1157,7 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s39.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.791431
+PROB 0: 0.798372
 
 USER NOT ENROLLED
 
@@ -1168,9 +1168,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s4.wav
 sheila=0.999706
 unknown=0.000273
 noise=0.000021
-PROB 0: 0.855166
+PROB 0: 0.825110
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1179,9 +1179,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s40.wav
 sheila=0.992015
 noise=0.003992
 unknown=0.003992
-PROB 0: 0.836579
+PROB 0: 0.851025
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1190,9 +1190,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s5.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.818613
+PROB 0: 0.824923
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1201,9 +1201,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s6.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.817094
+PROB 0: 0.805260
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1212,9 +1212,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s7.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.841293
+PROB 0: 0.833669
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1223,9 +1223,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s8.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.828990
+PROB 0: 0.833980
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1234,9 +1234,9 @@ Processing: sheila_0.5noab3b5.ingestion-7dcc488448-zz5mz.s9.wav
 sheila=0.999377
 noise=0.000312
 unknown=0.000312
-PROB 0: 0.846924
+PROB 0: 0.847482
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1245,9 +1245,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s1.wav
 sheila=0.999998
 noise=0.000001
 unknown=0.000001
-PROB 0: 0.826503
+PROB 0: 0.830271
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1256,9 +1256,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s10.wav
 sheila=0.999780
 noise=0.000110
 unknown=0.000110
-PROB 0: 0.823700
+PROB 0: 0.821228
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1267,9 +1267,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s11.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.826476
+PROB 0: 0.815785
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1278,9 +1278,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s12.wav
 sheila=0.999999
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.835189
+PROB 0: 0.804089
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1289,9 +1289,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s13.wav
 sheila=0.998083
 unknown=0.001381
 noise=0.000537
-PROB 0: 0.840171
+PROB 0: 0.826777
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1300,9 +1300,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s14.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.817913
+PROB 0: 0.805140
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1311,9 +1311,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s15.wav
 sheila=0.999942
 unknown=0.000047
 noise=0.000011
-PROB 0: 0.851690
+PROB 0: 0.829398
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1322,9 +1322,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s16.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.832867
+PROB 0: 0.819782
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1333,9 +1333,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s17.wav
 sheila=0.999632
 noise=0.000184
 unknown=0.000184
-PROB 0: 0.835949
+PROB 0: 0.833691
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1344,9 +1344,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s18.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.833552
+PROB 0: 0.803341
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1355,9 +1355,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s19.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.830364
+PROB 0: 0.814571
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1366,9 +1366,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s2.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.818796
+PROB 0: 0.852219
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1377,9 +1377,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s20.wav
 sheila=0.999916
 unknown=0.000053
 noise=0.000031
-PROB 0: 0.809820
+PROB 0: 0.845350
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1388,9 +1388,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s21.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.816577
+PROB 0: 0.806229
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1399,9 +1399,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s22.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.852676
+PROB 0: 0.822387
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1410,9 +1410,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s23.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.852606
+PROB 0: 0.819041
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1421,9 +1421,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s24.wav
 sheila=0.999986
 noise=0.000007
 unknown=0.000007
-PROB 0: 0.825129
+PROB 0: 0.832737
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1432,9 +1432,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s25.wav
 sheila=0.999965
 noise=0.000018
 unknown=0.000018
-PROB 0: 0.801795
+PROB 0: 0.802377
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1443,9 +1443,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s26.wav
 sheila=0.995616
 noise=0.002192
 unknown=0.002192
-PROB 0: 0.829500
+PROB 0: 0.837785
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1454,9 +1454,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s27.wav
 sheila=0.997272
 noise=0.001364
 unknown=0.001364
-PROB 0: 0.844365
+PROB 0: 0.834868
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1465,9 +1465,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s28.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.832805
+PROB 0: 0.826571
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1476,7 +1476,7 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s29.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.806493
+PROB 0: 0.797623
 
 USER NOT ENROLLED
 
@@ -1487,9 +1487,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s3.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.843722
+PROB 0: 0.851839
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1498,9 +1498,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s30.wav
 sheila=0.999999
 unknown=0.000000
 noise=0.000000
-PROB 0: 0.824025
+PROB 0: 0.821966
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1509,9 +1509,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s31.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.849396
+PROB 0: 0.823802
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1520,9 +1520,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s32.wav
 sheila=0.993686
 noise=0.003157
 unknown=0.003157
-PROB 0: 0.800385
+PROB 0: 0.812183
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1531,9 +1531,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s33.wav
 sheila=0.999995
 unknown=0.000004
 noise=0.000001
-PROB 0: 0.855245
+PROB 0: 0.853780
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1542,9 +1542,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s34.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.802037
+PROB 0: 0.809919
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1553,9 +1553,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s35.wav
 sheila=0.998546
 noise=0.000727
 unknown=0.000727
-PROB 0: 0.815113
+PROB 0: 0.823672
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1564,9 +1564,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s36.wav
 sheila=0.995831
 noise=0.002084
 unknown=0.002084
-PROB 0: 0.848889
+PROB 0: 0.842244
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1575,9 +1575,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s37.wav
 sheila=0.999996
 unknown=0.000003
 noise=0.000002
-PROB 0: 0.851928
+PROB 0: 0.820344
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1586,9 +1586,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s38.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.798388
+PROB 0: 0.814407
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1597,7 +1597,7 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s39.wav
 sheila=0.980478
 noise=0.009761
 unknown=0.009761
-PROB 0: 0.750726
+PROB 0: 0.735507
 
 USER NOT ENROLLED
 
@@ -1608,9 +1608,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s4.wav
 sheila=0.999252
 noise=0.000374
 unknown=0.000374
-PROB 0: 0.823160
+PROB 0: 0.834192
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1619,9 +1619,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s40.wav
 sheila=0.999994
 unknown=0.000004
 noise=0.000002
-PROB 0: 0.859918
+PROB 0: 0.841141
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1630,9 +1630,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s5.wav
 sheila=0.999317
 unknown=0.000501
 noise=0.000182
-PROB 0: 0.823596
+PROB 0: 0.820162
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1641,9 +1641,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s6.wav
 sheila=0.999993
 unknown=0.000004
 noise=0.000002
-PROB 0: 0.831818
+PROB 0: 0.818974
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1652,9 +1652,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s7.wav
 sheila=0.999986
 noise=0.000007
 unknown=0.000007
-PROB 0: 0.828682
+PROB 0: 0.812534
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1663,9 +1663,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s8.wav
 sheila=1.000000
 unknown=0.000000
 noise=0.000000
-PROB 0: 0.856162
+PROB 0: 0.833188
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1674,9 +1674,9 @@ Processing: sheila_0.5noaimoo.ingestion-7dcc488448-zz5mz.s9.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.839839
+PROB 0: 0.816462
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1685,9 +1685,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s1.wav
 sheila=0.999465
 noise=0.000267
 unknown=0.000267
-PROB 0: 0.827287
+PROB 0: 0.819674
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1696,9 +1696,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s10.wav
 sheila=0.999678
 noise=0.000161
 unknown=0.000161
-PROB 0: 0.819440
+PROB 0: 0.844260
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1707,9 +1707,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s11.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.806051
+PROB 0: 0.801146
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1718,9 +1718,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s12.wav
 sheila=0.999588
 noise=0.000206
 unknown=0.000206
-PROB 0: 0.804374
+PROB 0: 0.814345
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1729,7 +1729,7 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s13.wav
 sheila=0.998951
 noise=0.000525
 unknown=0.000525
-PROB 0: 0.782529
+PROB 0: 0.797572
 
 USER NOT ENROLLED
 
@@ -1740,7 +1740,7 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s14.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.805531
+PROB 0: 0.786315
 
 USER NOT ENROLLED
 
@@ -1751,9 +1751,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s15.wav
 sheila=0.999981
 unknown=0.000013
 noise=0.000006
-PROB 0: 0.831504
+PROB 0: 0.811299
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1762,9 +1762,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s16.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.824989
+PROB 0: 0.823214
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1773,9 +1773,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s17.wav
 sheila=0.999999
 unknown=0.000001
 noise=0.000000
-PROB 0: 0.845791
+PROB 0: 0.819640
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1784,9 +1784,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s18.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.851168
+PROB 0: 0.840147
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1795,9 +1795,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s19.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.840336
+PROB 0: 0.806543
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1806,9 +1806,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s2.wav
 sheila=0.999696
 noise=0.000152
 unknown=0.000152
-PROB 0: 0.863720
+PROB 0: 0.850444
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1817,9 +1817,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s20.wav
 sheila=0.999640
 unknown=0.000211
 noise=0.000149
-PROB 0: 0.819354
+PROB 0: 0.826033
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1828,9 +1828,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s21.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.813212
+PROB 0: 0.816527
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1839,9 +1839,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s22.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.819271
+PROB 0: 0.807122
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1850,9 +1850,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s23.wav
 sheila=0.999999
 noise=0.000001
 unknown=0.000001
-PROB 0: 0.839822
+PROB 0: 0.830656
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1861,9 +1861,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s24.wav
 sheila=0.999394
 noise=0.000303
 unknown=0.000303
-PROB 0: 0.846273
+PROB 0: 0.820165
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1872,9 +1872,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s25.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.827795
+PROB 0: 0.813105
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1883,9 +1883,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s26.wav
 sheila=0.994597
 noise=0.002702
 unknown=0.002702
-PROB 0: 0.829595
+PROB 0: 0.827892
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1894,9 +1894,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s27.wav
 sheila=0.999387
 noise=0.000306
 unknown=0.000306
-PROB 0: 0.822672
+PROB 0: 0.830361
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1905,9 +1905,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s28.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.827537
+PROB 0: 0.841103
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1916,9 +1916,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s29.wav
 sheila=0.999986
 unknown=0.000010
 noise=0.000004
-PROB 0: 0.842011
+PROB 0: 0.827874
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1927,9 +1927,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s3.wav
 sheila=0.975064
 noise=0.012468
 unknown=0.012468
-PROB 0: 0.811513
+PROB 0: 0.843790
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1938,9 +1938,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s30.wav
 sheila=0.994198
 noise=0.002901
 unknown=0.002901
-PROB 0: 0.808669
+PROB 0: 0.811735
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1949,9 +1949,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s31.wav
 sheila=0.999992
 noise=0.000004
 unknown=0.000004
-PROB 0: 0.828492
+PROB 0: 0.819187
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1960,9 +1960,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s32.wav
 sheila=0.999857
 noise=0.000072
 unknown=0.000072
-PROB 0: 0.813246
+PROB 0: 0.814894
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1971,9 +1971,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s33.wav
 sheila=0.999998
 unknown=0.000001
 noise=0.000001
-PROB 0: 0.864094
+PROB 0: 0.826963
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1982,9 +1982,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s34.wav
 sheila=0.998586
 noise=0.000707
 unknown=0.000707
-PROB 0: 0.825425
+PROB 0: 0.828762
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -1993,9 +1993,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s35.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.828418
+PROB 0: 0.815940
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2004,7 +2004,7 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s36.wav
 sheila=0.999886
 noise=0.000057
 unknown=0.000057
-PROB 0: 0.754767
+PROB 0: 0.772510
 
 USER NOT ENROLLED
 
@@ -2015,7 +2015,7 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s37.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.817874
+PROB 0: 0.794508
 
 USER NOT ENROLLED
 
@@ -2026,7 +2026,7 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s38.wav
 sheila=0.999563
 noise=0.000218
 unknown=0.000218
-PROB 0: 0.789381
+PROB 0: 0.754017
 
 USER NOT ENROLLED
 
@@ -2037,9 +2037,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s4.wav
 sheila=0.999914
 noise=0.000043
 unknown=0.000043
-PROB 0: 0.830634
+PROB 0: 0.840614
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2048,9 +2048,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s5.wav
 sheila=0.998850
 noise=0.000575
 unknown=0.000575
-PROB 0: 0.824580
+PROB 0: 0.829095
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2059,9 +2059,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s6.wav
 sheila=0.999311
 noise=0.000344
 unknown=0.000344
-PROB 0: 0.832672
+PROB 0: 0.842226
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2070,9 +2070,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s7.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.843389
+PROB 0: 0.817800
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2081,9 +2081,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s8.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.842896
+PROB 0: 0.835922
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2092,9 +2092,9 @@ Processing: sheila_0.5noaksb4.ingestion-7dcc488448-mjqvh.s9.wav
 sheila=0.999979
 noise=0.000010
 unknown=0.000010
-PROB 0: 0.835041
+PROB 0: 0.849242
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2103,9 +2103,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s1.wav
 sheila=0.999999
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.844379
+PROB 0: 0.842495
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2114,9 +2114,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s10.wav
 sheila=0.999943
 noise=0.000028
 unknown=0.000028
-PROB 0: 0.825852
+PROB 0: 0.837287
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2125,9 +2125,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s11.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.846962
+PROB 0: 0.834103
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2136,9 +2136,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s12.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.848338
+PROB 0: 0.821420
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2147,9 +2147,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s13.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.857927
+PROB 0: 0.833967
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2158,9 +2158,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s14.wav
 sheila=0.997824
 noise=0.001088
 unknown=0.001088
-PROB 0: 0.817970
+PROB 0: 0.837049
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2169,9 +2169,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s15.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.833682
+PROB 0: 0.816714
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2180,9 +2180,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s16.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.820555
+PROB 0: 0.829269
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2191,9 +2191,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s17.wav
 sheila=0.999821
 unknown=0.000105
 noise=0.000074
-PROB 0: 0.850940
+PROB 0: 0.843148
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2202,9 +2202,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s18.wav
 sheila=0.999569
 noise=0.000216
 unknown=0.000216
-PROB 0: 0.837779
+PROB 0: 0.836790
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2213,9 +2213,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s19.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.837868
+PROB 0: 0.831835
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2224,9 +2224,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s2.wav
 sheila=0.999872
 noise=0.000064
 unknown=0.000064
-PROB 0: 0.836293
+PROB 0: 0.823497
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2235,9 +2235,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s20.wav
 sheila=0.999991
 unknown=0.000006
 noise=0.000003
-PROB 0: 0.846480
+PROB 0: 0.835665
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2246,9 +2246,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s21.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.846891
+PROB 0: 0.838315
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2257,9 +2257,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s22.wav
 sheila=0.999999
 unknown=0.000001
 noise=0.000000
-PROB 0: 0.831129
+PROB 0: 0.803624
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2268,9 +2268,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s23.wav
 sheila=0.999969
 unknown=0.000022
 noise=0.000009
-PROB 0: 0.861478
+PROB 0: 0.827383
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2279,9 +2279,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s24.wav
 sheila=0.998711
 noise=0.000644
 unknown=0.000644
-PROB 0: 0.821856
+PROB 0: 0.830417
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2290,9 +2290,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s25.wav
 sheila=0.999950
 unknown=0.000027
 noise=0.000023
-PROB 0: 0.832997
+PROB 0: 0.825834
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2301,9 +2301,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s26.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.844443
+PROB 0: 0.840496
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2312,9 +2312,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s27.wav
 sheila=0.999838
 noise=0.000081
 unknown=0.000081
-PROB 0: 0.847944
+PROB 0: 0.819995
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2323,9 +2323,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s28.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.817359
+PROB 0: 0.816777
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2334,9 +2334,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s29.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.831196
+PROB 0: 0.815346
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2345,9 +2345,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s3.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.839558
+PROB 0: 0.817874
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2356,9 +2356,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s30.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.823807
+PROB 0: 0.806876
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2367,9 +2367,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s31.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.828094
+PROB 0: 0.824243
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2378,9 +2378,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s32.wav
 sheila=0.999944
 noise=0.000028
 unknown=0.000028
-PROB 0: 0.856217
+PROB 0: 0.837407
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2389,9 +2389,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s33.wav
 sheila=0.999918
 unknown=0.000045
 noise=0.000037
-PROB 0: 0.827092
+PROB 0: 0.824641
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2400,9 +2400,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s34.wav
 sheila=0.999892
 unknown=0.000067
 noise=0.000041
-PROB 0: 0.848980
+PROB 0: 0.842582
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2411,9 +2411,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s35.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.803734
+PROB 0: 0.815566
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2422,9 +2422,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s36.wav
 sheila=0.999866
 noise=0.000067
 unknown=0.000067
-PROB 0: 0.788022
+PROB 0: 0.821153
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2433,9 +2433,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s37.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.830529
+PROB 0: 0.826993
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2444,9 +2444,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s38.wav
 sheila=0.999973
 unknown=0.000017
 noise=0.000010
-PROB 0: 0.829784
+PROB 0: 0.816079
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2455,9 +2455,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s39.wav
 sheila=0.999985
 unknown=0.000012
 noise=0.000003
-PROB 0: 0.842650
+PROB 0: 0.845704
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2466,9 +2466,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s4.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.829605
+PROB 0: 0.825474
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2477,9 +2477,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s40.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.825468
+PROB 0: 0.814781
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2488,9 +2488,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s41.wav
 sheila=0.999944
 unknown=0.000041
 noise=0.000014
-PROB 0: 0.837328
+PROB 0: 0.830012
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2499,9 +2499,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s42.wav
 sheila=0.999907
 unknown=0.000050
 noise=0.000043
-PROB 0: 0.832903
+PROB 0: 0.822041
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2510,9 +2510,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s43.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.820023
+PROB 0: 0.825292
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2521,9 +2521,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s44.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.829287
+PROB 0: 0.819279
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2532,9 +2532,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s45.wav
 sheila=0.999995
 unknown=0.000003
 noise=0.000002
-PROB 0: 0.826850
+PROB 0: 0.844056
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2543,9 +2543,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s46.wav
 sheila=0.999957
 noise=0.000021
 unknown=0.000021
-PROB 0: 0.834716
+PROB 0: 0.831692
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2554,9 +2554,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s47.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.824550
+PROB 0: 0.821425
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2565,9 +2565,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s48.wav
 sheila=0.999843
 unknown=0.000105
 noise=0.000053
-PROB 0: 0.796491
+PROB 0: 0.822865
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2576,9 +2576,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s49.wav
 sheila=0.999961
 noise=0.000020
 unknown=0.000020
-PROB 0: 0.829666
+PROB 0: 0.831862
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2587,9 +2587,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s5.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.811552
+PROB 0: 0.815380
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2598,9 +2598,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s50.wav
 sheila=0.999915
 noise=0.000043
 unknown=0.000043
-PROB 0: 0.835260
+PROB 0: 0.825153
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2609,9 +2609,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s51.wav
 sheila=0.999803
 unknown=0.000102
 noise=0.000095
-PROB 0: 0.818249
+PROB 0: 0.831312
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2620,9 +2620,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s52.wav
 sheila=0.999996
 unknown=0.000002
 noise=0.000002
-PROB 0: 0.861032
+PROB 0: 0.840033
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2631,9 +2631,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s53.wav
 sheila=0.999658
 noise=0.000171
 unknown=0.000171
-PROB 0: 0.828211
+PROB 0: 0.831747
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2642,9 +2642,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s54.wav
 sheila=0.999988
 unknown=0.000007
 noise=0.000006
-PROB 0: 0.843846
+PROB 0: 0.829831
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2653,9 +2653,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s55.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.819184
+PROB 0: 0.808496
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2664,9 +2664,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s56.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.833526
+PROB 0: 0.826760
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2675,9 +2675,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s57.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.803925
+PROB 0: 0.806408
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2686,7 +2686,7 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s58.wav
 sheila=0.999996
 unknown=0.000003
 noise=0.000001
-PROB 0: 0.961843
+PROB 0: 0.924036
 
 HELLO MATTEO
 
@@ -2697,9 +2697,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s59.wav
 sheila=0.999124
 noise=0.000438
 unknown=0.000438
-PROB 0: 0.845014
+PROB 0: 0.825793
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2708,9 +2708,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s6.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.842130
+PROB 0: 0.821074
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2719,9 +2719,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s60.wav
 sheila=0.999963
 unknown=0.000020
 noise=0.000018
-PROB 0: 0.816447
+PROB 0: 0.820119
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2730,9 +2730,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s61.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.822459
+PROB 0: 0.832538
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2741,9 +2741,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s62.wav
 sheila=0.999893
 unknown=0.000073
 noise=0.000034
-PROB 0: 0.838523
+PROB 0: 0.828736
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2752,7 +2752,7 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s63.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.804034
+PROB 0: 0.772166
 
 USER NOT ENROLLED
 
@@ -2763,9 +2763,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s64.wav
 sheila=0.999733
 noise=0.000134
 unknown=0.000134
-PROB 0: 0.826041
+PROB 0: 0.820761
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2774,9 +2774,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s65.wav
 sheila=1.000000
 unknown=0.000000
 noise=0.000000
-PROB 0: 0.865313
+PROB 0: 0.837320
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2785,9 +2785,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s7.wav
 sheila=1.000000
 unknown=0.000000
 noise=0.000000
-PROB 0: 0.847533
+PROB 0: 0.823134
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2796,9 +2796,9 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s8.wav
 sheila=1.000000
 noise=0.000000
 unknown=0.000000
-PROB 0: 0.829154
+PROB 0: 0.828837
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
@@ -2807,17 +2807,17 @@ Processing: sheila_0.5noar0lq.ingestion-7dcc488448-mjqvh.s9.wav
 sheila=0.999968
 unknown=0.000023
 noise=0.000009
-PROB 0: 0.835766
+PROB 0: 0.836048
 
-USER NOT ENROLLED
+HELLO MATTEO
 
 ----- SUCCESS -----
 
 
 
 === SUMMARY STATISTICS ===
-HELLO MATTEO occurrences: 10
-USER NOT ENROLLED occurrences: 246
+HELLO MATTEO occurrences: 219
+USER NOT ENROLLED occurrences: 37
 NOT SHEILA WORD RECOGNIZED: 0
 SHEILA WORD RECOGNIZED: 256
 Total files processed: 256

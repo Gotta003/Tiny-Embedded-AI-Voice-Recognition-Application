@@ -19,7 +19,7 @@ void save_debug_output_sv(const char* filename, const char* message, float* data
 
 void batch_normalization(const float input[], float output[], int height, int width, int num_batch, float gamma, float beta) {
     for(int i=0; i<height*width*num_batch; i++) {
-        output[i]=input[i]*gamma-beta; // y=γx+β
+        output[i]=input[i]*gamma-beta; // y=γx+β + or -?
     }
     //save_debug_output_sv("debug.txt", "BatchNormalization:", output, 1, height*width*num_batch);
 }
