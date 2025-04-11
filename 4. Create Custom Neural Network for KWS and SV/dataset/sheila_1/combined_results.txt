@@ -1,0 +1,21 @@
+
+=== SUMMARY STATISTICS ===
+HELLO MATTEO CONV occurrences: 0
+HELLO MATTEO DENSE occurrences: 0
+USER NOT ENROLLED CONV occurrences: 5
+USER NOT ENROLLED DENSE occurrences: 5
+NOT SHEILA WORD RECOGNIZED: 15
+SHEILA WORD RECOGNIZED: 5
+Total files processed: 20
+
+KWS Model (20 samples):
+Found Sheila Rate: 25% [5]
+Sheila Not Found Rate: 75% [15]
+
+SV Model CONV (5 samples):
+Matteo Recognized Rate: 0% [0]
+Other User Rate: 100% [5]
+
+SV Model DENSE (5 samples):
+Matteo Recognized Rate: 0% [0]
+Other User Rate: 100% [5]

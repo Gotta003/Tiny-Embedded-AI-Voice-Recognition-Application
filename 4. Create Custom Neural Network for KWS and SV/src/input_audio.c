@@ -1,6 +1,7 @@
 #include "input_audio.h"
 #include "audio_samples.h"
 #include "sv.h"
+#include "sv_dense.h"
 
 static int audio_callback(const void* inputBuffer, void* outputBuffer, unsigned long framesPerBuffer, const PaStreamCallbackTimeInfo* timeInfo, PaStreamCallbackFlags statusFlags, void* userData) {
     short* audio=(short*)inputBuffer;
@@ -122,10 +123,16 @@ void audio_processing(short* audio_buffer, int framesNumber) {
     int result=kws_neural_network(output);
     if(strcmp(class_names[result], "sheila")==0) {
         if(sv_neural_network(output)==0) {
-            printf("\n\nHELLO MATTEO\n\n");
+            printf("\n\nHELLO MATTEO - CONV\n\n");
         }
         else {
-            printf("\n\nUSER NOT ENROLLED\n\n");
+            printf("\n\nUSER NOT ENROLLED - CONV\n\n");
+        }
+        if(sv_dense_neural_network(output)==0) {
+            printf("\n\nHELLO MATTEO - DENSE\n\n");
+        }
+        else {
+            printf("\n\nUSER NOT ENROLLED - DENSE\n\n");
         }
     }
     else {

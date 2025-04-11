@@ -1,0 +1,227 @@
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s1.wav
+unknown=0.998313
+noise=0.000844
+sheila=0.000844
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s10.wav
+unknown=0.999473
+noise=0.000264
+sheila=0.000264
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s11.wav
+unknown=0.945431
+sheila=0.038905
+noise=0.015664
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s12.wav
+noise=0.739958
+sheila=0.130021
+unknown=0.130021
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s13.wav
+unknown=0.991490
+noise=0.004255
+sheila=0.004255
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s14.wav
+unknown=0.973068
+noise=0.013466
+sheila=0.013466
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s15.wav
+noise=0.449066
+unknown=0.298803
+sheila=0.252131
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s16.wav
+unknown=0.996051
+noise=0.001975
+sheila=0.001975
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s17.wav
+noise=0.739958
+sheila=0.130021
+unknown=0.130021
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s18.wav
+unknown=0.984160
+noise=0.007920
+sheila=0.007920
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s19.wav
+unknown=0.936102
+sheila=0.054449
+noise=0.009449
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s2.wav
+sheila=0.674589
+unknown=0.259288
+noise=0.066123
+PROB 0: 0.411377
+
+USER NOT ENROLLED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s20.wav
+unknown=0.987187
+noise=0.008338
+sheila=0.004475
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s3.wav
+noise=0.806263
+sheila=0.096868
+unknown=0.096868
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s4.wav
+noise=0.803023
+sheila=0.098489
+unknown=0.098489
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s5.wav
+noise=0.547334
+sheila=0.226333
+unknown=0.226333
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s6.wav
+noise=0.497145
+unknown=0.445770
+sheila=0.057086
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s7.wav
+unknown=0.917572
+noise=0.051963
+sheila=0.030465
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s8.wav
+unknown=0.994800
+noise=0.002600
+sheila=0.002600
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+Processing: sheila_2.WhatsApp-Audio-2025-04-08-at-18.14.38.wav.5o7pe9ii.ingestion-74b4f6cf84-ssr9d.s9.wav
+unknown=0.986604
+noise=0.006698
+sheila=0.006698
+
+
+NOT SHEILA WORD RECOGNIZED
+
+----- SUCCESS -----
+
+
+
+=== SUMMARY STATISTICS ===
+HELLO MATTEO occurrences: 0
+USER NOT ENROLLED occurrences: 1
+NOT SHEILA WORD RECOGNIZED: 19
+SHEILA WORD RECOGNIZED: 1
+Total files processed: 20

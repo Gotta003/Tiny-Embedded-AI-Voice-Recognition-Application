@@ -1,5 +1,9 @@
 #include "sv.h"
 
+int floor_div(int a, int b) {
+    return (a - ((a % b) + b) % b) / b;
+}
+
 void save_debug_output_sv(const char* filename, const char* message, float* data, int rows, int cols) {
     FILE* file = fopen(filename, "a");
     if (!file) {
@@ -17,14 +21,18 @@ void save_debug_output_sv(const char* filename, const char* message, float* data
     fclose(file);
 }
 
+float relu_sv(float x) {
+    return (x>0) ? x : 0.0;
+}
+
 void batch_normalization(const float input[], float output[], int height, int width, int num_batch, float gamma, float beta) {
     for(int i=0; i<height*width*num_batch; i++) {
-        output[i]=input[i]*gamma-beta; // y=γx+β + or -?
+        output[i]=input[i]*gamma+beta; // y=γx+β + or -?
     }
     //save_debug_output_sv("debug.txt", "BatchNormalization:", output, 1, height*width*num_batch);
 }
 
-void conv2d(const float input[], float output[], int in_height, int in_width, int in_channels, int out_channels, int kernel_size, int stride, const float weights[], const float biases[], const char padding[])  {
+void conv2d(const float input[], float output[], int in_height, int in_width, int in_channels, int out_channels, int kernel_size, int stride, const float weights[], const float biases[], PaddingType padding) {
     int out_height;
     int out_width;
     int pad_top=0;
@@ -33,22 +41,22 @@ void conv2d(const float input[], float output[], int in_height, int in_width, in
     int pad_right=0;
 
     //"same"
-    if(strcmp(padding, "same")==0) {
-        out_height=(int)ceilf((float)in_height/(float)stride);
-        out_width=(int)ceilf((float)in_width/(float)stride);
+    if(padding==PADDING_SAME) {
+        out_height = floor_div(in_height + stride - 1, stride); 
+        out_width = floor_div(in_width + stride - 1, stride);
         int pad_h=(out_height-1)*stride+kernel_size-in_height;
         int pad_w=(out_width-1)*stride+kernel_size-in_width;
         pad_h=pad_h>0 ? pad_h : 0;
         pad_w=pad_w>0 ? pad_w : 0;
-        pad_top=pad_h/2;
+        pad_top=floor_div(pad_h,2);
         pad_bottom=pad_h-pad_top;
-        pad_left=pad_w/2;
+        pad_left=floor_div(pad_w,2);
         pad_right=pad_w-pad_left;
     }
     //"valid"
     else { 
-        out_height=(in_height-kernel_size)/stride+1;
-        out_width=(in_width-kernel_size)/stride+1;
+        out_height=floor_div(in_height-kernel_size, stride)+1;
+        out_width=floor_div(in_width-kernel_size, stride)+1;
     }
    
     int padded_height=in_height+pad_top+pad_bottom;
@@ -60,7 +68,9 @@ void conv2d(const float input[], float output[], int in_height, int in_width, in
             for(int c=0; c<in_channels; c++) {
                 int padded_h=h+pad_top;
                 int padded_w=w+pad_left;
-                padded_input[(padded_h*padded_width+padded_w)*in_channels+c]=input[(h*in_width+w)*in_channels+c];
+                const int in_idx = (h * in_width + w) * in_channels + c;
+                const int pad_idx = (padded_h * padded_width + padded_w) * in_channels + c;
+                padded_input[pad_idx] = input[in_idx];
             }
         }
     }
@@ -78,13 +88,13 @@ void conv2d(const float input[], float output[], int in_height, int in_width, in
                         if(h<padded_height && w<padded_width) {
                             for(int ic=0; ic<in_channels; ic++) {
                                 int input_idx=(h*padded_width+w)*in_channels+ic;
-                                int weights_idx=((kh*kernel_size+kw)*in_channels+ic)*out_channels+oc;
-                                sum+=padded_input[input_idx]*weights[weights_idx];
+                                int weight_idx=((oc*kernel_size+kh)*kernel_size+kw)*in_channels+ic;
+                                sum+=padded_input[input_idx]*weights[weight_idx];
                             }
                         }
                     }
                 }
-                output[(i*out_width+j)*out_channels+oc]=sum;
+                output[(i*out_width+j)*out_channels+oc]=relu_sv(sum);
             }
         }
     }
@@ -93,40 +103,51 @@ void conv2d(const float input[], float output[], int in_height, int in_width, in
 
 }
 
-void max_pool2d(const float input[], float* output, int in_height, int in_width, int channels, int pool_size) {
-    int out_height=(int)(in_height/pool_size);
-    int out_width=(int)(in_width/pool_size);
-
-    for(int i = 0; i < out_height * out_width * channels; i++) {
-        output[i] = 0.0f;
+void max_pool2d(const float input[], float* output, int in_height, int in_width, int channels, int pool_size, int stride, PaddingType padding) {
+    int out_height, out_width;
+    int pad_top=0, pad_bottom=0, pad_left=0, pad_right=0;
+    if (padding==PADDING_VALID) {
+        out_height = floor_div(in_height - pool_size, stride)+1;
+        out_width = floor_div(in_width - pool_size, stride)+1;
+    } 
+    else if (padding==PADDING_SAME) {
+        out_height = floor_div(in_height+stride-1, stride);
+        out_width = floor_div(in_width+stride-1, stride);
+        
+        int pad_needed_height = (out_height - 1) * stride + pool_size - in_height;
+        int pad_needed_width = (out_width - 1) * stride + pool_size - in_width;
+        
+        pad_top = floor_div(pad_needed_height, 2);
+        pad_bottom = pad_needed_height - pad_top;
+        pad_left = floor_div(pad_needed_width, 2);
+        pad_right = pad_needed_width - pad_left;
     }
-
-    for(int i=0; i<out_height; i++) {
-        for(int j=0; j<out_width; j++) {
-            int h_s=i*pool_size;
-            int w_s=j*pool_size;
-            for(int c=0; c<channels; c++) {
-                int found=0;
+    for (int i=0; i<channels*out_height*out_width; i++) {
+        output[i]=0.0f;
+    }
+    for(int c=0; c<channels; c++) {
+        for(int h=0; h<out_height; h++) {
+            for(int w=0; w<out_width; w++) {
                 float max_val=-INFINITY;
-
-                for(int ph=0; ph<pool_size; ph++) {
-                    for(int pw=0; pw<pool_size; pw++) {
-                        int h=h_s+ph;
-                        int w=w_s+pw;
-                        if(h<in_height && w<in_width) {
-                            float val=input[(h*in_width+w)*channels+c];
-                            if(val>max_val) {
-                                max_val=val;
-                                found=1;
-                            }
+                int h_s=h*stride-pad_top;
+                int w_s=w*stride-pad_left;
+                for(int kh=0; kh<pool_size; kh++) {
+                    for(int kw=0; kw<pool_size; kw++) {
+                        int h_in=h_s+kh;
+                        int w_in=w_s+kw;
+                        if(h_in>=0 && h_in<in_height && w_in>=0 && w_in<in_width) {
+                            int input_idx=((h_in * in_width + w_in) * channels) + c;
+                            float val=input[input_idx];
+                            if (val > max_val) {
+                                max_val = val;
+                            } 
                         }
                     }
                 }
-                int output_idx = (i * out_width + j) * channels + c;
-                output[output_idx] = found ? max_val : 0.0f;
+                output[(h*out_width+w)*channels+c]=max_val;
             }
         }
-    }
+    }  
    //save_debug_output_sv("debug.txt", "MAXPOOL:", output, 1, channels*out_height*out_width);
 }
 
@@ -166,13 +187,6 @@ void normalize_vector(float vector[], int size) {
     }
 }
 
-/*void normalize_all_d_vectors(const float d_vectors[][DVECTORS], float new_d_vectors[][DVECTORS], int num_vectors) {
-    for(int i=0; i<num_vectors; i++) {
-        memcpy(new_d_vectors[i], d_vectors[i], DVECTORS*sizeof(float));
-        normalize_vector(new_d_vectors[i], DVECTORS);
-    }
-}*/
-
 float compute_similarity(const float input_vector[DVECTORS], const float d_vectors[][DVECTORS], int num_vectors) {
     float max_similarity=-1.0f;
     for(int i=0; i<num_vectors; i++) {
@@ -203,35 +217,31 @@ int sv_neural_network(const float mfe_input[]) {
 
     batch_normalization(mfe_input, batchNorm, INPUT_H, INPUT_W, INPUT_CHANNELS, batch_norm_mul[0], batch_norm_sub[0]);
     //STRIDE FOR CONVOLUTION (1 - SAME OUTPUT SIZE, 2 - HALF DIMENSION, 3 - A THIRD OF DIMENSION)
-    conv2d(batchNorm, conv1, INPUT_H, INPUT_W, INPUT_CHANNELS, CONV_L1_CHANNELS, kernel_size, 1, conv_1_Weights, conv_1_BiasAdd_ReadVariableOp, "same");
+    conv2d(batchNorm, conv1, INPUT_H, INPUT_W, INPUT_CHANNELS, CONV_L1_CHANNELS, kernel_size, 1, conv_1_Weights, conv_1_BiasAdd_ReadVariableOp, PADDING_SAME);
+    
+    max_pool2d(conv1, maxPool1, CONV_L1_H, CONV_L1_W, CONV_L1_CHANNELS, 3, 3, PADDING_VALID);
+ 
+    conv2d(maxPool1, conv2, MAX_POOL_L1_H, MAX_POOL_L1_W, MAX_POOL_L1_CHANNELS, CONV_L2_CHANNELS, kernel_size, 1, conv_2_Weights, conv_2_BiasAdd_ReadVariableOp, PADDING_SAME);
 
-    max_pool2d(conv1, maxPool1, CONV_L1_H, CONV_L1_W, CONV_L1_CHANNELS, 3);
+    max_pool2d(conv2, maxPool2, CONV_L2_H, CONV_L2_W, CONV_L2_CHANNELS, 2, 2, PADDING_VALID);
+    
+    conv2d(maxPool2, conv3, MAX_POOL_L2_H, MAX_POOL_L2_W, MAX_POOL_L2_CHANNELS, CONV_L3_CHANNELS, kernel_size, 2, conv_3_Weights, conv_3_BiasAdd_ReadVariableOp, PADDING_SAME);
+   
+    conv2d(conv3, conv4, CONV_L3_H, CONV_L3_W, CONV_L3_CHANNELS, CONV_L4_CHANNELS, kernel_size, 2, conv_4_Weights, conv_4_BiasAdd_ReadVariableOp, PADDING_SAME);
 
-    conv2d(maxPool1, conv2, MAX_POOL_L1_H, MAX_POOL_L1_W, MAX_POOL_L1_CHANNELS, CONV_L2_CHANNELS, kernel_size, 1, conv_2_Weights, conv_2_BiasAdd_ReadVariableOp, "same");
-
-    max_pool2d(conv2, maxPool2, CONV_L2_H, CONV_L2_W, CONV_L2_CHANNELS, 2);
-
-    conv2d(maxPool2, conv3, MAX_POOL_L2_H, MAX_POOL_L2_W, MAX_POOL_L2_CHANNELS, CONV_L3_CHANNELS, kernel_size, 2, conv_3_Weights, conv_3_BiasAdd_ReadVariableOp, "same");
-
-    conv2d(conv3, conv4, CONV_L3_H, CONV_L3_W, CONV_L3_CHANNELS, CONV_L4_CHANNELS, kernel_size, 2, conv_4_Weights, conv_4_BiasAdd_ReadVariableOp, "same");
-    normalize_vector(conv4, CONV_L4_SIZE);
-    /*int cols=8;
-    for(int i=0; i<CONV_L4_SIZE; i++) {
-        if(i%cols==0) {
-            printf("%d - ", i/cols+1);
-        }
-        printf("%.6f\t", conv4[i]);
-        if(i%cols==cols-1) {
-            printf("\n");
-        }
-    }*/
     int num_inputs=1;
     float prob_0[num_inputs];
     float input_vectors[1][DVECTORS];
     memcpy(input_vectors[0], conv4, sizeof(float) * DVECTORS);
-    float new_d_vectors_0_64[64][DVECTORS];
-    //normalize_all_d_vectors(d_vectors_0_64, new_d_vectors_0_64, 64);
-    bestmatching(input_vectors, new_d_vectors_0_64, prob_0, num_inputs, 64);
+    /*int cols=8;
+    for(int i=0; i<DVECTORS; i++) {
+        printf("%.6f\t", input_vectors[0][i]);
+        if(i%8==7) {
+            printf("\n");
+        }
+    }*/
+    //TEST
+    bestmatching(input_vectors, d_vectors_0_16, prob_0, num_inputs, 16);
     printf("PROB 0: %.6f", prob_0[0]);
     return (prob_0[0]>SIMILARITY_THRESHOLD ? 0 : 1);
 }
