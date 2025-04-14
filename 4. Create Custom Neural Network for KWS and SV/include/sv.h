@@ -49,7 +49,7 @@
 
 #define max(a, b) ((a) > (b) ? (a) : (b))
 #define DVECTORS 256
-#define SIMILARITY_THRESHOLD 0.85
+#define SIMILARITY_THRESHOLD 0.8
 
 typedef enum PaddingType {
     PADDING_VALID,

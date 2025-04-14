@@ -1,0 +1,13 @@
+Neurons FC;Threshold;Label;Sheila Found;Matteo Recognized CONV;Matteo Recognized DENSE
+192;0,8;Me;256;190;242
+192;0,85;Me;256;98;128
+192;0,9;Me;256;34;15
+192;0,8;Others;1858;0;119
+192;0,85;Others;1858;0;10
+192;0,9;Others;1858;0;0
+256;0,8;Me;256;190;243
+256;0,85;Me;256;98;193
+256;0,9;Me;256;34;69
+256;0,8;Others;1858;0;68
+256;0,85;Others;1858;0;8
+256;0,9;Others;1858;0;0

@@ -1,5 +1,7 @@
 These were samples with only my voice saying Sheila Word:
 
+-NEURONS 192
+
 === SUMMARY STATISTICS (THRESHOLD SIMILARITY: 0.8)  ===
 HELLO MATTEO CONV occurrences: 190
 HELLO MATTEO DENSE occurrences: 242
@@ -39,7 +41,7 @@ Matteo Recognized Rate: 38% [98]
 Other User Rate: 61% [158]
 
 SV Model DENSE (256 samples):
-Matteo Recognized Rate: 50% [128]
+Matteo Recognized Rate: 50% [128]	
 Other User Rate: 50% [128]
 
 === SUMMARY STATISTICS (THRESHOLD SIMILARITY: 0.9) ===
@@ -127,3 +129,138 @@ Other User Rate: 100% [1858]
 SV Model DENSE (1858 samples):
 Matteo Recognized Rate: 0% [0]
 Other User Rate: 100% [1858]
+
+-NEURONS 256
+
+My Samples:
+
+=== SUMMARY STATISTICS ===
+HELLO MATTEO CONV occurrences: 190
+HELLO MATTEO DENSE occurrences: 243
+USER NOT ENROLLED CONV occurrences: 66
+USER NOT ENROLLED DENSE occurrences: 13
+NOT SHEILA WORD RECOGNIZED: 0
+SHEILA WORD RECOGNIZED: 256
+Total files processed: 256
+
+KWS Model (256 samples):
+Found Sheila Rate: 100% [256]
+Sheila Not Found Rate: 0% [0]
+
+SV Model CONV (256 samples):
+Matteo Recognized Rate: 74% [190]
+Other User Rate: 25% [66]
+
+SV Model DENSE (256 samples):
+Matteo Recognized Rate: 94% [243]
+Other User Rate: 5% [13]
+
+=== SUMMARY STATISTICS (THRESHOLD SIMILARITY: 0.85) ===
+HELLO MATTEO CONV occurrences: 98
+HELLO MATTEO DENSE occurrences: 193
+USER NOT ENROLLED CONV occurrences: 158
+USER NOT ENROLLED DENSE occurrences: 63
+NOT SHEILA WORD RECOGNIZED: 0
+SHEILA WORD RECOGNIZED: 256
+Total files processed: 256
+
+KWS Model (256 samples):
+Found Sheila Rate: 100% [256]
+Sheila Not Found Rate: 0% [0]
+
+SV Model CONV (256 samples):
+Matteo Recognized Rate: 38% [98]
+Other User Rate: 61% [158]
+
+SV Model DENSE (256 samples):
+Matteo Recognized Rate: 75% [193]
+Other User Rate: 24% [63]
+
+=== SUMMARY STATISTICS (THRESHOLD SIMILARITY: 0.9) ===
+HELLO MATTEO CONV occurrences: 34
+HELLO MATTEO DENSE occurrences: 69
+USER NOT ENROLLED CONV occurrences: 222
+USER NOT ENROLLED DENSE occurrences: 187
+NOT SHEILA WORD RECOGNIZED: 0
+SHEILA WORD RECOGNIZED: 256
+Total files processed: 256
+
+KWS Model (256 samples):
+Found Sheila Rate: 100% [256]
+Sheila Not Found Rate: 0% [0]
+
+SV Model CONV (256 samples):
+Matteo Recognized Rate: 13% [34]
+Other User Rate: 86% [222]
+
+SV Model DENSE (256 samples):
+Matteo Recognized Rate: 26% [69]
+Other User Rate: 73% [187]
+
+Others:
+
+=== SUMMARY STATISTICS (THRESHOLD SIMILARITY: 0.8) ===
+HELLO MATTEO CONV occurrences: 0
+HELLO MATTEO DENSE occurrences: 68
+USER NOT ENROLLED CONV occurrences: 1858
+USER NOT ENROLLED DENSE occurrences: 1790
+NOT SHEILA WORD RECOGNIZED: 164
+SHEILA WORD RECOGNIZED: 1858
+Total files processed: 2022
+
+KWS Model (2022 samples):
+Found Sheila Rate: 91% [1858]
+Sheila Not Found Rate: 8% [164]
+
+SV Model CONV (1858 samples):
+Matteo Recognized Rate: 0% [0]
+Other User Rate: 100% [1858]
+
+SV Model DENSE (1858 samples):
+Matteo Recognized Rate: 3% [68]
+Other User Rate: 96% [1790]
+
+=== SUMMARY STATISTICS (THRESHOLD SIMILARITY: 0.85) ===
+
+HELLO MATTEO CONV occurrences: 0
+HELLO MATTEO DENSE occurrences: 8
+USER NOT ENROLLED CONV occurrences: 1858
+USER NOT ENROLLED DENSE occurrences: 1850
+NOT SHEILA WORD RECOGNIZED: 164
+SHEILA WORD RECOGNIZED: 1858
+Total files processed: 2022
+
+KWS Model (2022 samples):
+Found Sheila Rate: 91% [1858]
+Sheila Not Found Rate: 8% [164]
+
+SV Model CONV (1858 samples):
+Matteo Recognized Rate: 0% [0]
+Other User Rate: 100% [1858]
+
+SV Model DENSE (1858 samples):
+Matteo Recognized Rate: 0% [8]
+Other User Rate: 99% [1850]
+
+=== SUMMARY STATISTICS (THRESHOLD SIMILARITY: 0.9) ===
+HELLO MATTEO CONV occurrences: 0
+HELLO MATTEO DENSE occurrences: 0
+USER NOT ENROLLED CONV occurrences: 1858
+USER NOT ENROLLED DENSE occurrences: 1858
+NOT SHEILA WORD RECOGNIZED: 164
+SHEILA WORD RECOGNIZED: 1858
+Total files processed: 2022
+
+KWS Model (2022 samples):
+Found Sheila Rate: 91% [1858]
+Sheila Not Found Rate: 8% [164]
+
+SV Model CONV (1858 samples):
+Matteo Recognized Rate: 0% [0]
+Other User Rate: 100% [1858]
+
+SV Model DENSE (1858 samples):
+Matteo Recognized Rate: 0% [0]
+Other User Rate: 100% [1858]
+
+

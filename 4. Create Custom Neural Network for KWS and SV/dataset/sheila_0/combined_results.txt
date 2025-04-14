@@ -1,9 +1,9 @@
 
 === SUMMARY STATISTICS ===
-HELLO MATTEO CONV occurrences: 98
-HELLO MATTEO DENSE occurrences: 128
-USER NOT ENROLLED CONV occurrences: 158
-USER NOT ENROLLED DENSE occurrences: 128
+HELLO MATTEO CONV occurrences: 34
+HELLO MATTEO DENSE occurrences: 69
+USER NOT ENROLLED CONV occurrences: 222
+USER NOT ENROLLED DENSE occurrences: 187
 NOT SHEILA WORD RECOGNIZED: 0
 SHEILA WORD RECOGNIZED: 256
 Total files processed: 256
@@ -13,9 +13,9 @@ Found Sheila Rate: 100% [256]
 Sheila Not Found Rate: 0% [0]
 
 SV Model CONV (256 samples):
-Matteo Recognized Rate: 38% [98]
-Other User Rate: 61% [158]
+Matteo Recognized Rate: 13% [34]
+Other User Rate: 86% [222]
 
 SV Model DENSE (256 samples):
-Matteo Recognized Rate: 50% [128]
-Other User Rate: 50% [128]
+Matteo Recognized Rate: 26% [69]
+Other User Rate: 73% [187]

@@ -1,9 +1,9 @@
 
 === SUMMARY STATISTICS ===
 HELLO MATTEO CONV occurrences: 0
-HELLO MATTEO DENSE occurrences: 10
+HELLO MATTEO DENSE occurrences: 68
 USER NOT ENROLLED CONV occurrences: 1858
-USER NOT ENROLLED DENSE occurrences: 1848
+USER NOT ENROLLED DENSE occurrences: 1790
 NOT SHEILA WORD RECOGNIZED: 164
 SHEILA WORD RECOGNIZED: 1858
 Total files processed: 2022
@@ -17,5 +17,5 @@ Matteo Recognized Rate: 0% [0]
 Other User Rate: 100% [1858]
 
 SV Model DENSE (1858 samples):
-Matteo Recognized Rate: 0% [10]
-Other User Rate: 99% [1848]
+Matteo Recognized Rate: 3% [68]
+Other User Rate: 96% [1790]
